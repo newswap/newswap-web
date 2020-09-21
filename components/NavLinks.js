@@ -96,7 +96,7 @@ const NavLinks = () => {
       </li>
       <li>
         <Link href="#">
-          <a onClick={()=>i18n.changeLanguage(i18n.language=='en'?'zh':'en')}>{i18n.language=='en'?'中文':'English'}</a>
+          <a onClick={()=>i18n.changeLanguage(i18n.language=='en'?'zh':'en')}><span style={{fontSize:13, fontWeight:400,}}>{i18n.language=='en'?'中文':'English'}</span></a>
         </Link>
       </li>
 

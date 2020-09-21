@@ -1,8 +1,11 @@
 import React from "react";
 import footerBg from "../assets/img/footer-bg.png";
 import footerLogo from "../assets/img/logo.png";
+import { useTranslation, Trans, Translation } from 'react-i18next'
+
 
 const Footer = () => {
+  let { t ,i18n} = useTranslation();
   return (
     <footer className="footer">
       <div className="footerbg">
@@ -48,13 +51,13 @@ const Footer = () => {
                   <div className="link-left">
                     <ul>
                       <li>
-                        <a href="#">About</a>
+                        <a href="#">{t('global about')}</a>
                       </li>
                       <li>
-                        <a href="#">FAQ</a>
+                        <a href="#">{t('global faq')}</a>
                       </li>
                       <li>
-                        <a href="#">Downloads</a>
+                        <a href="#">{t('global downloads')}</a>
                       </li>
                     </ul>
                   </div>

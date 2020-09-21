@@ -13,7 +13,10 @@ import img2 from "../assets/img/icons/solution.svg";
 import img3 from "../assets/img/icons/planning.svg";
 import img4 from "../assets/img/icons/goal.svg";
 
+
+
 const FEATURES_DATA = [
+
   {
     title: "安全可靠",
     text:
@@ -60,6 +63,7 @@ const FEATURES_DATA = [
 ];
 
 const Features = () => {
+  let { t ,i18n} = useTranslation();
   const swiperParams = {
     slidesPerView: 3,
     slidesPerGroup: 3,

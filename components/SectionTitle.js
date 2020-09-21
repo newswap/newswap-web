@@ -2,7 +2,7 @@ import React from "react";
 
 const SectionTitle = (props) => {
   return (
-    <div className="section-title text-center">
+    <div className="text-center">
       <h2>{props.title}</h2>
       <p>{props.text}</p>
     </div>

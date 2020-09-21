@@ -8,7 +8,7 @@ const AboutNewton = () => {
     <section className="border-top pt-110 pb-150">
       <Container>
         <Row className="justify-content-center">
-          <Col md={12} lg={10}>
+        <Col md={10} lg={10} xl={10}>
             <div className="text-center">
               <p>
                 Powered by Newton Project
