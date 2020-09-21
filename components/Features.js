@@ -16,7 +16,6 @@ import img4 from "../assets/img/icons/goal.svg";
 
 
 const FEATURES_DATA = [
-
   {
     title: "安全可靠",
     text:
@@ -63,7 +62,6 @@ const FEATURES_DATA = [
 ];
 
 const Features = () => {
-  let { t ,i18n} = useTranslation();
   const swiperParams = {
     slidesPerView: 3,
     slidesPerGroup: 3,
