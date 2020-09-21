@@ -13,80 +13,80 @@ const NavLinks = () => {
     <ul className="main-nav__navigation-box">
       <li>
         <Link href="#">
-          <a>Exchange</a>
+          <a href="#">Exchange</a>
         </Link>
       </li>
       <li>
         <Link href="#">
-          <a>Farm</a>
+          <a href="#">Farm</a>
         </Link>
       </li>
       <li className="dropdown">
         <Link href="#">
           <>
-            <a>Tokens</a>
+            <a href="#">Tokens</a>
             <i className="fa fa-angle-down" onClick={handleDropdownStatus}></i>
           </>
         </Link>
         <ul className="dropdown-list">
           <li>
             <Link href="#">
-              <a>NUSD: NewUSD</a>
+              <a href="#">NUSD: NewUSD</a>
             </Link>
           </li>
           <li>
-            <Link href="/index-2">
-              <a>NST: NewSwap Token</a>
+            <Link href="#">
+              <a href="#">NST: NewSwap Token</a>
             </Link>
           </li>
           <li>
-            <Link href="/index-2">
-              <a>NSP: NewSwap Power</a>
+            <Link href="#">
+              <a href="#">NSP: NewSwap Power</a>
             </Link>
           </li>
         </ul>
       </li>
       <li>
         <Link href="#">
-          <a>Governance</a>
+          <a href="#">Governance</a>
         </Link>
       </li>
       <li>
         <Link href="#">
-          <a>Analytics</a>
+          <a href="#">Analytics</a>
         </Link>
       </li>
       <li className="dropdown">
         <Link href="#">
           <>
-            <a>More</a>
+            <a href="#">More</a>
             <i className="fa fa-angle-down" onClick={handleDropdownStatus}></i>
           </>
         </Link>
         <ul className="dropdown-list">
           <li>
             <Link href="#">
-              <a>About</a>
+              <a href="#">About</a>
             </Link>
           </li>
           <li>
-            <Link href="/index-2">
-              <a>FAQ</a>
+            <Link href="#">
+              <a href="#">FAQ</a>
             </Link>
           </li>
           <li>
-            <Link href="/index-2">
-              <a>Downloads</a>
+            <Link href="#">
+              <a href="#">Downloads</a>
             </Link>
           </li>
           <li>
-            <Link href="/index-2">
-              <a>Apply Listing</a>
+            <Link href="#">
+              <a href="#">Apply Listing</a>
             </Link>
           </li>
           <li>
-            <Link href="/index-2">
-              <a>Github</a>
+            <Link href="#">
+              <a href="#">Github</a>
             </Link>
           </li>
         </ul>

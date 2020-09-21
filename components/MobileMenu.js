@@ -1,5 +1,6 @@
 import React from "react";
 import NavLinks from "./NavLinks";
+import headerLogo from "../assets/img/logo.png";
 
 const MobileMenu = () => {
   return (
@@ -9,6 +10,7 @@ const MobileMenu = () => {
         <div className="cursor-follower"></div>
       </div>
       <div className="side-menu__block-inner ">
+        
         <div className="side-menu__top justify-content-end">
           <a href="#" className="side-menu__toggler side-menu__close-btn">
             <i className="fa fa-times"></i>

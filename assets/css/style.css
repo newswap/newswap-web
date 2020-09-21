@@ -189,7 +189,7 @@ body {
   cursor: pointer;
   z-index: 1;
   position: relative;
-  padding: 8px 16px;
+  padding: 12px 25px;
   color: #2F80ED;
   font-weight: 600;
   text-transform: capitalize;
@@ -887,7 +887,7 @@ label input[type="radio"] {
 
 .header-menu > ul > li > ul {
   top: 30px;
-  background: #081340;
+  background: #20C5A0;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   -webkit-transition: top 0.2s ease, opacity 0.2s ease;
   transition: top 0.2s ease, opacity 0.2s ease;
@@ -932,14 +932,14 @@ label input[type="radio"] {
   font-size: 16px;
   line-height: 1.25;
   position: relative;
-  background: #081340;
+  background: #20C5A0;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
-  color: #979caf;
+  color: #FFFFFF;
 }
 .main-header.sticky .header-menu ul ul li a {
-  background: #081340;
-  color: #979caf;
+  background: #20C5A0;
+  color: #FFFFFF;
 }
 .header-menu ul ul li a i {
   position: absolute;
@@ -1190,12 +1190,12 @@ label input[type="radio"] {
   color: #fff;
 }
 .banner-text-inner .btn:hover {
-  background: #36324a;
-  border-color: #36324a;
+  background: #20C5A0;
+  border-color: #1CA384;
   color: #fff;
 }
 .banner-text-inner .btn:before {
-  background: #36324a;
+  background: #1CA384;
 }
 .banner-text-inner .btn + .btn {
   background: transparent;

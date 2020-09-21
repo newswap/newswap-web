@@ -6,9 +6,9 @@ const Banner = () => {
     <div className="banner-area-inner">
       <div className={`banner-inner-area`}>
         <Container>
-          <Row className="justify-items-center">
-            <Col md={8} lg={12} xl={8}>
-              <div className="banner-text-inner">
+          <Row className="justify-content-center">
+            <Col md={8} lg={8} xl={8}>
+              <div className="banner-text-inner text-center">
                 <h1>牛顿公链上的去中心化交换协议</h1>
                 <p>
                 NewSwap 在安全可靠的 NewChain 上运行，性能高、成本低，支持多种跨链资产和牛顿生态项目通证的交易，拥有自动化做市商和基于双通证设计的流动性挖矿机制，所有的手续费都提供给流动性提供者，并且由社群共同治理。

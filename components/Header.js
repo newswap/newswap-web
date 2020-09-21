@@ -59,7 +59,7 @@ const HeaderHome = (props) => {
                   </a>
                 </div>
               </div>
-              <div className="col-xl-8 col-lg-6 col-md-4 col-6 menu-button">
+              <div className="col-xl-9 col-lg-9 col-md-8 col-6">
                 <div className="menu--inner-area clearfix">
                   <div className="menu-wraper">
                     <nav>

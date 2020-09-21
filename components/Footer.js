@@ -22,12 +22,12 @@ const Footer = () => {
                 <div className="footer-social-area">
                   <ul className="social-icons social-icons-light nav">
                     <li>
-                      <a href="#" target="_blank">
+                      <a href="https://twitter.com/newton_project" target="_blank">
                         <i className="fa fa-twitter"></i>
                       </a>
                     </li>
                     <li>
-                      <a href="#" target="_blank">
+                      <a href="https://github.com/newswap" target="_blank">
                         <i className="fa fa-github"></i>
                       </a>
                     </li>
