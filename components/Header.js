@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import NavLinks from "./NavLinks";
 
-import headerLogo from "../assets/img/logo.png";
+import headerLogo from "../assets/img/logo.svg";
 
 const HeaderHome = (props) => {
   const [sticky, setSticky] = useState(false);
@@ -52,14 +52,16 @@ const HeaderHome = (props) => {
         <div className="main-menu-wrap">
           <div className="container">
             <div className="row align-items-center">
-              <div className="col-xl-3 col-lg-3 col-md-4 col-6">
+              <div className="col-xl-4 col-lg-4 col-md-8 col-8">
                 <div className="logo">
                   <a href="/">
-                    <img src={headerLogo} alt="newswap" />
+                    <img src={headerLogo} alt="newswap" style={{
+                      height: 60
+                    }}/>
                   </a>
                 </div>
               </div>
-              <div className="col-xl-9 col-lg-9 col-md-8 col-6">
+              <div className="col-xl-8 col-lg-8 col-md-4 col-4">
                 <div className="menu--inner-area clearfix">
                   <div className="menu-wraper">
                     <nav>
