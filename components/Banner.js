@@ -15,7 +15,7 @@ const Banner = () => {
           <Row className="justify-content-center">
             <Col md={10} lg={10} xl={10}>
               <div className="banner-text-inner text-center">
-                <h1>{t('home s1 1')}</h1>
+                <h1 data-i18n="[html]content.body">{t('home s1 1')}</h1>
                 <h3>{t('home s1 3')}</h3>
                 <p>{t('home s1 2')}</p>
                 <p>

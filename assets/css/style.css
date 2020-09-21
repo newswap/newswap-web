@@ -132,6 +132,7 @@ h6,
 .h6 {
   font-family: "Poppins", sans-serif;
   color: #36324a;
+  font-weight: 300;
 }
 h1,
 .h1 {
@@ -854,12 +855,16 @@ label input[type="radio"] {
 .header-menu > ul > li > a {
   padding: 23px 0 23px;
   font-size: 16px;
-  color: #36324a;
+  color: #081340;
   font-weight: 500;
 }
 
+.header-menu ul li a {
+  color: #081340 !important;
+}
+
 .main-header.sticky .header-menu > ul > li > a {
-  color: #36324a;
+  color: #081340;
 }
 
 .header-menu > ul > li:hover > a,
@@ -868,7 +873,7 @@ label input[type="radio"] {
 }
 .main-header .header-menu > ul > li:hover > a,
 .main-header .header-menu > ul > li.active > a {
-  color: #20C5A0;
+  color: #20C5A0 !important;
   font-weight: 500;
 }
 
@@ -925,19 +930,17 @@ label input[type="radio"] {
 }
 .header-menu ul ul li a {
   width: 220px;
-  padding: 8px 16px;
+  padding: 16px 16px;
   font-size: 16px;
   line-height: 1.25;
   position: relative;
-  color: #36324a;
+  color: #081340;
   background: #FFFFFF;;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
+  font-weight: 500;
 }
-.main-header.sticky .header-menu ul ul li a {
-  background: #20C5A0;
-  color: #FFFFFF;
-}
+
 .header-menu ul ul li a i {
   position: absolute;
   right: 15px;
@@ -948,12 +951,12 @@ label input[type="radio"] {
 .header-menu ul ul li:hover > a,
 .header-menu ul ul li > a:hover,
 .header-menu ul ul li.active > a {
-  color: #20C5A0;
+  color: #20C5A0 !important;
 }
 .main-header.sticky .header-menu ul ul li:hover > a,
 .main-header.sticky .header-menu ul ul li > a:hover,
 .main-header.sticky .header-menu ul ul li.active > a {
-  color: #20C5A0;
+  color: #20C5A0 !important;
 }
 .menu-wraper {
   float: right;
@@ -1048,12 +1051,12 @@ label input[type="radio"] {
 }
 .inner-header a.btn {
   border-color: #fff;
-  color: #36324a;
+  color: #081340;
   background: #fff;
 }
 
 .main-header.inner-header .btn:before {
-  background: #36324a;
+  background: #081340;
   visibility: hidden;
   opacity: 0;
   -webkit-transform: scale(0);
@@ -1061,7 +1064,7 @@ label input[type="radio"] {
 }
 .main-header.inner-header .btn:hover {
   color: #fff;
-  background: #36324a;
+  background: #081340;
 }
 .main-header.inner-header .btn:hover:before {
   background: #36324a;
@@ -1095,13 +1098,13 @@ label input[type="radio"] {
 }
 .sticky.main-header.blog-header .header-menu > ul > li:hover > a,
 .sticky.main-header.blog-header .header-menu > ul > li.active > a {
-  color: #333333;
+  color: #081340;
   font-weight: 400;
 }
 .main-menu-wrap .btn {
   background: #fff;
   border-color: #fff;
-  color: #36324a;
+  color: #081340;
 }
 .inner-header .header-menu > ul > li:hover > a,
 .inner-header .header-menu > ul > li:focus > a,
@@ -1111,7 +1114,7 @@ label input[type="radio"] {
 .sticky.inner-header .header-menu > ul > li:hover > a,
 .sticky.inner-header .header-menu > ul > li:focus > a,
 .sticky.inner-header .header-menu > ul > li:active > a {
-  color: #36324a;
+  color: #081340;
 }
 /*=============================================
     04: Banner
@@ -2903,31 +2906,32 @@ h1 span {
   z-index: 999;
 }
 .back-to-top a {
-  width: 35px;
-  height: 35px;
-  background: #2F80ED;
+  width: 50px;
+  height: 50px;
+  background: #fff;
   box-shadow: 1px 5px 19px rgba(0, 0, 0, 0.15);
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
   font-size: 16px;
-  color: #fff;
-  border-radius: 50%;
+  color: #20C5A0;
+  border-radius: 20%;
   display: inline-block;
   text-align: center;
-  line-height: 35px;
+  line-height: 50px;
   bottom: 10%;
   right: 4%;
   position: fixed;
   z-index: 999;
 }
 .back-to-top a:hover {
-  background: #fff;
-  color: #2F80ED;
+  background: #20C5A0;
+  color: #fff;
+  border-radius: 50%;
 }
 
 .back-to-top a i {
-  -webkit-animation: bounce2 3s linear infinite;
-  animation: bounce2 3s linear infinite;
+  -webkit-animation: bounce2 1.3s linear infinite;
+  animation: bounce2 1.3s linear infinite;
 }
 
 @-webkit-keyframes bounce2 {
@@ -2936,8 +2940,8 @@ h1 span {
     transform: translateY(3px);
   }
   50% {
-    -webkit-transform: translateY(-10px);
-    transform: translateY(-10px);
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px);
   }
   100% {
     -webkit-transform: translateY(3px);
@@ -2951,8 +2955,8 @@ h1 span {
     transform: translateY(3px);
   }
   50% {
-    -webkit-transform: translateY(-10px);
-    transform: translateY(-10px);
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px);
   }
   100% {
     -webkit-transform: translateY(3px);
