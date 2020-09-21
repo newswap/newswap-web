@@ -1,7 +1,11 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 
+
+
+
 const Banner = () => {
+  
   return (
     <div className="banner-area-inner">
       <div className={`banner-inner-area`}>

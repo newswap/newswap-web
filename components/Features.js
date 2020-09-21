@@ -103,7 +103,7 @@ const Features = () => {
     <section className="pb-110" id="features">
       <Container>
         <Row className="justify-content-center">
-          <Col md={12} lg={8}>
+          <Col md={12} lg={12}>
             <SectionTitle
               title="NewSwap 特性"
               text=" "
@@ -111,7 +111,7 @@ const Features = () => {
           </Col>
         </Row>
         <Row className="justify-content-center">
-          <Col xl={10} lg={12}>
+          <Col xl={12} lg={12}>
             <Swiper className="feature-carousel" {...swiperParams}>
               {FEATURES_DATA.map((feature, index) => (
                 <SwiperSlide key={`feature-post-${index}`}>

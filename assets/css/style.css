@@ -848,8 +848,8 @@ label input[type="radio"] {
   left: 0;
 }
 .header-menu > ul > li {
-  padding-left: 19px;
-  padding-right: 19px;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 .header-menu > ul > li > a {
   padding: 23px 0 23px;
@@ -869,7 +869,7 @@ label input[type="radio"] {
 .main-header .header-menu > ul > li:hover > a,
 .main-header .header-menu > ul > li.active > a {
   color: #20C5A0;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 .header-menu ul ul {
@@ -880,18 +880,18 @@ label input[type="radio"] {
   transition: top 0.2s ease, opacity 0.2s ease;
 }
 .header-menu > ul > li:hover > ul {
-  left: auto;
-  top: 60px;
+  left: -60%;
+  top: 50px;
   opacity: 1;
 }
 
 .header-menu > ul > li > ul {
   top: 30px;
-  background: #20C5A0;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background: #FFFFFF;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
   -webkit-transition: top 0.2s ease, opacity 0.2s ease;
   transition: top 0.2s ease, opacity 0.2s ease;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 
 .header-menu.align-right > ul > li:hover > ul {
@@ -900,7 +900,6 @@ label input[type="radio"] {
 
 .header-menu ul ul ul {
   top: 32px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 .header-menu ul ul ul:after {
   content: "";
@@ -915,27 +914,25 @@ label input[type="radio"] {
   background: #fff;
 }
 .header-menu ul ul > li:hover > ul {
-  top: 0;
-  left: 180px;
   opacity: 1;
 }
 .header-menu.align-right ul ul > li:hover > ul {
-  left: auto;
+  left: 0;
   right: 178px;
   padding-left: 0;
   padding-right: 10px;
   opacity: 1;
 }
 .header-menu ul ul li a {
-  width: 186px;
-  padding: 8px 20px;
+  width: 220px;
+  padding: 8px 16px;
   font-size: 16px;
   line-height: 1.25;
   position: relative;
-  background: #20C5A0;
+  color: #36324a;
+  background: #FFFFFF;;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
-  color: #FFFFFF;
 }
 .main-header.sticky .header-menu ul ul li a {
   background: #20C5A0;
@@ -951,12 +948,12 @@ label input[type="radio"] {
 .header-menu ul ul li:hover > a,
 .header-menu ul ul li > a:hover,
 .header-menu ul ul li.active > a {
-  color: #fff;
+  color: #20C5A0;
 }
 .main-header.sticky .header-menu ul ul li:hover > a,
 .main-header.sticky .header-menu ul ul li > a:hover,
 .main-header.sticky .header-menu ul ul li.active > a {
-  color: #fff;
+  color: #20C5A0;
 }
 .menu-wraper {
   float: right;
@@ -1361,12 +1358,13 @@ label input[type="radio"] {
   margin-bottom: 44px;
 }
 .single-feature-inner {
-  padding: 74px 10px 66px;
+  padding: 20px 10px 20px;
+  
 }
 .swiper-slide-active .single-feature-inner {
-  border: 4px solid #2F80ED;
-  border-radius: 10px;
-  margin: -10px -10px -10px -10px;
+  -border: 4px solid #2F80ED;
+  -border-radius: 10px;
+  -margin: -10px -10px -10px -10px;
 }
 .feature-carousel .swiper-wrapper,
 .feature-carousel .owl-stage-outer {
