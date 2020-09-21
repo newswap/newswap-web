@@ -1,7 +1,9 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
+import { useTranslation, Trans, Translation } from 'react-i18next'
 
 const AboutNewton = () => {
+  let { t ,i18n} = useTranslation();
   return (
     <section className="border-top pt-110 pb-150">
       <Container>
@@ -12,10 +14,10 @@ const AboutNewton = () => {
                 Powered by Newton Project
               </p>
               <h2 className="h1">
-                牛顿：社群经济基础设施
+                {t('newton base')}
               </h2>
               <h3>
-                每一个人都应该从经济增长中受益
+                {t('newton slogan')}
               </h3>
               <a href="www.newtonproject.org" target="_blank">牛顿项目官网</a>
 

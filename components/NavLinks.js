@@ -11,7 +11,7 @@ const NavLinks = () => {
     let clickedItem = e.currentTarget.parentNode;
     clickedItem.querySelector(".dropdown-list").classList.toggle("show");
   };
-  let { t ,i18n} = useTranslation()
+  let { t ,i18n} = useTranslation();
   return (
     <ul className="main-nav__navigation-box">
       <li>
@@ -39,12 +39,12 @@ const NavLinks = () => {
           </li>
           <li>
             <Link href="#">
-              <a>NST: NewSwap Token</a>
+              <a>{t('menu tokens nst')}</a>
             </Link>
           </li>
           <li>
             <Link href="#">
-              <a>NSP: NewSwap Power</a>
+              <a>{t('menu tokens nsp')}</a>
             </Link>
           </li>
         </ul>
