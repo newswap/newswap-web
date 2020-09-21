@@ -1,0 +1,16 @@
+{
+  "global exchange": "Exchange",
+  "global farm": "Farm",
+  "global tokens": "Tokens",
+  "global governance": "Governance",
+  "global analytics": "Analytics",
+  "global about": "About",
+  "global faq": "FAQ",
+  "global more": "More",
+  "global downloads": "Downloads",
+  "global apply listing": "Apply Listing",
+  "global github": "Github",
+  "menu tokens nusd": "NUSD (NewUSD)",
+  "menu tokens nst": "NST (NewSwap Token)",
+  "menu tokens nsp": "NSp (NewSwap Power)"
+}

@@ -10,9 +10,12 @@ import HomeSections2 from "../components/HomeSections2";
 import HomeSections3 from "../components/HomeSections3";
 import HomeMiningPools from "../components/HomeMiningPools";
 import AboutNewton from "../components/AboutNewton";
+import { useTranslation, Trans, Translation } from 'react-i18next'
+
 
 
 const HomePage = () => {
+  let { t ,i18n} = useTranslation()
   return (
     <Layout pageTitle="NewSwap">
       <Header />
