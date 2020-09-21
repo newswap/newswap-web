@@ -106,7 +106,7 @@ const Features = () => {
           <Col md={12} lg={8}>
             <SectionTitle
               title="NewSwap 特性"
-              text="text"
+              text=" "
             />
           </Col>
         </Row>

@@ -18,7 +18,7 @@ const NavLinks = () => {
       </li>
       <li>
         <Link href="#">
-          <a>Mine</a>
+          <a>Farm</a>
         </Link>
       </li>
       <li className="dropdown">
@@ -31,17 +31,17 @@ const NavLinks = () => {
         <ul className="dropdown-list">
           <li>
             <Link href="#">
-              <a>NUSD</a>
+              <a>NUSD: NewUSD</a>
             </Link>
           </li>
           <li>
             <Link href="/index-2">
-              <a>NST</a>
+              <a>NST: NewSwap Token</a>
             </Link>
           </li>
           <li>
             <Link href="/index-2">
-              <a>NSP</a>
+              <a>NSP: NewSwap Power</a>
             </Link>
           </li>
         </ul>
@@ -92,7 +92,7 @@ const NavLinks = () => {
         </ul>
       </li>
       <li></li>
-      
+
     </ul>
   );
 };

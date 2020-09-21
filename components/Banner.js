@@ -15,8 +15,8 @@ const Banner = () => {
                 </p>
                 <p>
                   <a href="#" className="btn">交易</a>
-                  <a href="#" className="btn">交易</a>
-                  <a href="#" className="btn">下载 NewMask</a>
+                  <a href="#" className="btn">挖矿</a>
+                  <a href="#" className="btn">下载 牛顿浏览器插件</a>
                   <a href="#" className="btn">下载 NewPay</a>
                 </p>
                 <h3>人人都可以发行、交易数字资产</h3>

@@ -18,7 +18,7 @@ const AboutNewton = () => {
                 每一个人都应该从经济增长中受益
               </h3>
               <a href="www.newtonproject.org" target="_blank">牛顿项目官网</a>
-              
+
             </div>
           </Col>
         </Row>
