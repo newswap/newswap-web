@@ -2,9 +2,6 @@
 
 - Website: [newswap.org](https://newswap.org/)
 
-repository.
-
-## Development
 
 ### Install Dependencies
 
@@ -12,8 +9,16 @@ repository.
 yarn
 ```
 
-### Run
+### Development 
 
 ```bash
-yarn start
+yarn dev
 ```
+
+### Build
+
+`yarn build` or `npm run build`
+
+### Run
+
+`yarn start` or `npm run start`
