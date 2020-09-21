@@ -1,5 +1,7 @@
 {
   "name": "newswap-web-react-next",
+  "private": true,
+  "description": "NewSwap Homepage",
   "version": "0.0.1",
   "main": "index.js",
   "license": "MIT",
