@@ -11,7 +11,7 @@ const Banner = () => {
       <div className={`banner-inner-area`}>
         <Container>
           <Row className="justify-content-center">
-            <Col md={8} lg={8} xl={8}>
+            <Col md={10} lg={10} xl={10}>
               <div className="banner-text-inner text-center">
                 <h1>牛顿公链上的去中心化交换协议</h1>
                 <p>
