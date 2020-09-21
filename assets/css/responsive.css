@@ -674,7 +674,6 @@
     }
 
     .logo img {
-        max-width: 100px;
     }
     .single-price-plan.active{
         margin-bottom: 40px;
@@ -687,7 +686,6 @@
 @media (max-width: 767.98px) {
     
     .logo img {
-        max-width: 100px;
     }
     .btn {
         padding: 12px 25px;

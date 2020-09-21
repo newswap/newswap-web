@@ -3140,7 +3140,6 @@ h1 span {
 
 .side-menu__block-inner {
   position: relative;
-  max-width: 532px;
   width: 100%;
   margin-right: auto;
   height: 100vh;
@@ -3154,19 +3153,16 @@ h1 span {
 
 @media (max-width: 575px) {
   .side-menu__block-inner {
-    max-width: 480px;
   }
 }
 
 @media (max-width: 480px) {
   .side-menu__block-inner {
-    max-width: 400px;
   }
 }
 
 @media (max-width: 375px) {
   .side-menu__block-inner {
-    max-width: 300px;
   }
 }
 
