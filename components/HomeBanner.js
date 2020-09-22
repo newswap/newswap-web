@@ -9,12 +9,12 @@ import { useTranslation, Trans, Translation } from 'react-i18next'
 const HomeBanner = () => {
   let { t ,i18n} = useTranslation();
   return (
-    <div className="banner-area-inner">
+    <div className="banner-area-inner  home-main-banner">
       <div className={`banner-inner-area`}>
         <Container>
           <Row className="justify-content-center">
-            <Col md={10} lg={10} xl={10}>
-              <div className="banner-text-inner text-center">
+            <Col md={12} lg={12} xl={12}>
+              <div className="banner-text-inner text-left">
                 <h1 data-i18n="[html]content.body">{t('home s1 1')}</h1>
                 <h3>{t('home s1 3')}</h3>
                 <p>{t('home s1 2')}</p>

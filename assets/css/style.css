@@ -58,6 +58,7 @@ We may release future updates so it will overwrite this file. it's better and sa
     21.09: Preloader
     21.10: Form validation
     21.11: Content animation
+    21.12: Pool Card
 ----------------------------------------------*/
 
 /*=============================================
@@ -136,13 +137,13 @@ h6,
 }
 h1,
 .h1 {
-  font-size: 50px;
-  line-height: 55px;
+  font-size: 48px;
+  line-height: 1.5em;
 }
 h2,
 .h2 {
   font-size: 40px;
-  line-height: 55px;
+  line-height: 48px;
 }
 h3,
 .h3 {
@@ -1124,7 +1125,7 @@ label input[type="radio"] {
 ==============================================*/
 /*4.1: main banner 01*/
 .banner-inner-area {
-  padding: 217px 0 0px;
+  padding: 180px 0 0px;
   position: relative;
   overflow: hidden;
 }
@@ -1168,6 +1169,11 @@ label input[type="radio"] {
     z-index: -1;
 }
 */
+
+.home-main-banner {
+  background: url(../img/bg-home-banner.jpg);
+  background-size: cover;
+}
 
 .banner-area1 .banner-text-wrap span {
   color: #ffa21d;
@@ -2671,11 +2677,11 @@ footer.footer {
   left: 33px;
 }
 
-.twetter-post {
+.twitter-post {
   padding-left: 20px;
 }
 
-.twetter-post span {
+.twitter-post span {
   margin-right: 7px;
   color: #20C5A0;
   font-size: 20px;
@@ -3097,6 +3103,46 @@ h1 span {
 }
 [data-animate].animated {
   visibility: visible;
+}
+
+/* 21.12: Pool Card */
+.pool-card {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+  margin-bottom: 32px;
+  padding: 16px;
+  transition: all 0.3s ease-in-out;
+}
+.pool-card:hover {
+  box-shadow: 0 0 20px rgba(32, 197, 160, 1);
+}
+.pool-card h4 {
+  color: #20C5A0;
+  line-height: 2em;
+  font-size: large;
+  margin:0;
+}
+.pool-card > .btn {
+  width: 100%;
+  font-size: x-small;
+}
+.pool-card > .soon {
+  color: #fff;
+  border-color: #B1BAC1;
+  background-color: #B1BAC1;
+  border-radius: 16px;
+  padding:6px;
+}
+.pool-card > .apy {
+  font-size: small;
+  color: #B1BAC1;
+  margin:0 0 10px;
+}
+.soon:before {
+  background: #B1BAC1;
+}
+.pool-card img {
+  width: 48px;
 }
 
 /*--------------------------------------------------------------
