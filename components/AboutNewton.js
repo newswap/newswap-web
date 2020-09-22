@@ -10,16 +10,14 @@ const AboutNewton = () => {
         <Row className="justify-content-center">
         <Col md={10} lg={10} xl={10}>
             <div className="text-center">
-              <p>
-                Powered by Newton Project
-              </p>
+              <p>{t('newton.brought')}</p>
               <h2 className="h1">
                 {t('newton.base')}
               </h2>
               <h3>
                 {t('newton.slogan')}
               </h3>
-              <a href="https://newtonproject.org" target="_blank">牛顿项目官网</a>
+              <a href="https://newtonproject.org" target="_blank" className="btn">{t('newton.visitweb')}</a>
 
             </div>
           </Col>

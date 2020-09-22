@@ -74,7 +74,7 @@ const NavLinks = () => {
           </li>
           <li>
             <Link href="#">
-              <a>{t('global.downloads')}</a>
+              <a>{t('global.tools')}</a>
             </Link>
           </li>
           <li>

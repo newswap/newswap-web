@@ -11,9 +11,14 @@
     "faq": "FAQ",
     "more": "More",
     "downloads": "Downloads",
+    "tools": "Tools",
     "apply listing": "Apply Listing",
     "github": "GitHub",
-    "newton extension": "Newton Extension"
+    "newton extension": "Newton Extension",
+    "pools": "Pools",
+    "comingsoon": "Coming Soon",
+    "comingsoon2": "Coming with NewSwap v1.1",
+    "invest warning": "Contents on this website is not intended as investment advice. Please make your own prudent decisions and independently assume the corresponding risks before trading or investing."
   },
 
   "menu":{
@@ -49,6 +54,8 @@
 
   "newton": {
     "base": "Newton: Infrastructure for the Community Economy",
-    "slogan": "Everyone Should Benefit from Economic Growth"
+    "slogan": "Everyone Should Benefit from Economic Growth",
+    "brought": "Brought to you by Newton Project",
+    "visitweb": "Visit Website"
   }
 }
