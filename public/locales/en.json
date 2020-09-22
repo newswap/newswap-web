@@ -1,27 +1,32 @@
 {
-  "global exchange": "Exchange",
-  "global download": "Download",
-  "global trade": "Trade",
-  "global farm": "Farm",
-  "global tokens": "Tokens",
-  "global governance": "Governance",
-  "global analytics": "Analytics",
-  "global about": "About",
-  "global faq": "FAQ",
-  "global more": "More",
-  "global downloads": "Downloads",
-  "global apply listing": "Apply Listing",
-  "global github": "Github",
+  "global": {
+    "exchange": "Exchange",
+    "download": "Download",
+    "trade": "Trade",
+    "farm": "Farm",
+    "tokens": "Tokens",
+    "governance": "Governance",
+    "analytics": "Analytics",
+    "about": "About",
+    "faq": "FAQ",
+    "more": "More",
+    "downloads": "Downloads",
+    "apply listing": "Apply Listing",
+    "github": "Github",
+    "newton extension": "Newton Extension"
+  },
   "menu tokens nusd": "NUSD (NewUSD)",
   "menu tokens nst": "NST (NewSwap Token)",
   "menu tokens nsp": "NSP (NewSwap Power)",
-  "global newton extension": "Newton Extension",
+  
 
   "HOME SECTIONS BANNERS": "---",
   "home s1 1": "Decentralized exchange protocol on NewChain.",
   "home s1 2": "Running on the secure and reliable NewChain, NewSwap offers high performance and low cost, supports trading of multiple cross-chain assets and Newton EcoProject passes, has automated market makers and a liquidity mining mechanism based on a dual pass design, with all commissions provided to liquidity providers and governed by the community.",
   "home s1 3": "Anyone can issue and trade digital assets",
   "HOME SECTIONS POWERED BY NEWTON": "---",
-  "newton base": "Newton: Infrastructure for Community Economy",
-  "newton slogan": "Everyone Should Benefit from Economic Growth"
+  "newton": {
+    "base": "Newton: Infrastructure for the Community Economy",
+    "slogan": "Everyone Should Benefit from Economic Growth"
+  }
 }

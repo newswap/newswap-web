@@ -16,18 +16,18 @@ const NavLinks = () => {
     <ul className="main-nav__navigation-box">
       <li>
         <Link href="#">
-          <a>{t('global exchange')}</a>
+          <a>{t('global.exchange')}</a>
         </Link>
       </li>
       <li>
         <Link href="#">
-          <a>{t('global farm')}</a>
+          <a>{t('global.farm')}</a>
         </Link>
       </li>
       <li className="dropdown">
         <Link href="#">
           <>
-            <a>{t('global tokens')}</a>
+            <a>{t('global.tokens')}</a>
             <i className="fa fa-angle-down" onClick={handleDropdownStatus}></i>
           </>
         </Link>
@@ -51,45 +51,45 @@ const NavLinks = () => {
       </li>
       <li>
         <Link href="#">
-          <a>{t('global governance')}</a>
+          <a>{t('global.governance')}</a>
         </Link>
       </li>
       <li>
         <Link href="#">
-          <a>{t('global analytics')}</a>
+          <a>{t('global.analytics')}</a>
         </Link>
       </li>
       <li className="dropdown">
         <Link href="#">
           <>
-            <a>{t('global more')}</a>
+            <a>{t('global.more')}</a>
             <i className="fa fa-angle-down" onClick={handleDropdownStatus}></i>
           </>
         </Link>
         <ul className="dropdown-list">
           <li>
             <Link href="#">
-              <a>{t('global about')}</a>
+              <a>{t('global.about')}</a>
             </Link>
           </li>
           <li>
             <Link href="#">
-              <a>{t('global faq')}</a>
+              <a>{t('global.faq')}</a>
             </Link>
           </li>
           <li>
             <Link href="#">
-              <a>{t('global downloads')}</a>
+              <a>{t('global.downloads')}</a>
             </Link>
           </li>
           <li>
             <Link href="#">
-              <a>{t('global apply listing')}</a>
+              <a>{t('global.apply listing')}</a>
             </Link>
           </li>
           <li>
             <Link href="#">
-              <a>{t('global github')}</a>
+              <a>{t('global.github')}</a>
             </Link>
           </li>
         </ul>

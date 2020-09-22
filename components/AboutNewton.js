@@ -14,12 +14,12 @@ const AboutNewton = () => {
                 Powered by Newton Project
               </p>
               <h2 className="h1">
-                {t('newton base')}
+                {t('newton.base')}
               </h2>
               <h3>
-                {t('newton slogan')}
+                {t('newton.slogan')}
               </h3>
-              <a href="www.newtonproject.org" target="_blank">牛顿项目官网</a>
+              <a href="https://newtonproject.org" target="_blank">牛顿项目官网</a>
 
             </div>
           </Col>

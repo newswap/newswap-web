@@ -19,9 +19,9 @@ const HomeBanner = () => {
                 <h3>{t('home s1 3')}</h3>
                 <p>{t('home s1 2')}</p>
                 <p>
-                  <a href="#" className="btn">{t('global trade')}</a>
-                  <a href="#" className="btn">{t('global farm')}</a>
-                  <a href="#" className="btn">{t('global newton extension')}</a>
+                  <a href="#" className="btn">{t('global.trade')}</a>
+                  <a href="#" className="btn">{t('global.farm')}</a>
+                  <a href="#" className="btn">{t('global.newton extension')}</a>
                   <a href="#" className="btn">NewPay App</a>
                 </p>
                 

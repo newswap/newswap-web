@@ -1,22 +1,25 @@
 {
-  "global exchange": "交易",
-  "global trade": "交易",
-  "global download": "下载",
-  "global farm": "挖矿",
-  "global tokens": "通证",
-  "global governance": "治理",
-  "global analytics": "统计",
-  "global about": "关于",
-  "global more": "更多",
-  "global downloads": "下载",
-  "global apply listing": "申请上币",
-  "global newton extension": "牛顿浏览器插件",
-
+  "global": {
+    "exchange": "交易",
+    "trade": "交易",
+    "download": "下载",
+    "farm": "挖矿",
+    "tokens": "通证",
+    "governance": "治理",
+    "analytics": "统计",
+    "about": "关于",
+    "more": "更多",
+    "downloads": "下载",
+    "apply listing": "申请上币",
+    "newton extension": "牛顿浏览器插件"
+  },
   "HOME SECTIONS": "---",
   "home s1 1": "牛顿公链上的去中心化交换协议",
   "home s1 2": "NewSwap 在安全可靠的 NewChain 上运行，性能高、成本低，支持多种跨链资产和牛顿生态项目通证的交易，拥有自动化做市商和基于双通证设计的流动性挖矿机制，所有的手续费都提供给流动性提供者，并且由社群共同治理。",
   "home s1 3": "人人都可以发行、交易数字资产",
   "HOME SECTIONS POWERED BY NEWTON": "---",
-  "newton base": "牛顿：社群经济基础设施",
-  "newton slogan": "Everyone Should Benefit from Economic Growth"
+  "newton": {
+    "base": "牛顿：社群经济基础设施",
+    "slogan": "每个人都应该从经济增长中收益"
+  }
 }
