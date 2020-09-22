@@ -51,9 +51,6 @@ const Footer = () => {
                   <div className="link-left">
                     <ul>
                       <li>
-                        <a href="#">{t('global.about')}</a>
-                      </li>
-                      <li>
                         <a href="#">{t('global.faq')}</a>
                       </li>
                       <li>

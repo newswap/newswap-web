@@ -69,11 +69,6 @@ const NavLinks = () => {
         <ul className="dropdown-list">
           <li>
             <Link href="#">
-              <a>{t('global.about')}</a>
-            </Link>
-          </li>
-          <li>
-            <Link href="#">
               <a>{t('global.faq')}</a>
             </Link>
           </li>
