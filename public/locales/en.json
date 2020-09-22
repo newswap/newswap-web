@@ -13,7 +13,8 @@
     "downloads": "Downloads",
     "apply listing": "Apply Listing",
     "github": "GitHub",
-    "newton extension": "Newton Extension"
+    "newton extension": "Newton Extension",
+    "learn": "Learn More"
   },
 
   "menu":{
@@ -50,5 +51,16 @@
   "newton": {
     "base": "Newton: Infrastructure for the Community Economy",
     "slogan": "Everyone Should Benefit from Economic Growth"
+  },
+
+  "mining": {
+    "start": "Initial Amount: ",
+    "start-text": "0",
+    "model": "Distribution Model: ",
+    "model-text": "Sustainable",
+    "method": "Mining: ",
+    "method-text1": "Liquidity providers: provide liquidity on specified pools to mine NST by staking LP tokens and NSP (999:1).",
+    "method-text2": "NSP holders: stake NSP in governance contract to mine NST."
   }
+
 }
