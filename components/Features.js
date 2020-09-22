@@ -105,14 +105,6 @@ const Features = () => {
     <section className="pb-110" id="features">
       <Container>
         <Row className="justify-content-center">
-          <Col md={12} lg={12}>
-            <SectionTitle
-              title="NewSwap 特性"
-              text=" "
-            />
-          </Col>
-        </Row>
-        <Row className="justify-content-center">
           <Col xl={12} lg={12}>
             <Swiper className="feature-carousel" {...swiperParams}>
               {FEATURES_DATA.map((feature, index) => (

@@ -146,7 +146,7 @@ h2,
 }
 h3,
 .h3 {
-  font-size: 30px;
+  font-size: 36px;
 }
 h4,
 .h4 {
@@ -1124,7 +1124,7 @@ label input[type="radio"] {
 ==============================================*/
 /*4.1: main banner 01*/
 .banner-inner-area {
-  padding: 217px 0 96px;
+  padding: 217px 0 0px;
   position: relative;
   overflow: hidden;
 }

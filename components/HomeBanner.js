@@ -13,7 +13,7 @@ const HomeBanner = () => {
       <div className={`banner-inner-area`}>
         <Container>
           <Row className="justify-content-center">
-            <Col md={12} lg={12} xl={12}>
+            <Col md={10} lg={10} xl={10}>
               <div className="banner-text-inner text-center">
                 <h1 data-i18n="[html]content.body">{t('home s1 1')}</h1>
                 <h3>{t('home s1 3')}</h3>
@@ -24,7 +24,6 @@ const HomeBanner = () => {
                   <a href="#" className="btn">{t('global.newton extension')}</a>
                   <a href="#" className="btn">NewPay App</a>
                 </p>
-                
               </div>
             </Col>
           </Row>
