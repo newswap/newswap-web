@@ -12,7 +12,7 @@
     "more": "More",
     "downloads": "Downloads",
     "apply listing": "Apply Listing",
-    "github": "Github",
+    "github": "GitHub",
     "newton extension": "Newton Extension"
   },
   "menu tokens nusd": "NUSD (NewUSD)",
@@ -21,9 +21,9 @@
   
 
   "HOME SECTIONS BANNERS": "---",
-  "home s1 1": "Decentralized exchange protocol on NewChain.",
+  "home s1 1": "Decentralized protocol for automated liquidity provision on NewChain.",
   "home s1 2": "Running on the secure and reliable NewChain, NewSwap offers high performance and low cost, supports trading of multiple cross-chain assets and Newton EcoProject passes, has automated market makers and a liquidity mining mechanism based on a dual pass design, with all commissions provided to liquidity providers and governed by the community.",
-  "home s1 3": "Anyone can issue and trade digital assets",
+  "home s1 3": "Everyone is able to issue and trade digital assets",
   "HOME SECTIONS POWERED BY NEWTON": "---",
   "newton": {
     "base": "Newton: Infrastructure for the Community Economy",
