@@ -9,17 +9,18 @@ import TokenBNB from "../assets/img/tokens/bnb.png";
 import TokenOKB from "../assets/img/tokens/okb.png";
 import TokenYFI from "../assets/img/tokens/yfi.png";
 import TokenUNI from "../assets/img/tokens/uni.png";
+import { useTranslation, Trans, Translation } from 'react-i18next'
+
 
 const HomeMiningPools = () => {
+  let { t ,i18n} = useTranslation();
   return (
     <section className="pt-110 pb-150">
       <Container>
         <Row className="justify-content-center">
           <Col md={12} lg={10}>
-            <div className="text-center">
-              <h2 className="h1">
-                矿池
-              </h2>
+            <div className="user-interact-inner text-center">
+              <h2 className="h1">{t('global.pools')}</h2>
             </div>
           </Col>
           <Col md={3} lg={3}>
@@ -27,7 +28,7 @@ const HomeMiningPools = () => {
               <div><img src={TokenNEW} alt="" /> <img src={TokenUSDT} alt="" /></div>
               <h4>NEW-NUSD</h4>
               <p className="apy">APY: -</p>
-              <a href="#" className="btn soon">Coming with NewSwap v1.1</a>
+              <a href="#" className="btn soon">{t('global.comingsoon2')}</a>
             </div>
           </Col>
           <Col md={3} lg={3}>
@@ -35,7 +36,7 @@ const HomeMiningPools = () => {
               <div><img src={TokenETH} alt="" /> <img src={TokenNEW} alt="" /></div>
               <h4>ETH-NEW</h4>
               <p className="apy">APY: -</p>
-              <a href="#" className="btn soon">Coming Soon</a>
+              <a href="#" className="btn soon">{t('global.comingsoon')}</a>
             </div>
           </Col>
           <Col md={3} lg={3}>
@@ -43,7 +44,7 @@ const HomeMiningPools = () => {
               <div><img src={TokenBTC} alt="" /> <img src={TokenNEW} alt="" /></div>
               <h4>BTC-NEW</h4>
               <p className="apy">APY: -</p>
-              <a href="#" className="btn soon">Coming Soon</a>
+              <a href="#" className="btn soon">{t('global.comingsoon')}</a>
             </div>
           </Col>
           <Col md={3} lg={3}>
@@ -51,7 +52,7 @@ const HomeMiningPools = () => {
               <div><img src={TokenHT} alt="" /> <img src={TokenNEW} alt="" /></div>
               <h4>HT-NEW</h4>
               <p className="apy">APY: -</p>
-              <a href="#" className="btn soon">Coming Soon</a>
+              <a href="#" className="btn soon">{t('global.comingsoon')}</a>
             </div>
           </Col>
           <Col md={3} lg={3}>
@@ -59,7 +60,7 @@ const HomeMiningPools = () => {
               <div><img src={TokenBNB} alt="" /> <img src={TokenNEW} alt="" /></div>
               <h4>BNB-NEW</h4>
               <p className="apy">APY: -</p>
-              <a href="#" className="btn soon">Coming Soon</a>
+              <a href="#" className="btn soon">{t('global.comingsoon')}</a>
             </div>
           </Col>
           <Col md={3} lg={3}>
@@ -67,7 +68,7 @@ const HomeMiningPools = () => {
               <div><img src={TokenOKB} alt="" /> <img src={TokenNEW} alt="" /></div>
               <h4>OKB-NEW</h4>
               <p className="apy">APY: -</p>
-              <a href="#" className="btn soon">Coming Soon</a>
+              <a href="#" className="btn soon">{t('global.comingsoon')}</a>
             </div>
           </Col>
           <Col md={3} lg={3}>
@@ -75,7 +76,7 @@ const HomeMiningPools = () => {
               <div><img src={TokenYFI} alt="" /> <img src={TokenNEW} alt="" /></div>
               <h4>YFI-NEW</h4>
               <p className="apy">APY: -</p>
-              <a href="#" className="btn soon">Coming Soon</a>
+              <a href="#" className="btn soon">{t('global.comingsoon')}</a>
             </div>
           </Col>
           <Col md={3} lg={3}>
@@ -83,7 +84,7 @@ const HomeMiningPools = () => {
               <div><img src={TokenUNI} alt="" /> <img src={TokenNEW} alt="" /></div>
               <h4>UNI-NEW</h4>
               <p className="apy">APY: -</p>
-              <a href="#" className="btn soon">Coming Soon</a>
+              <a href="#" className="btn soon">{t('global.comingsoon')}</a>
             </div>
           </Col>
         </Row>

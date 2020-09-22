@@ -3,9 +3,6 @@ import { Container, Row, Col } from "react-bootstrap";
 import { useTranslation, Trans, Translation } from 'react-i18next'
 
 
-
-
-
 const HomeBanner = () => {
   let { t ,i18n} = useTranslation();
   return (
@@ -14,7 +11,7 @@ const HomeBanner = () => {
         <Container>
           <Row className="justify-content-center">
             <Col md={12} lg={12} xl={12}>
-              <div className="banner-text-inner text-left">
+              <div className="banner-text-inner text-center">
                 <h1 data-i18n="[html]content.body">{t('slogan.home s1 1')}</h1>
                 <h3>{t('slogan.home s1 3')}</h3>
                 <p>{t('slogan.home s1 2')}</p>

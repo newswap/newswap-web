@@ -2721,6 +2721,20 @@ footer.footer {
   color: #6f6c7f;
   font-size: 16px;
 }
+/*20.03: invest warning*/
+.invest-warning { 
+  line-height: 1.5em; 
+  text-align: center;
+  font-weight: 300;
+  font-size: small;
+  background-color: #fff;
+  color: red;
+  padding:8px;
+  position: relative;
+  top: -50px;
+  border-radius: 99px;
+  margin: auto 10%;
+}
 
 /*===========================================
         02: Page Title
@@ -3122,9 +3136,10 @@ h1 span {
 /* 21.12: Pool Card */
 .pool-card {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  border-radius: 16px;
-  margin-bottom: 32px;
+  border-radius: 24px;
+  margin-bottom: 24px;
   padding: 16px;
+  padding-top: 32px;
   transition: all 0.3s ease-in-out;
   position: relative;
   top:0;
@@ -3135,7 +3150,7 @@ h1 span {
 }
 .pool-card h4 {
   color: #20C5A0;
-  line-height: 2em;
+  line-height: 2.5em;
   font-size: large;
   margin:0;
 }
@@ -3144,10 +3159,10 @@ h1 span {
   font-size: x-small;
 }
 .pool-card > .soon {
-  color: #fff;
-  border-color: #B1BAC1;
-  background-color: #B1BAC1;
-  border-radius: 16px;
+  color: #6f6c7f;
+  border-color: #d7dee4;
+  background-color: #d7dee4;
+  border-radius: 6px; 
   padding:6px;
 }
 .pool-card > .soon:hover {
@@ -3159,7 +3174,7 @@ h1 span {
   margin:0 0 10px;
 }
 .soon:before {
-  background: #B1BAC1;
+  background: #d7dee4;
 }
 .pool-card img {
   width: 48px;

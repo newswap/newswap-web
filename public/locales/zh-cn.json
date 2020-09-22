@@ -11,10 +11,18 @@
     "faq": "常见问题",
     "more": "更多",
     "downloads": "下载",
+    "tools": "工具",
     "apply listing": "上币申请",
     "github": "GitHub",
     "newton extension": "牛顿浏览器插件",
+<<<<<<< HEAD
     "learn": "了解更多"
+=======
+    "pools": "Pools",
+    "comingsoon": "即将上线",
+    "comingsoon2": "与 NewSwap v1.1 上线",
+    "invest warning": "本网站所展示的内容及排序均不作为任何投资建议，交易及投资前请自行审慎决策，并独立承担相应风险。"
+>>>>>>> 21a6a6439ce17f6720c962a2b1562e280b93353f
   },
 
   "menu":{
@@ -50,6 +58,7 @@
 
   "newton": {
     "base": "牛顿：社群经济基础设施",
+<<<<<<< HEAD
     "slogan": "每个人都应该从经济增长中收益"
   },
 
@@ -61,6 +70,11 @@
     "method": "挖矿方式：",
     "method-text1": "流动性提供者: 向指定的 NewSwap 流动性池中提供流动性，并换购0.1%的 NSP，把流动性代币和 NSP（999:1）打入挖矿合约挖 NST。",
     "method-text2": "NSP 持有者: 在治理合约中锁定NSP参与治理可挖NST。"
+=======
+    "slogan": "每个人都应该从经济增长中收益",
+    "brought": "由牛顿项目创建",
+    "visitweb": "访问项目网站"
+>>>>>>> 21a6a6439ce17f6720c962a2b1562e280b93353f
   }
 
 }

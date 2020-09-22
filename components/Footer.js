@@ -1,4 +1,5 @@
 import React from "react";
+import { Container, Row, Col } from "react-bootstrap";
 import footerBg from "../assets/img/footer-bg.png";
 import footerLogo from "../assets/img/logo.png";
 import { useTranslation, Trans, Translation } from 'react-i18next'
@@ -13,6 +14,11 @@ const Footer = () => {
       </div>
       <div className="footer-top pt-120 pb-110">
         <div className="container">
+        <Row className="justify-content-center">
+            <Col md={12} lg={12} xl={12}>
+            <div className="invest-warning">{t('global.invest warning')}</div>
+            </Col>
+          </Row>
           <div className="row">
             <div className="col-lg-3 col-sm-6">
               <div className="footer-widget">
@@ -54,7 +60,7 @@ const Footer = () => {
                         <a href="#">{t('global.faq')}</a>
                       </li>
                       <li>
-                        <a href="#">{t('global.downloads')}</a>
+                        <a href="#">{t('global.tools')}</a>
                       </li>
                     </ul>
                   </div>
@@ -94,7 +100,7 @@ const Footer = () => {
       </div>
       <div className="footer-bottom">
         <div className="footer-text text-center">
-          <p>© copyright 2020</p>
+          <p>© 2020 NewSwap</p>
         </div>
       </div>
     </footer>
