@@ -34,17 +34,17 @@ const NavLinks = () => {
         <ul className="dropdown-list">
           <li>
             <Link href="#">
-              <a>{t('menu tokens nusd')}</a>
+              <a>{t('menu.nusd')}</a>
             </Link>
           </li>
           <li>
             <Link href="#">
-              <a>{t('menu tokens nst')}</a>
+              <a>{t('menu.nst')}</a>
             </Link>
           </li>
           <li>
             <Link href="#">
-              <a>{t('menu tokens nsp')}</a>
+              <a>{t('menu.nsp')}</a>
             </Link>
           </li>
         </ul>

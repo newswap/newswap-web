@@ -15,9 +15,9 @@ const HomeBanner = () => {
           <Row className="justify-content-center">
             <Col md={12} lg={12} xl={12}>
               <div className="banner-text-inner text-left">
-                <h1 data-i18n="[html]content.body">{t('home s1 1')}</h1>
-                <h3>{t('home s1 3')}</h3>
-                <p>{t('home s1 2')}</p>
+                <h1 data-i18n="[html]content.body">{t('slogan.home s1 1')}</h1>
+                <h3>{t('slogan.home s1 3')}</h3>
+                <p>{t('slogan.home s1 2')}</p>
                 <p>
                   <a href="#" className="btn">{t('global.trade')}</a>
                   <a href="#" className="btn">{t('global.farm')}</a>
