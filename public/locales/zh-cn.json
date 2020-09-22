@@ -1,23 +1,52 @@
 {
   "global": {
     "exchange": "交易",
-    "trade": "交易",
     "download": "下载",
+    "trade": "交易",
     "farm": "挖矿",
     "tokens": "通证",
     "governance": "治理",
     "analytics": "统计",
     "about": "关于",
+    "faq": "常见问题",
     "more": "更多",
     "downloads": "下载",
     "apply listing": "上币申请",
+    "github": "GitHub",
     "newton extension": "牛顿浏览器插件"
   },
-  "HOME SECTIONS": "---",
-  "home s1 1": "牛顿公链上的去中心化交换协议",
-  "home s1 2": "NewSwap 在安全可靠的 NewChain 上运行，性能高、成本低，支持多种跨链资产以及牛顿生态项目通证的交易，拥有自动化做市商和基于双通证设计的流动性挖矿机制，所有的手续费都提供给流动性提供者，并且由社群共同治理。",
-  "home s1 3": "人人都可以发行、交易数字资产",
-  "HOME SECTIONS POWERED BY NEWTON": "---",
+
+  "menu":{
+    "nusd": "NUSD (美元稳定币)",
+    "nst": "NST (收益代币)",
+    "nsp": "NSP (治理代币)"
+  },
+
+  "slogan":{
+    "HOME SECTIONS": "---",
+    "home s1 1": "牛顿公链上的去中心化交换协议",
+    "home s1 2": "NewSwap 在安全可靠的 NewChain 上运行，性能高、成本低，支持多种跨链资产以及牛顿生态项目通证的交易，拥有自动化做市商和基于双通证设计的流动性挖矿机制，所有的手续费都提供给流动性提供者，并且由社群共同治理。",
+    "home s1 3": "人人都可以发行、交易数字资产",
+    "HOME SECTIONS POWERED BY NEWTON": "---"
+  },
+
+  "features":{
+    "feature1": "安全可靠",
+    "text1": "NewSwap 在安全可靠的牛顿公链 NewChain 上运行",
+    "feature2": "高效低成本",
+    "text2": "极快的交易手续费速度和低廉的手续费成本",
+    "feature3": "便捷易用",
+    "text3": "低门槛、用户友好的操作体验",
+    "feature4": "自动化",
+    "text4": "拥有自动化做市商，价格由系统决定",
+    "feature5": "多种资产",
+    "text5": "支持多种跨链资产以及牛顿生态项目通证的交易",
+    "feature6": "流动性挖矿",
+    "text6": "基于双通证设计的流动性挖矿机制",
+    "feature7": "社群治理",
+    "text7": "由社群共同参与投票治理"
+  },
+
   "newton": {
     "base": "牛顿：社群经济基础设施",
     "slogan": "每个人都应该从经济增长中收益"

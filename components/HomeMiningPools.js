@@ -27,7 +27,7 @@ const HomeMiningPools = () => {
               <div><img src={TokenNEW} alt="" /> <img src={TokenUSDT} alt="" /></div>
               <h4>NEW-NUSD</h4>
               <p className="apy">APY: -</p>
-              <a href="#" className="btn soon">计划于 NewSwap v1.1 开通</a>
+              <a href="#" className="btn soon">Coming with NewSwap v1.1</a>
             </div>
           </Col>
           <Col md={3} lg={3}>
