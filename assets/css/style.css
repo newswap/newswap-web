@@ -103,10 +103,12 @@ img {
   height: auto;
 }
 
-a {
+a, a:link {
   color: #20C5A0;
-  -webkit-transition: all 0.2s;
-  transition: all 0.2s;
+  position: relative;
+  top:0;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s  ease-in-out;
 }
 a:hover {
   color: #099475;
@@ -118,6 +120,10 @@ a:focus {
   text-decoration: none;
   outline: none;
 }
+
+a:hover, a:active {
+  top: -5px;
+} 
 
 h1,
 h2,
@@ -1005,12 +1011,13 @@ label input[type="radio"] {
   display: block;
 }
 .main-header.sticky {
-  background: #fff;
+  background: rgba(233, 250, 246, 0.7);
   position: fixed;
   width: 100%;
   -webkit-animation-duration: 0.5s;
   animation-duration: 0.5s;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
 }
 
 .menu-button {
@@ -2916,6 +2923,7 @@ h1 span {
   z-index: 999;
 }
 .back-to-top a {
+  top: unset;
   width: 50px;
   height: 50px;
   background: #fff;
@@ -3112,9 +3120,12 @@ h1 span {
   margin-bottom: 32px;
   padding: 16px;
   transition: all 0.3s ease-in-out;
+  position: relative;
+  top:0;
 }
 .pool-card:hover {
   box-shadow: 0 0 20px rgba(32, 197, 160, 1);
+  top: -5px;
 }
 .pool-card h4 {
   color: #20C5A0;
@@ -3132,6 +3143,9 @@ h1 span {
   background-color: #B1BAC1;
   border-radius: 16px;
   padding:6px;
+}
+.pool-card > .soon:hover {
+  top:unset;
 }
 .pool-card > .apy {
   font-size: small;
@@ -3307,7 +3321,7 @@ h1 span {
 }
 
 .mobile-nav__container li a:hover {
-  color: #2F80ED;
+  color: #20C5A0;
 }
 
 .mobile-nav__container li.current-menu-item > a,
@@ -3333,7 +3347,7 @@ h1 span {
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  background-color: #e4e4ee;
+  background-color: #20C5A0;
   font-size: 16px;
   color: #fff;
   position: relative;

@@ -411,11 +411,7 @@
         color: #FFFFFF;
     }
 
-    .main-header.sticky .header-menu ul ul li a,
-    .main-header .header-menu ul ul li a {
-        background: #36324a;
-        color: #979caf;
-    }
+
 
     .single-counter .counter {
         font-size: 40px;
