@@ -15,7 +15,7 @@
     "apply listing": "上币申请",
     "github": "GitHub",
     "newton extension": "牛顿浏览器插件",
-    "pools": "Pools",
+    "pools": "矿池",
     "comingsoon": "即将上线",
     "comingsoon2": "与 NewSwap v1.1 上线",
     "invest warning": "本网站所展示的内容及排序均不作为任何投资建议，交易及投资前请自行审慎决策，并独立承担相应风险。"
@@ -55,7 +55,7 @@
   "newton": {
     "base": "牛顿：社群经济基础设施",
     "slogan": "每个人都应该从经济增长中收益",
-    "brought": "由牛顿项目创建",
+    "brought": "NewSwap 由牛顿项目创建",
     "visitweb": "访问项目网站"
   }
 }

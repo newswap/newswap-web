@@ -184,6 +184,24 @@ body {
   overflow-x: hidden !important;
   font-weight: 400;
 }
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient( 90.7deg,  rgb(255, 254, 238) 1.9%, rgb(251, 235, 255) 39.3%, rgb(205, 239, 255) 64.7%, rgba(251,255,210,1) 100.8% );
+
+}
+.newtonboom a:hover {
+  -webkit-background-clip: text;
+  -webkit-background-clip: content-box;
+  -webkit-animation: hue 3s infinite linear;
+}
+
+.newtonboom {
+  -webkit-background-clip: content-box;
+  -webkit-animation: hue 3s infinite linear;
+}
+
 .theme-color {
   color: #2F80ED;
 }
@@ -789,6 +807,25 @@ label input[type="radio"] {
   animation: rotate3d 1s linear infinite;
 }
 
+
+@keyframes gradientbg1 {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+.gradientbg1 {
+  background: linear-gradient(-45deg, #ee7752, #e73c3c);
+  -background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradientbg1 15s ease infinite;
+}
+
 /*=============================================
     03: Header
 ==============================================*/
@@ -925,9 +962,7 @@ label input[type="radio"] {
   height: 100%;
   z-index: -1;
 }
-.header-menu ul ul ul li {
-  background: #fff;
-}
+
 .header-menu ul ul > li:hover > ul {
   opacity: 1;
 }
@@ -945,7 +980,6 @@ label input[type="radio"] {
   line-height: 1.25;
   position: relative;
   color: #081340;
-  background: #FFFFFF;;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
   font-weight: 500;
@@ -1011,7 +1045,7 @@ label input[type="radio"] {
   display: block;
 }
 .main-header.sticky {
-  background: rgba(233, 250, 246, 0.7);
+  background: rgba(255, 255, 255, 0.7);
   position: fixed;
   width: 100%;
   -webkit-animation-duration: 0.5s;
@@ -1132,7 +1166,7 @@ label input[type="radio"] {
 ==============================================*/
 /*4.1: main banner 01*/
 .banner-inner-area {
-  padding: 180px 0 0px;
+  padding: 160px 0 0px;
   position: relative;
   overflow: hidden;
 }
@@ -1177,18 +1211,37 @@ label input[type="radio"] {
 */
 
 .home-main-banner {
-  background: url(../img/bg-home-banner.jpg);
+  background-image: url(../img/bg-home-banner.jpg);
   background-size: cover;
+  mix-blend-mode: darken; 
 }
 
 .home-main-banner h3 {
   font-weight: 100;
-  text-transform: capitalize;
+  text-transform: uppercase;
   margin-bottom: 20px;
 }
 .home-main-banner p {
   font-weight: 300;
 }
+
+.home-main-banner h1 {
+	background-image: -webkit-linear-gradient(92deg, #5ed48f, #a426f3);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+  -webkit-animation: hue 3s infinite linear;
+}
+
+@-webkit-keyframes hue {
+  from {
+    -webkit-filter: hue-rotate(0deg);
+  }
+  to {
+    -webkit-filter: hue-rotate(-360deg);
+  }
+}
+
+
 
 .banner-area1 .banner-text-wrap span {
   color: #ffa21d;
@@ -1204,14 +1257,14 @@ label input[type="radio"] {
 }
 
 .banner-text-inner p {
-  margin-bottom: 43px;
+  margin-bottom: 20;
 }
 
 .banner-text-inner .btn {
   background: #20C5A0;
   border-color: #20C5A0;
   color: #fff;
-  margin-left: 10px;
+  margin: 5px;
 }
 .banner-text-inner .btn:hover {
   background: #36324a;
@@ -1225,7 +1278,6 @@ label input[type="radio"] {
   background: transparent;
   border-color: #20C5A0;
   color: #20C5A0;
-  margin-left: 10px;
 }
 
 .banner-text-inner .btn + .btn + .btn:hover {
@@ -2710,8 +2762,8 @@ footer.footer {
 }
 /*20.02: footer bottom*/
 .footer-bottom {
-  background: #fff;
-  padding: 33px 0 49px;
+  -background: #fff;
+  padding: 20px 0 20px;
   position: relative;
 }
 
@@ -2725,15 +2777,19 @@ footer.footer {
 .invest-warning { 
   line-height: 1.5em; 
   text-align: center;
-  font-weight: 300;
+  font-weight: 500;
   font-size: small;
-  background-color: #fff;
-  color: red;
-  padding:8px;
+  -background-color: #fff;
+  color: #fff;
+  padding:16px;
   position: relative;
-  top: -50px;
-  border-radius: 99px;
-  margin: auto 10%;
+  top: -30px;
+  border-radius: 16px;
+  background: linear-gradient(-45deg, #c20000, #ff6f00,#c20000);
+  -background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradientbg1 5s ease infinite;
+  
 }
 
 /*===========================================
@@ -3134,8 +3190,11 @@ h1 span {
 }
 
 /* 21.12: Pool Card */
+.pool-card-col {
+  width: 50%;
+}
 .pool-card {
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0);
   border-radius: 24px;
   margin-bottom: 24px;
   padding: 16px;
@@ -3143,11 +3202,19 @@ h1 span {
   transition: all 0.3s ease-in-out;
   position: relative;
   top:0;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.pool-card:hover .soon {
+  background-color: unset;
+  border: unset;
+  
 }
 .pool-card:hover {
-  box-shadow: 0 0 20px rgba(32, 197, 160, 1);
+  box-shadow: 0 0 20px rgba(32, 197, 160, 0.75);
   top: -5px;
+  cursor: pointer;
 }
+
 .pool-card h4 {
   color: #20C5A0;
   line-height: 2.5em;
@@ -3162,11 +3229,13 @@ h1 span {
   color: #6f6c7f;
   border-color: #d7dee4;
   background-color: #d7dee4;
-  border-radius: 6px; 
+  border-radius: 12px; 
   padding:6px;
 }
 .pool-card > .soon:hover {
   top:unset;
+  background-color: unset;
+  border: unset;
 }
 .pool-card > .apy {
   font-size: small;
@@ -3174,10 +3243,11 @@ h1 span {
   margin:0 0 10px;
 }
 .soon:before {
-  background: #d7dee4;
+  background: unset;
 }
 .pool-card img {
   width: 48px;
+  border-radius: 24px;;
 }
 
 /*--------------------------------------------------------------

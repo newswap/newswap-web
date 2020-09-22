@@ -9,10 +9,7 @@ const Footer = () => {
   let { t ,i18n} = useTranslation();
   return (
     <footer className="footer">
-      <div className="footerbg">
-        <img src={footerBg} className="svg" alt="" />
-      </div>
-      <div className="footer-top pt-120 pb-110">
+      <div className="footer-top pt-80">
         <div className="container">
         <Row className="justify-content-center">
             <Col md={12} lg={12} xl={12}>

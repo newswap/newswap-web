@@ -78,10 +78,6 @@
         margin-bottom: 55px;
     }
 
-    .banner-text-inner .btn+.btn {
-        margin-left: 10px;
-        margin-top: 0;
-    }
 
     .author-comment-carousel .owl-next {
         top: -36%;
@@ -543,6 +539,12 @@
     .banner-inner-area.banner-area1.banner2:before {
         display: none;
     }
+    .banner-inner-area h3 {
+        font-size: 28px;
+    }
+    .banner-inner-area p {
+        line-height: 1.5em;
+    }
     .footerbg {
         display: none;
     }
@@ -824,8 +826,9 @@
 @media (max-width: 575.98px) {
 
     .banner-inner-area {
-        padding: 150px 0 0px;
+        padding: 100px 0 0px;
     }
+
 
     .user-interact-image {
         width: 100%;
@@ -905,13 +908,12 @@
 
 /* 5. Extra Small devices (less than  480px) */
 @media (max-width: 479.98px) {
-    .banner-text-inner .btn+.btn {
-        margin-left: 0;
-        margin-top: 15px;
-    }
+
 
     .banner-text-inner .btn {
-        margin-right: 50px;
+        margin: 5px 10px;
+        padding: 8px 24px;
+        font-size: small;
     }
 
     .app-carousel .single-app-image img {
@@ -982,7 +984,10 @@
     }
 
     .banner-inner-area {
-        padding: 150px 0 96px;
+        padding: 80px 0 96px;
+    }
+    .banner-inner-area h3 {
+        font-size: 24px;
     }
 
     .author-comment-carousel .owl-next {

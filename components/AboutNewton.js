@@ -5,7 +5,7 @@ import { useTranslation, Trans, Translation } from 'react-i18next'
 const AboutNewton = () => {
   let { t ,i18n} = useTranslation();
   return (
-    <section className="border-top pt-110 pb-150">
+    <section className="pt-50 pb-50">
       <Container>
         <Row className="justify-content-center">
         <Col md={10} lg={10} xl={10}>

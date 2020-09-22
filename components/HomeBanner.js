@@ -6,7 +6,7 @@ import { useTranslation, Trans, Translation } from 'react-i18next'
 const HomeBanner = () => {
   let { t ,i18n} = useTranslation();
   return (
-    <div className="banner-area-inner  home-main-banner">
+    <div className="banner-area-inner  home-main-banner pb-80">
       <div className={`banner-inner-area`}>
         <Container>
           <Row className="justify-content-center">

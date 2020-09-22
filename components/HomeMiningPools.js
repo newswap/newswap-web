@@ -15,7 +15,7 @@ import { useTranslation, Trans, Translation } from 'react-i18next'
 const HomeMiningPools = () => {
   let { t ,i18n} = useTranslation();
   return (
-    <section className="pt-110 pb-150">
+    <section className="pt-80 pb-80">
       <Container>
         <Row className="justify-content-center">
           <Col md={12} lg={10}>
@@ -23,7 +23,7 @@ const HomeMiningPools = () => {
               <h2 className="h1">{t('global.pools')}</h2>
             </div>
           </Col>
-          <Col md={3} lg={3}>
+          <Col sm={3} md={3} lg={3} className="pool-card-col">
             <div className="text-center pool-card">
               <div><img src={TokenNEW} alt="" /> <img src={TokenUSDT} alt="" /></div>
               <h4>NEW-NUSD</h4>
@@ -31,7 +31,7 @@ const HomeMiningPools = () => {
               <a href="#" className="btn soon">{t('global.comingsoon2')}</a>
             </div>
           </Col>
-          <Col md={3} lg={3}>
+          <Col sm={3} md={3} lg={3} className="pool-card-col">
             <div className="text-center pool-card">
               <div><img src={TokenETH} alt="" /> <img src={TokenNEW} alt="" /></div>
               <h4>ETH-NEW</h4>
@@ -39,7 +39,7 @@ const HomeMiningPools = () => {
               <a href="#" className="btn soon">{t('global.comingsoon')}</a>
             </div>
           </Col>
-          <Col md={3} lg={3}>
+          <Col sm={3} md={3} lg={3} className="pool-card-col">
             <div className="text-center pool-card">
               <div><img src={TokenBTC} alt="" /> <img src={TokenNEW} alt="" /></div>
               <h4>BTC-NEW</h4>
@@ -47,7 +47,7 @@ const HomeMiningPools = () => {
               <a href="#" className="btn soon">{t('global.comingsoon')}</a>
             </div>
           </Col>
-          <Col md={3} lg={3}>
+          <Col sm={3} md={3} lg={3} className="pool-card-col">
             <div className="text-center pool-card">
               <div><img src={TokenHT} alt="" /> <img src={TokenNEW} alt="" /></div>
               <h4>HT-NEW</h4>
@@ -55,7 +55,7 @@ const HomeMiningPools = () => {
               <a href="#" className="btn soon">{t('global.comingsoon')}</a>
             </div>
           </Col>
-          <Col md={3} lg={3}>
+          <Col sm={3} md={3} lg={3} className="pool-card-col">
             <div className="text-center pool-card">
               <div><img src={TokenBNB} alt="" /> <img src={TokenNEW} alt="" /></div>
               <h4>BNB-NEW</h4>
@@ -63,7 +63,7 @@ const HomeMiningPools = () => {
               <a href="#" className="btn soon">{t('global.comingsoon')}</a>
             </div>
           </Col>
-          <Col md={3} lg={3}>
+          <Col sm={3} md={3} lg={3} className="pool-card-col">
             <div className="text-center pool-card">
               <div><img src={TokenOKB} alt="" /> <img src={TokenNEW} alt="" /></div>
               <h4>OKB-NEW</h4>
@@ -71,7 +71,7 @@ const HomeMiningPools = () => {
               <a href="#" className="btn soon">{t('global.comingsoon')}</a>
             </div>
           </Col>
-          <Col md={3} lg={3}>
+          <Col sm={3} md={3} lg={3} className="pool-card-col">
             <div className="text-center pool-card">
               <div><img src={TokenYFI} alt="" /> <img src={TokenNEW} alt="" /></div>
               <h4>YFI-NEW</h4>
@@ -79,7 +79,7 @@ const HomeMiningPools = () => {
               <a href="#" className="btn soon">{t('global.comingsoon')}</a>
             </div>
           </Col>
-          <Col md={3} lg={3}>
+          <Col sm={3} md={3} lg={3} className="pool-card-col">
             <div className="text-center pool-card">
               <div><img src={TokenUNI} alt="" /> <img src={TokenNEW} alt="" /></div>
               <h4>UNI-NEW</h4>
