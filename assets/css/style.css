@@ -1139,7 +1139,6 @@ label input[type="radio"] {
 .banner-area1 .banner-text-wrap h1 {
   font-weight: 600;
   line-height: 80px;
-  margin-bottom: 20px;
 }
 .banner-inner-area.banner-area1:before {
   background: url(../img/banner/main-base.png);
@@ -1182,6 +1181,15 @@ label input[type="radio"] {
   background-size: cover;
 }
 
+.home-main-banner h3 {
+  font-weight: 100;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+.home-main-banner p {
+  font-weight: 300;
+}
+
 .banner-area1 .banner-text-wrap span {
   color: #ffa21d;
   font-size: 30px;
@@ -1193,7 +1201,6 @@ label input[type="radio"] {
 }
 .banner-text-inner h1 {
   color: #36324a;
-  margin-bottom: 33px;
 }
 
 .banner-text-inner p {
