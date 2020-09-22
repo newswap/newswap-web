@@ -15,10 +15,14 @@
     "apply listing": "Apply Listing",
     "github": "GitHub",
     "newton extension": "Newton Extension",
+<<<<<<< HEAD
+    "learn": "Learn More"
+=======
     "pools": "Pools",
     "comingsoon": "Coming Soon",
     "comingsoon2": "Coming with NewSwap v1.1",
     "invest warning": "Contents on this website is not intended as investment advice. Please make your own prudent decisions and independently assume the corresponding risks before trading or investing."
+>>>>>>> 21a6a6439ce17f6720c962a2b1562e280b93353f
   },
 
   "menu":{
@@ -54,8 +58,23 @@
 
   "newton": {
     "base": "Newton: Infrastructure for the Community Economy",
+<<<<<<< HEAD
+    "slogan": "Everyone Should Benefit from Economic Growth"
+  },
+
+  "mining": {
+    "start": "Initial Amount: ",
+    "start-text": "0",
+    "model": "Distribution Model: ",
+    "model-text": "Sustainable",
+    "method": "Mining: ",
+    "method-text1": "Liquidity providers: provide liquidity on specified pools to mine NST by staking LP tokens and NSP (999:1).",
+    "method-text2": "NSP holders: stake NSP in governance contract to mine NST."
+=======
     "slogan": "Everyone Should Benefit from Economic Growth",
     "brought": "NewSwap is brought to you by Newton Project",
     "visitweb": "Visit Website"
+>>>>>>> 21a6a6439ce17f6720c962a2b1562e280b93353f
   }
+
 }
