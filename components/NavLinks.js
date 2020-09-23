@@ -15,7 +15,7 @@ const NavLinks = () => {
   return (
     <ul className="main-nav__navigation-box">
       <li>
-        <Link href="#">
+        <Link href="https://app.newswap.org/">
           <a>{t('global.exchange')}</a>
         </Link>
       </li>
@@ -33,29 +33,29 @@ const NavLinks = () => {
         </Link>
         <ul className="dropdown-list">
           <li>
-            <Link href="#">
+            <Link href="/#">
               <a>{t('menu.nusd')}</a>
             </Link>
           </li>
           <li>
-            <Link href="#">
+            <Link href="/#">
               <a>{t('menu.nst')}</a>
             </Link>
           </li>
           <li>
-            <Link href="#">
+            <Link href="/#">
               <a>{t('menu.nsp')}</a>
             </Link>
           </li>
         </ul>
       </li>
       <li>
-        <Link href="#">
+        <Link href="/#">
           <a>{t('global.governance')}</a>
         </Link>
       </li>
       <li>
-        <Link href="#">
+        <Link href="https://info.newswap.org/">
           <a>{t('global.analytics')}</a>
         </Link>
       </li>
@@ -68,22 +68,22 @@ const NavLinks = () => {
         </Link>
         <ul className="dropdown-list">
           <li>
-            <Link href="#">
+            <Link href="/#">
               <a>{t('global.faq')}</a>
             </Link>
           </li>
           <li>
-            <Link href="#">
+            <Link href="/#">
               <a>{t('global.tools')}</a>
             </Link>
           </li>
           <li>
-            <Link href="#">
+            <Link href="/#">
               <a>{t('global.apply listing')}</a>
             </Link>
           </li>
           <li>
-            <Link href="#">
+            <Link href="http://github.com/newswap/">
               <a>{t('global.github')}</a>
             </Link>
           </li>

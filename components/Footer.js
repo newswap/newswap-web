@@ -1,6 +1,5 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import footerBg from "../assets/img/footer-bg.png";
 import footerLogo from "../assets/img/logo.svg";
 import { useTranslation, Trans, Translation } from 'react-i18next'
 
@@ -20,7 +19,7 @@ const Footer = () => {
             <div className="col-lg-3 col-sm-6">
               <div className="footer-widget">
                 <div className="footer-logo">
-                  <a href="index.html">
+                  <a href="/">
                     <img src={footerLogo} alt="" />
                   </a>
                 </div>
@@ -55,10 +54,10 @@ const Footer = () => {
                   <div className="link-left">
                     <ul>
                       <li>
-                        <a href="#">{t('global.faq')}</a>
+                        <a href="/#">{t('global.faq')}</a>
                       </li>
                       <li>
-                        <a href="#">{t('global.tools')}</a>
+                        <a href="/#">{t('global.tools')}</a>
                       </li>
                     </ul>
                   </div>

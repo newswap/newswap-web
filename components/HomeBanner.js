@@ -16,7 +16,7 @@ const HomeBanner = () => {
                 <h3>{t('slogan.home s1 3')}</h3>
                 <p>{t('slogan.home s1 2')}</p>
                 <p>
-                  <a href="#" className="btn">{t('global.trade')}</a>
+                  <a href="https://app.newswap.org/" className="btn">{t('global.trade')}</a>
                   <a href="#" className="btn">{t('global.gofarm')}</a>
                 </p>
                 <p>
