@@ -93,6 +93,15 @@
 
 /* 2. Large tablets (less than  992px) */
 @media (max-width: 991.98px) {
+    .home-main-banner h1 {
+        margin: 15px 0;
+      }
+      
+      
+      .home-main-banner h3 {
+        margin: 15px 0;
+      }
+
     section#pricing {
         padding-bottom: 0;
     }
