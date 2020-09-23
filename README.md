@@ -22,3 +22,11 @@ yarn dev
 ### Run
 
 `yarn start` or `npm run start`
+
+### Export Static HTML for webserver
+
+```bash
+yarn export
+```
+
+This will create a build and export it's static HTML files to **html** folder

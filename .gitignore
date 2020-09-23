@@ -15,6 +15,9 @@
 # production
 /build
 
+# export
+/html
+
 # misc
 .DS_Store
 
