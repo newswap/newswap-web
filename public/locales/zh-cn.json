@@ -32,7 +32,8 @@
   "slogan": {
     "home s1 1": "牛顿公链上的去中心化交换协议",
     "home s1 2": "NewSwap 在安全可靠的 NewChain 上运行，性能高、成本低，支持多种跨链资产以及牛顿生态项目通证的交易，拥有自动化做市商和基于双通证设计的流动性挖矿机制，所有的手续费都提供给流动性提供者，并且由社群共同治理。",
-    "home s1 3": "人人都可以发行、交易数字资产"
+    "home s1 3": "人人都可以发行、交易数字资产",
+    "HOME SECTIONS POWERED BY NEWTON": "---"
   },
 
   "features":{
@@ -48,15 +49,13 @@
     "text5": "支持多种跨链资产以及牛顿生态项目通证的交易",
     "feature6": "流动性挖矿",
     "text6": "基于双通证设计的流动性挖矿机制",
-    "feature7": "社群治理",
+    "feature7": "社群同治理",
     "text7": "由社群共同参与投票治理"
   },
-
   "newton": {
     "base": "牛顿：社群经济基础设施",
-    "slogan": "每个人都应该从经济增长中收益",
-    "brought": "NewSwap 由牛顿项目创建",
-    "powered": "Powered by NewChain",
+    "slogan": "每一个人都应该从经济增长中收益",
+    "brought": "由 牛顿项目 提供技术支持",
     "visitweb": "访问项目网站"
   },
 
@@ -67,7 +66,7 @@
   },
 
   "mining": {
-    "title": "流通性挖矿",
+    "title": "流动性挖矿",
     "token-type": "收益代币",
     "token-name": "NST (NewSwap Token)",
     "init": "初始总量：",
