@@ -30,7 +30,7 @@ const MobileMenu = () => {
         <div className="side-menu__sep"></div>
         <div className="side-menu__content">
           <div className="side-menu__social">
-            <a href="https://twitter.com/newton_project">
+            <a href="https://twitter.com/NewSwapOfficial">
               <i className="fa fa-twitter"></i>
             </a>
             <a href="https://github.com/newswap">
