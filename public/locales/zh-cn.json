@@ -49,14 +49,13 @@
     "text5": "支持多种跨链资产以及牛顿生态项目通证的交易",
     "feature6": "流动性挖矿",
     "text6": "基于双通证设计的流动性挖矿机制",
-    "feature7": "社群治理",
+    "feature7": "社群同治理",
     "text7": "由社群共同参与投票治理"
   },
   "newton": {
     "base": "牛顿：社群经济基础设施",
     "slogan": "每个人都应该从经济增长中收益",
-    "brought": "NewSwap 由牛顿项目创建",
-    "powered": "Powered by NewChain",
+    "brought": "由牛顿项目提供技术支持",
     "visitweb": "访问项目网站"
   },
 
