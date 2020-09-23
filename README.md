@@ -21,6 +21,7 @@ yarn
 ```bash
 yarn dev
 ```
+*Default* is **Dev**
 
 - `yarn dev:testnet`
 
@@ -31,13 +32,13 @@ yarn dev
 ```bash
 yarn build
 ```
-*Default* build is *TestNet*
+*Default* build is **TestNet**
 
-- `yarn dev:dev`
+- `yarn build:dev`
 
-- `yarn dev:testnet`
+- `yarn build:testnet`
 
-- `yarn dev:production`
+- `yarn build:production`
 
 ### Run Build
 
@@ -55,7 +56,7 @@ Create a build and export it's static HTML files to **html** folder
 yarn export
 ```
 
-*Default* export is *TestNet*
+*Default* export is **TestNet**
 
 - `yarn export:dev`
 
