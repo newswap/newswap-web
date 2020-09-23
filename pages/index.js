@@ -2,12 +2,13 @@ import React from "react";
 import Layout from "../components/Layout";
 import Header from "../components/Header";
 import MobileMenu from "../components/MobileMenu";
+
 import HomeBanner from "../components/HomeBanner";
-import Features from "../components/Features";
-import Footer from "../components/Footer";
 import HomeSections from "../components/HomeSections";
 import HomeMiningPools from "../components/HomeMiningPools";
 import AboutNewton from "../components/AboutNewton";
+
+import Footer from "../components/Footer";
 import { useTranslation, Trans, Translation } from 'react-i18next'
 
 

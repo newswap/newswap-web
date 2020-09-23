@@ -1,3 +1,4 @@
+// currently not in use
 import React from "react";
 
 const FeatureCard = (props) => {

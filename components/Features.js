@@ -1,3 +1,4 @@
+// currently not in use
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import SwiperCore, { Pagination, Autoplay } from "swiper";

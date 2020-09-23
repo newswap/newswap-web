@@ -2,8 +2,9 @@
   "global": {
     "exchange": "交易",
     "download": "下载",
-    "trade": "交易",
+    "trade": "开始交易",
     "farm": "挖矿",
+    "gofarm": "查看挖矿",
     "tokens": "通证",
     "governance": "治理",
     "analytics": "统计",
@@ -27,21 +28,16 @@
     "nst": "NST (收益代币)",
     "nsp": "NSP (治理代币)"
   },
+
   "slogan": {
-    "HOME SECTIONS": "---",
     "home s1 1": "牛顿公链上的去中心化交换协议",
     "home s1 2": "NewSwap 在安全可靠的 NewChain 上运行，性能高、成本低，支持多种跨链资产以及牛顿生态项目通证的交易，拥有自动化做市商和基于双通证设计的流动性挖矿机制，所有的手续费都提供给流动性提供者，并且由社群共同治理。",
     "home s1 3": "人人都可以发行、交易数字资产",
     "HOME SECTIONS POWERED BY NEWTON": "---"
   },
-<<<<<<< HEAD
-  "features": {
-    "feature1": "安全可靠",
-=======
 
   "features":{
     "feature1": "安全更可靠",
->>>>>>> e24ab22fe31218ac4ba66c5543f8778c2e3f0db0
     "text1": "NewSwap 在安全可靠的牛顿公链 NewChain 上运行",
     "feature2": "高效低成本",
     "text2": "极快的交易手续费速度和低廉的手续费成本",
@@ -63,22 +59,32 @@
     "powered": "Powered by NewChain",
     "visitweb": "访问项目网站"
   },
+
+  "business": {
+    "title": "经济模型",
+    "text1": "NewSwap 中的通证价格由系统定价，在 NewSwap 中发生的所有交易将收取 0.3% 的交易手续费，所有的手续费都提供给协议的流动性提供者，交易平台不收取任何手续费。",
+    "text2": "其中，交易中的 0.25% 将直接分配给流动性提供者，0.05% 将进入流动性收益池，以流动性通证的形式支撑收益代币NewSwap Token(NST) 的价值。"
+  },
+
   "mining": {
+    "title": "流通性挖矿",
     "token-type": "收益代币",
     "token-name": "NST (NewSwap Token)",
-    "start": "初始总量：",
-    "start-text": "0",
+    "init": "初始总量：",
+    "init-text": "0",
     "model": "发行模型：",
     "model-text": "永续发行",
     "method": "挖矿方式：",
     "method-text1": "流动性提供者: 向指定的 NewSwap 流动性池中提供流动性，并换购0.1%的 NSP，把流动性代币和 NSP（999:1）打入挖矿合约挖 NST。",
     "method-text2": "NSP 持有者: 在治理合约中锁定NSP参与治理可挖NST。"
   },
+
   "governance": {
+    "title": "社群治理",
     "token-type": "治理代币",
     "token-name": "NSP (NewSwap Power)",
-    "start": "发行总量：",
-    "start-text": "100万",
+    "total": "发行总量：",
+    "total-text": "100万",
     "model": "发行模型：",
     "model-text-1": "50% 来自募资",
     "model-text-2": "50% 形成 NSP-NUSD 流动资金池",
