@@ -39,9 +39,9 @@ We may release future updates so it will overwrite this file. it's better and sa
 13: our partner
 14: our quality feature
     14:01 quality type2
-15: our blog area
-16: Bloge details page
-    16:01 blog details
+15: our post area
+16: poste details page
+    16:01 post details
 17: map area
 18: Conatct page
     18:01 conatct info
@@ -1139,13 +1139,13 @@ label input[type="radio"] {
 .sticky .main-menu-wrap .btn:hover {
   border-color: #36324a;
 }
-.main-header.blog-header .header-menu > ul > li:hover > a,
-.main-header.blog-header .header-menu > ul > li.active > a {
+.main-header.post-header .header-menu > ul > li:hover > a,
+.main-header.post-header .header-menu > ul > li.active > a {
   color: #fff;
   font-weight: 400;
 }
-.sticky.main-header.blog-header .header-menu > ul > li:hover > a,
-.sticky.main-header.blog-header .header-menu > ul > li.active > a {
+.sticky.main-header.post-header .header-menu > ul > li:hover > a,
+.sticky.main-header.post-header .header-menu > ul > li.active > a {
   color: #081340;
   font-weight: 400;
 }
@@ -2042,10 +2042,10 @@ section.app-video:before {
   margin-bottom: 0;
 }
 /* =====================================================
-        Our Blog
+        Our post
 ===================================================== */
 
-.single-blog-inner .post-date p {
+.single-post-inner .post-date p {
   margin-bottom: 0;
   line-height: 25px;
   text-align: center;
@@ -2055,13 +2055,13 @@ section.app-video:before {
   font-weight: 600;
 }
 
-.single-blog-inner .post-image {
+.single-post-inner .post-image {
   position: relative;
   overflow: hidden;
   border-radius: 10px;
 }
 
-.single-blog-inner .post-date {
+.single-post-inner .post-date {
   position: absolute;
   top: 10px;
   height: 65px;
@@ -2072,66 +2072,69 @@ section.app-video:before {
   text-align: center;
   line-height: 65px;
 }
-.single-blog-inner .post-title h3 {
+.single-post-inner .post-title h3 {
   margin-top: -7px;
   margin-bottom: 30px;
   font-weight: 600;
   font-size: 25px;
   line-height: 36px;
 }
-.single-blog-inner .post-title h3 a {
+.single-post-inner .post-title h3 a {
   -webkit-transition: 0.3s all linear;
   transition: 0.3s all linear;
   color: #36324a;
 }
-.single-blog-inner .post-title h3:hover a {
+.single-post-inner .post-title h3:hover a {
   color: #20C5A0;
 }
 
-.single-blog-inner {
+.single-post-inner {
+  margin-top:-30px;
   margin-bottom: 30px;
   background: #fff;
+  padding: 32px;
+  border-radius: 24px;
 }
 
-.single-blog-inner .post-details p {
+.single-post-inner .post-details p {
   font-size: 16px;
   line-height: 30px;
   margin-bottom: 16px;
   color: #6f6c7f;
 }
-.single-blog-inner .post-details a {
+.single-post-inner .post-details a {
   -webkit-transition: 0.3s all linear;
   transition: 0.3s all linear;
 }
 
-.single-blog-inner .post-details a:hover {
+.single-post-inner .post-details a:hover {
   color: #20C5A0;
 }
 .post-details {
-  padding: 47px 0 0 0;
+  padding: 20px 0 0 0;
 }
-.single-blog-inner:hover .post-image {
+.single-post-inner:hover .post-image {
   box-shadow: 0 13px 30px rgba(0, 0, 0, 0.2);
 }
 .post-image {
   -webkit-transition: 0.3s all linear;
   transition: 0.3s all linear;
 }
-.single-blog-inner .post-info {
+.single-post-inner .post-info {
   margin-bottom: 14px;
 }
 
-.single-blog-inner .post-info a {
+.single-post-inner .post-info a {
   color: #20C5A0;
   font-weight: 500;
   font-size: 14px;
   line-height: 1;
   position: relative;
 }
-.single-blog-inner .post-info a + a {
+.single-post-inner .post-info a + a {
   margin-left: 30px;
 }
-.single-blog-inner .post-info a + a:before {
+.single-post-inner .post-info a + a:before {
   content: "";
   position: absolute;
   height: 2px;
@@ -2140,15 +2143,15 @@ section.app-video:before {
   left: -15px;
   bottom: 2px;
 }
-.single-blog-inner .post-image img {
+.single-post-inner .post-image img {
   width: 100%;
 }
-.single-blog-inner .post-details .blog-btn:hover,
-.single-blog-inner .post-details .blog-btn {
+.single-post-inner .post-details .post-btn:hover,
+.single-post-inner .post-details .post-btn {
   color: #2F80ED;
   position: relative;
 }
-.single-blog-inner .post-details .blog-btn {
+.single-post-inner .post-details .post-btn {
   font-size: 14px;
   font-weight: 500;
 }
@@ -2156,7 +2159,7 @@ section.app-video:before {
   display: block;
   line-height: 1;
 }
-.single-blog-inner .post-details .blog-btn:after {
+.single-post-inner .post-details .post-btn:after {
   content: "";
   height: 1px;
   width: 100%;
@@ -2169,42 +2172,42 @@ section.app-video:before {
   visibility: hidden;
   opacity: 0;
 }
-.single-blog-inner .post-details .blog-btn:hover:after {
+.single-post-inner .post-details .post-btn:hover:after {
   visibility: visible;
   opacity: 1;
 }
 /* ==============================================
-        blog page
+        post page
 ==============================================*/
-.blog-list-inner .post-details {
+.post-list-inner .post-details {
   padding: 39px 0 0 0;
 }
-.blog-list-inner .single-blog-inner .post-details p {
+.post-list-inner .single-post-inner .post-details p {
   margin-bottom: 34px;
 }
-.blog-list-inner .single-blog-inner {
+.post-list-inner .single-post-inner {
   margin-bottom: 50px;
 }
 
-.blog-list-inner .single-blog-inner:hover .post-image {
+.post-list-inner .single-post-inner:hover .post-image {
   box-shadow: none;
 }
-.blog-list-inner .single-blog-inner:hover .post-details .btn {
+.post-list-inner .single-post-inner:hover .post-details .btn {
   color: #fff;
   background-color: #2F80ED;
 }
-.blog-list-inner .single-blog-inner:hover .post-details .btn:before {
+.post-list-inner .single-post-inner:hover .post-details .btn:before {
   background-color: #2F80ED;
   opacity: 1;
   visibility: visible;
   -webkit-transform: scale(20);
   transform: scale(20);
 }
-.blog-list-inner .single-blog-inner .post-details .btn:hover {
+.post-list-inner .single-post-inner .post-details .btn:hover {
   border-color: #2F80ED;
 }
 
-/* blog */
+/* post */
 .theme-pagination li a {
   height: 45px;
   width: 45px;
@@ -2400,17 +2403,17 @@ section.app-video:before {
   background: #2F80ED;
 }
 /*===========================================
-    16: Bloge details page
+    16: poste details page
 ===========================================*/
-/*16:01 blog details*/
-.blog-details-image {
+/*16:01 post details*/
+.post-details-image {
   position: relative;
 }
-.blog-details-image .post-image {
+.post-details-image .post-image {
   position: relative;
 }
 
-.blog-details-image .post-date {
+.post-details-image .post-date {
   position: absolute;
   top: 10px;
   height: 65px;
@@ -2421,7 +2424,7 @@ section.app-video:before {
   text-align: center;
   line-height: 65px;
 }
-.blog-details-image .post-date p {
+.post-details-image .post-date p {
   margin-bottom: 0;
   line-height: 25px;
   text-align: center;
@@ -2430,21 +2433,21 @@ section.app-video:before {
   color: #081340;
   font-weight: 600;
 }
-.blog-details-image .post-date p span {
+.post-details-image .post-date p span {
   display: block;
   line-height: 1;
 }
 
-.blog-details-image .post-title h3 {
+.post-details-image .post-title h3 {
   margin-top: -7px;
   margin-bottom: 30px;
   font-weight: 600;
 }
-.blog-details-head {
+.post-details-head {
   margin-top: 20px;
 }
 
-.blog-details-head h2 {
+.post-details-head h2 {
   font-size: 40px;
   font-weight: 600;
   margin-bottom: 0;
@@ -2460,11 +2463,11 @@ section.app-video:before {
   margin-left: 20px;
 }
 
-.blog-details-wrap .post-info {
+.post-details-wrap .post-info {
   margin-bottom: 26px;
 }
 
-.blog-details-body p {
+.post-details-body p {
   font-size: 16px;
   line-height: 30px;
   color: #70768e;

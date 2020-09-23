@@ -62,7 +62,7 @@
         margin-bottom: 24px;
     }
 
-    .single-blog-inner .post-title h3 {
+    .single-post-inner .post-title h3 {
         font-size: 20px;
         line-height: 32px;
     }
@@ -646,12 +646,12 @@
         width: 100%;
     }
 
-    .single-blog-inner .post-title h3 {
+    .single-post-inner .post-title h3 {
         font-size: 14px;
         line-height: 28px;
     }
 
-    .single-blog-inner .post-details p {
+    .single-post-inner .post-details p {
         font-size: 13px;
         line-height: 30px;
         margin-bottom: 16px;
@@ -776,11 +776,11 @@
         right: auto;
     }
 
-    .header-menu.blog-menu i {
+    .header-menu.post-menu i {
         color: #fff;
     }
 
-    .main-header.sticky .blog-menu.header-menu i {
+    .main-header.sticky .post-menu.header-menu i {
         color: #20C5A0;
     }
 
