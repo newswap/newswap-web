@@ -58,10 +58,11 @@
     "powered": "Powered by NewChain",
     "visitweb": "Visit Website"
   },
+
   "mining": {
     "token-type": "Reward Token",
     "token-name": "NST (NewSwap Token)",
-    "start": "Initial Amount: ",
+    "init": "Initial Amount: ",
     "start-text": "0",
     "model": "Distribution Model: ",
     "model-text": "Sustainable",
@@ -69,6 +70,7 @@
     "method-text1": "Liquidity providers: provide liquidity on specified pools to mine NST by staking LP tokens and NSP (999:1).",
     "method-text2": "NSP holders: stake NSP in governance contract to mine NST."
   },
+  
   "governance": {
     "token-type": "Governance Token",
     "token-name": "NSP (NewSwap Power)",

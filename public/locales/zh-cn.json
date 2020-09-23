@@ -27,6 +27,7 @@
     "nst": "NST (收益代币)",
     "nsp": "NSP (治理代币)"
   },
+
   "slogan": {
     "home s1 1": "牛顿公链上的去中心化交换协议",
     "home s1 2": "NewSwap 在安全可靠的 NewChain 上运行，性能高、成本低，支持多种跨链资产以及牛顿生态项目通证的交易，拥有自动化做市商和基于双通证设计的流动性挖矿机制，所有的手续费都提供给流动性提供者，并且由社群共同治理。",
@@ -49,6 +50,7 @@
     "feature7": "社群治理",
     "text7": "由社群共同参与投票治理"
   },
+
   "newton": {
     "base": "牛顿：社群经济基础设施",
     "slogan": "每个人都应该从经济增长中收益",
@@ -56,10 +58,11 @@
     "powered": "Powered by NewChain",
     "visitweb": "访问项目网站"
   },
+
   "mining": {
     "token-type": "收益代币",
     "token-name": "NST (NewSwap Token)",
-    "start": "初始总量：",
+    "init": "初始总量：",
     "start-text": "0",
     "model": "发行模型：",
     "model-text": "永续发行",
@@ -67,6 +70,7 @@
     "method-text1": "流动性提供者: 向指定的 NewSwap 流动性池中提供流动性，并换购0.1%的 NSP，把流动性代币和 NSP（999:1）打入挖矿合约挖 NST。",
     "method-text2": "NSP 持有者: 在治理合约中锁定NSP参与治理可挖NST。"
   },
+  
   "governance": {
     "token-type": "治理代币",
     "token-name": "NSP (NewSwap Power)",
