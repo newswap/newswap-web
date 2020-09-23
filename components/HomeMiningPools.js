@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import TokenBTC from "../assets/img/tokens/btc.png";
 import TokenETH from "../assets/img/tokens/eth.png";
 import TokenNEW from "../assets/img/tokens/new.png";
-import TokenUSDT from "../assets/img/tokens/usdt.png";
+import TokenNUSD from "../assets/img/tokens/nusd.png";
 import TokenHT from "../assets/img/tokens/ht.png";
 import TokenBNB from "../assets/img/tokens/bnb.png";
 import TokenOKB from "../assets/img/tokens/okb.png";
@@ -25,7 +25,7 @@ const HomeMiningPools = () => {
           </Col>
           <Col sm={3} md={3} lg={3} className="pool-card-col">
             <div className="text-center pool-card">
-              <div><img src={TokenNEW} alt="" /> <img src={TokenUSDT} alt="" /></div>
+              <div><img src={TokenNEW} alt="" /> <img src={TokenNUSD} alt="" /></div>
               <h4>NEW-NUSD</h4>
               <p className="apy">APY: -</p>
               <a href="#" className="btn soon">{t('global.comingsoon2')}</a>

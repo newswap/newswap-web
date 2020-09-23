@@ -19,7 +19,6 @@ const HomePage = () => {
       <Header />
       <MobileMenu />
       <HomeBanner />
-      <Features />
       <HomeSections />
       <HomeMiningPools />
       <AboutNewton />

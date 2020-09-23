@@ -723,7 +723,7 @@
     }
 
     .banner-text-inner {
-        padding-bottom: 80px;
+        -padding-bottom: 80px;
     }
 
     .app-carousel .owl-stage-outer {
@@ -813,8 +813,8 @@
     }
      h2,
     .h2 {
-        font-size: 20px !important;
-        line-height: 36px !important;
+        -font-size: 20px !important;
+        -line-height: 36px !important;
     }
     body,
     p {
@@ -908,8 +908,6 @@
 
 /* 5. Extra Small devices (less than  480px) */
 @media (max-width: 479.98px) {
-
-
     .banner-text-inner .btn {
         margin: 5px 10px;
         padding: 8px 24px;
@@ -984,7 +982,7 @@
     }
 
     .banner-inner-area {
-        padding: 80px 0 96px;
+        padding: 100px 0 96px;
     }
     .banner-inner-area h3 {
         font-size: 24px;

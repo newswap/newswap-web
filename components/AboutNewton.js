@@ -11,12 +11,14 @@ const AboutNewton = () => {
         <Col md={10} lg={10} xl={10}>
             <div className="text-center">
               <p>{t('newton.brought')}</p>
-              <h2 className="h1">
+              <h3 className="h1">
                 {t('newton.base')}
-              </h2>
-              <h3>
-                {t('newton.slogan')}
               </h3>
+              <h4 style={{
+                marginBottom: 25,
+              }}>
+                {t('newton.slogan')}
+              </h4>
               <a href="https://newtonproject.org" target="_blank" className="btn">{t('newton.visitweb')}</a>
 
             </div>
