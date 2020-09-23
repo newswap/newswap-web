@@ -25,48 +25,38 @@ const HomeSections = () => {
           </Row>
         </Container>
       </section>
-      <section className="pt-120 pb-120">
+      <section className="pt-30 pb-30">
         <Container>
           <Row>
-            <Col lg={7} sm={7}>
-              <div className="user-interact-image">
-                <img src={img1} alt="" />
-              </div>
-            </Col>
-            <Col lg={5} sm={5}>
+            <Col lg={6} sm={6}>
               <div className="user-interact-inner">
-                <h2>流动性挖矿</h2>
+                <h2>{t('mining.title')}</h2>
                 <ul>
-                  <li>初始总量：0</li>
-                  <li>发行模型：永续发行</li>
-                  <li>挖矿方法：</li>
-                  <li>流动性提供者: 向指定的 NewSwap 流动性池中提供流动性，并换购0.1%的 NSP，把流动性代币和 NSP（999:1）打入挖矿合约挖 NST。</li>
-                  <li>NSP 持有者: 在治理合约中锁定NSP参与治理可挖NST。</li>
+                  <li>{t('mining.token-type')}</li>
+                  <li>{t('mining.token-name')}</li>
+                  <li>{t('mining.init')}{t('mining.start-text')}</li>
+                  <li>{t('mining.model')}{t('mining.model-text')}</li>
+                  <li>{t('mining.method')}</li>
+                  <li>{t('mining.method-text1')}</li>
+                  <li>{t('mining.method-text2')}</li>
                 </ul>
                 <a href="#">{t('global.learn')}</a>
               </div>
             </Col>
-          </Row>
-        </Container>
-      </section>
-      <section className="pt-120 pb-120">
-        <Container>
-          <Row>
-            <Col lg={5} sm={5}>
+            <Col lg={6} sm={6}>
               <div className="user-interact-inner">
-                <h2>社群治理</h2>
-                <p><strong>治理代币 NSP (NewSwap Power) - NewSwap 的“股份”</strong></p>
+                <h2>{t('governance.title')}</h2>
                 <ul>
-                  <li>发行总量：100万</li>
-                  <li>发行总量：100万</li><li>发行模型：- 50% = 募资 - 50% = 形成 NSP/NewUSD 流动池</li>
-                  <li>锁仓NSP可以参与投票治理。（Coming Soon）</li>
+                  <li>{t('governance.token-type')}</li>
+                  <li>{t('governance.token-name')}</li>
+                  <li>{t('governance.total')}{t('governance.total-text')}</li>
+                  <li>{t('governance.model')}</li>
+                  <li>{t('governance.model-text-1')}</li>
+                  <li>{t('governance.model-text-2')}</li>
+                  <li>{t('governance.method')}</li>
+                  <li>{t('governance.method-text')}</li>
                 </ul>
                 <a href="#">{t('global.learn')}</a>
-              </div>
-            </Col>
-            <Col lg={7} sm={7}>
-              <div className="user-interact-image type2">
-                <img src={img1} alt="" />
               </div>
             </Col>
           </Row>

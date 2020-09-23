@@ -60,22 +60,24 @@
   },
 
   "mining": {
+    "title": "Liquidity Mining",
     "token-type": "Reward Token",
     "token-name": "NST (NewSwap Token)",
     "init": "Initial Amount: ",
-    "start-text": "0",
+    "init-text": "0",
     "model": "Distribution Model: ",
     "model-text": "Sustainable",
     "method": "How to mine: ",
     "method-text1": "Liquidity providers: provide liquidity on specified pools to mine NST by staking LP tokens and NSP (999:1).",
     "method-text2": "NSP holders: stake NSP in governance contract to mine NST."
   },
-  
+
   "governance": {
+    "title": "Community Goverance",
     "token-type": "Governance Token",
     "token-name": "NSP (NewSwap Power)",
-    "start": "Total Amount: ",
-    "start-text": "1,000,000",
+    "total": "Total Amount: ",
+    "total-text": "1,000,000",
     "model": "Distribution Model: ",
     "model-text-1": "50% from Fundrasing",
     "model-text-2": "50% into NSP-NUSD Pool",

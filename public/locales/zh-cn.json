@@ -60,22 +60,24 @@
   },
 
   "mining": {
+    "title": "流通性挖矿",
     "token-type": "收益代币",
     "token-name": "NST (NewSwap Token)",
     "init": "初始总量：",
-    "start-text": "0",
+    "init-text": "0",
     "model": "发行模型：",
     "model-text": "永续发行",
     "method": "挖矿方式：",
     "method-text1": "流动性提供者: 向指定的 NewSwap 流动性池中提供流动性，并换购0.1%的 NSP，把流动性代币和 NSP（999:1）打入挖矿合约挖 NST。",
     "method-text2": "NSP 持有者: 在治理合约中锁定NSP参与治理可挖NST。"
   },
-  
+
   "governance": {
+    "title": "社群治理",
     "token-type": "治理代币",
     "token-name": "NSP (NewSwap Power)",
-    "start": "发行总量：",
-    "start-text": "100万",
+    "total": "发行总量：",
+    "total-text": "100万",
     "model": "发行模型：",
     "model-text-1": "50% 来自募资",
     "model-text-2": "50% 形成 NSP-NUSD 流动资金池",
