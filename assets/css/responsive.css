@@ -469,7 +469,6 @@
 
     footer.footer {
         position: relative;
-        background: #F7F6F9;
         padding-top: 35px;
     }
 
@@ -562,7 +561,6 @@
 
     footer.footer {
         position: relative;
-        background: #F7F6F9;
     }
 
     .pb-150 {
@@ -808,7 +806,6 @@
 
     footer.footer {
         position: relative;
-        background: #F7F6F9;
         padding-top: 35px;
     }
      h2,
@@ -849,7 +846,6 @@
 
     footer.footer {
         position: relative;
-        background: #F7F6F9;
         padding-top: 35px;
     }
     .footer-top {
@@ -947,6 +943,10 @@
         align-items: center;
         justify-content: center;
         margin-bottom: 20px;
+    }
+
+    .business-model .model-card .user-interact-inner {
+        margin: 20px 0 0;
     }
 }
 

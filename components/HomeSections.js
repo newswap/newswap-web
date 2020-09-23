@@ -7,7 +7,7 @@ const HomeSections = () => {
   let { t ,i18n} = useTranslation();
   return (
     <>
-      <section className="-border-top pt-60 pb-30 bg-2- ">
+      <section className="-border-top pt-60 pb-30 bg-2- business-model">
         <Container>
           <Row className="justify-content-center">
             <Col md={10} lg={10}>
@@ -21,35 +21,33 @@ const HomeSections = () => {
           </Row>
         </Container>
       </section>
-      <section className="pt-30 pb-30">
+      <section className="pt-30 pb-30 business-model">
         <Container>
           <Row>
-            <Col lg={6} sm={6}>
+            <Col lg={6} sm={6} className="model-card">
               <div className="user-interact-inner">
                 <h2>{t('mining.title')}</h2>
                 <ul>
-                  <li>{t('mining.token-type')}</li>
-                  <li>{t('mining.token-name')}</li>
-                  <li>{t('mining.init')}{t('mining.start-text')}</li>
-                  <li>{t('mining.model')}{t('mining.model-text')}</li>
-                  <li>{t('mining.method')}</li>
+                  <li><strong>{t('mining.token-type')}: {t('mining.token-name')}</strong></li>
+                  <li><strong>{t('mining.init')}</strong>{t('mining.init-text')}</li>
+                  <li><strong>{t('mining.model')}</strong>{t('mining.model-text')}</li>
+                  <li><strong>{t('mining.method')}</strong></li>
                   <li>{t('mining.method-text1')}</li>
                   <li>{t('mining.method-text2')}</li>
                 </ul>
                 <a href="#">{t('global.learn')}</a>
               </div>
             </Col>
-            <Col lg={6} sm={6}>
+            <Col lg={6} sm={6} className="model-card">
               <div className="user-interact-inner">
                 <h2>{t('governance.title')}</h2>
                 <ul>
-                  <li>{t('governance.token-type')}</li>
-                  <li>{t('governance.token-name')}</li>
-                  <li>{t('governance.total')}{t('governance.total-text')}</li>
-                  <li>{t('governance.model')}</li>
+                  <li><strong>{t('governance.token-type')}: {t('governance.token-name')}</strong></li>
+                  <li><strong>{t('governance.total')}</strong>{t('governance.total-text')}</li>
+                  <li><strong>{t('governance.model')}</strong></li>
                   <li>{t('governance.model-text-1')}</li>
                   <li>{t('governance.model-text-2')}</li>
-                  <li>{t('governance.method')}</li>
+                  <li><strong>{t('governance.method')}</strong></li>
                   <li>{t('governance.method-text')}</li>
                 </ul>
                 <a href="#">{t('global.learn')}</a>

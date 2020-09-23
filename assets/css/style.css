@@ -8,7 +8,7 @@ NOTE:
 Please DO NOT EDIT THIS CSS, you may need to use "custom.css" file for writing your custom css.
 We may release future updates so it will overwrite this file. it's better and safer to use "custom.css".
 
-[Table of Content]
+[Table of Content -toc]
 
 01: General CSS
     1.1: Default CSS
@@ -27,6 +27,7 @@ We may release future updates so it will overwrite this file. it's better and sa
     5:02 feature type3
     5.3 NewSwap Features
     5.4 About Newton
+    5.5 Business Model
 06: Video section
 07: bottle delivery
 08: start about section
@@ -114,6 +115,7 @@ a, a:link {
 }
 a:hover {
   color: #099475;
+  cursor: cursor;
 }
 a,
 a:hover,
@@ -182,9 +184,9 @@ body {
   font-size: 16px;
   color: #6f6c7f;
   line-height: 36px;
-  background: #fff;
+  -background: #fff;
   overflow-x: hidden !important;
-  font-weight: 400;
+  font-weight: 300;
 }
 body {
   height: 100vh;
@@ -1228,7 +1230,7 @@ label input[type="radio"] {
 }
 
 .home-main-banner .dl {
-  padding: 0 20px;
+  padding: 0 10px;
 }
 
 .home-main-banner h1 {
@@ -1528,15 +1530,18 @@ label input[type="radio"] {
 
 /* 5.3: NewSwap Features */
 
-.swap-f {
-
-}
-
 .swap-f-box {
   font-size: small;
   line-height: 1.5em;
-  border-radius: 12px;
   padding: 16px 8px;
+  -margin: 10px;
+  border-radius: 16px;
+  -background: rgba(32, 197, 160, 0.2);
+}
+x.swap-f-box div {
+  margin: 10px;
+  border-radius: 16px;
+  background: rgba(32, 197, 160, 0.2);
 }
 
 .swap-f-box div h4 {
@@ -1545,9 +1550,26 @@ label input[type="radio"] {
 
 /* 5.4: About Newton */
 
-.about-newton {
-  
+.about-newton h3 {
+  font-size: x-large;
 }
+
+.about-newton h4 {
+  font-size: large;
+}
+
+/* 5.5: Business Model */
+
+.business-model .model-card .user-interact-inner {
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 24px;
+}
+
+.business-model .model-card strong {
+  font-weight: 500;
+}
+
 
 
 /*===========================================
@@ -3242,13 +3264,14 @@ h1 span {
 .pool-card:hover {
   box-shadow: 0 0 20px rgba(32, 197, 160, 0.75);
   top: -5px;
-  cursor: pointer;
+  cursor: cursor;
 }
 
 .pool-card h4 {
   color: #20C5A0;
   line-height: 2.5em;
   font-size: large;
+  font-weight: 500;
   margin:0;
 }
 .pool-card > .btn {
@@ -3257,8 +3280,8 @@ h1 span {
 }
 .pool-card > .soon {
   color: #6f6c7f;
-  border-color: #d7dee4;
-  background-color: #d7dee4;
+  border-color: #e5e8eb;
+  background-color: #e5e8eb;
   border-radius: 12px; 
   padding:6px;
 }

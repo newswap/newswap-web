@@ -1,5 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
+import { useTranslation, Trans, Translation } from 'react-i18next'
+
 import TokenBTC from "../assets/img/tokens/btc.png";
 import TokenETH from "../assets/img/tokens/eth.png";
 import TokenNEW from "../assets/img/tokens/new.png";
@@ -9,7 +11,6 @@ import TokenBNB from "../assets/img/tokens/bnb.png";
 import TokenOKB from "../assets/img/tokens/okb.png";
 import TokenYFI from "../assets/img/tokens/yfi.png";
 import TokenUNI from "../assets/img/tokens/uni.png";
-import { useTranslation, Trans, Translation } from 'react-i18next'
 
 
 const HomeMiningPools = () => {
