@@ -5,7 +5,6 @@ import { Swiper, SwiperSlide } from "swiper/react";
 
 SwiperCore.use([Pagination, Autoplay]);
 
-import SectionTitle from "./SectionTitle";
 import FeatureCard from "./FeatureCard";
 
 import img1 from "../assets/img/icons/project-management.svg";

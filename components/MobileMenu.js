@@ -1,6 +1,6 @@
 import React from "react";
 import NavLinks from "./NavLinks";
-import headerLogo from "../assets/img/logo.png";
+import headerLogo from "../assets/img/logo.svg";
 
 const MobileMenu = () => {
   return (
@@ -11,9 +11,16 @@ const MobileMenu = () => {
       </div>
       <div className="side-menu__block-inner ">
         
-        <div className="side-menu__top justify-content-end">
-          <a href="#" className="side-menu__toggler side-menu__close-btn">
-            <i className="fa fa-times"></i>
+        <div className="side-menu__top">
+            <a href="/">
+                    <img src={headerLogo} alt="newswap" style={{
+                      height: 60
+                    }}/>
+                  </a>
+            <a href="#" className="side-menu__toggler side-menu__close-btn">
+            <i className="fa fa-window-close" style={{
+              fontSize: 32,
+            }}></i>
           </a>
         </div>
 

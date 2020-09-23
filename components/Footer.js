@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import footerBg from "../assets/img/footer-bg.png";
-import footerLogo from "../assets/img/logo.png";
+import footerLogo from "../assets/img/logo.svg";
 import { useTranslation, Trans, Translation } from 'react-i18next'
 
 
@@ -38,6 +38,7 @@ const Footer = () => {
                       </a>
                     </li>
                   </ul>
+                  © 2020 NewSwap
                 </div>
               </div>
             </div>
@@ -97,7 +98,7 @@ const Footer = () => {
       </div>
       <div className="footer-bottom">
         <div className="footer-text text-center">
-          <p>© 2020 NewSwap</p>
+          <p> </p>
         </div>
       </div>
     </footer>

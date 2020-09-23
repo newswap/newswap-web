@@ -34,16 +34,22 @@
     "home s1 3": "人人都可以发行、交易数字资产",
     "HOME SECTIONS POWERED BY NEWTON": "---"
   },
+<<<<<<< HEAD
   "features": {
     "feature1": "安全可靠",
+=======
+
+  "features":{
+    "feature1": "安全更可靠",
+>>>>>>> e24ab22fe31218ac4ba66c5543f8778c2e3f0db0
     "text1": "NewSwap 在安全可靠的牛顿公链 NewChain 上运行",
     "feature2": "高效低成本",
     "text2": "极快的交易手续费速度和低廉的手续费成本",
-    "feature3": "便捷易用",
+    "feature3": "便捷超易用",
     "text3": "低门槛、用户友好的操作体验",
-    "feature4": "自动化",
+    "feature4": "自动化操作",
     "text4": "拥有自动化做市商，价格由系统决定",
-    "feature5": "多种资产",
+    "feature5": "多资产支持",
     "text5": "支持多种跨链资产以及牛顿生态项目通证的交易",
     "feature6": "流动性挖矿",
     "text6": "基于双通证设计的流动性挖矿机制",
