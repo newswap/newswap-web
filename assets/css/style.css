@@ -26,6 +26,7 @@ We may release future updates so it will overwrite this file. it's better and sa
     5:01 feature type2
     5:02 feature type3
     5.3 NewSwap Features
+    5.4 About Newton
 06: Video section
 07: bottle delivery
 08: start about section
@@ -173,7 +174,7 @@ p {
   font-family: "Poppins", sans-serif;
   line-height: 30px;
   margin-bottom: 25px;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 16px;
 }
 body {
@@ -213,7 +214,7 @@ body {
 
 /* 1.3: Buttons */
 .btn {
-  cursor: pointer;
+  cursor: cursor;
   z-index: 1;
   position: relative;
   padding: 12px 25px;
@@ -1226,6 +1227,10 @@ label input[type="radio"] {
   font-weight: 300;
 }
 
+.home-main-banner .dl {
+  padding: 0 20px;
+}
+
 .home-main-banner h1 {
 	background-image: -webkit-linear-gradient(92deg, #5ed48f, #a426f3);
 	-webkit-background-clip: text;
@@ -1275,18 +1280,18 @@ label input[type="radio"] {
 .banner-text-inner .btn:before {
   background: #36324a;
 }
-.banner-text-inner .btn + .btn + .btn {
+.banner-text-inner .btn + .btn {
   background: transparent;
   border-color: #20C5A0;
   color: #20C5A0;
 }
 
-.banner-text-inner .btn + .btn + .btn:hover {
+.banner-text-inner .btn + .btn:hover {
   color: #fff;
   border-color: #20C5A0;
   background: #20C5A0;
 }
-.banner-text-inner .btn + .btn + .btn:hover:before {
+.banner-text-inner .btn + .btn:hover:before {
   background: #20C5A0;
 }
 
@@ -1537,6 +1542,14 @@ label input[type="radio"] {
 .swap-f-box div h4 {
   font-size: large;
 }
+
+/* 5.4: About Newton */
+
+.about-newton {
+  
+}
+
+
 /*===========================================
     Counter area
 ===========================================*/

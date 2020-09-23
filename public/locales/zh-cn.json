@@ -2,8 +2,8 @@
   "global": {
     "exchange": "交易",
     "download": "下载",
-    "trade": "交易",
-    "farm": "挖矿",
+    "trade": "开始交易",
+    "farm": "查看挖矿",
     "tokens": "通证",
     "governance": "治理",
     "analytics": "统计",
@@ -57,6 +57,12 @@
     "brought": "NewSwap 由牛顿项目创建",
     "powered": "Powered by NewChain",
     "visitweb": "访问项目网站"
+  },
+
+  "business": {
+    "title": "经济模型",
+    "text1": "NewSwap 中的通证价格由系统定价，在 NewSwap 中发生的所有交易将收取 0.3% 的交易手续费，所有的手续费都提供给协议的流动性提供者，交易平台不收取任何手续费。",
+    "text2": "其中，交易中的 0.25% 将直接分配给流动性提供者，0.05% 将进入流动性收益池，以流动性通证的形式支撑收益代币NewSwap Token(NST) 的价值。"
   },
 
   "mining": {
