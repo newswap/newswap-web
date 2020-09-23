@@ -14,7 +14,7 @@ const PostDetails = () => {
       <section className="pt-150 pb-30">
         <Container>
           <Row>
-            <Col lg={8}>
+            <Col lg={9}>
               <div className="post-details-inner">
                 <div className="single-post-inner">
                   <div className="post-content">
@@ -60,7 +60,7 @@ const PostDetails = () => {
 
               </div>
             </Col>
-            <Col lg={4}>
+            <Col lg={3}>
               <Sidebar />
             </Col>
           </Row>
