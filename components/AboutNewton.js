@@ -10,7 +10,6 @@ const AboutNewton = () => {
         <Row className="justify-content-center">
         <Col md={10} lg={10} xl={10}>
             <div className="text-center">
-              <p>{t('newton.brought')}</p>
               <h3 style={{
                 marginBottom: 30,
               }}>

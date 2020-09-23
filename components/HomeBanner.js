@@ -25,43 +25,37 @@ const HomeBanner = () => {
             </Col>
           </Row>
           <Row className="justify-content-center swap-f">
-            <Col md={3} lg={3} xl={3} className="swap-f-box text-center">
+            <Col md={4} lg={4} xl={4} className="swap-f-box text-center">
               <div>
                 <h4>{t('features.feature1')}</h4>
                 {t('features.text1')}
               </div>
             </Col>
-            <Col md={3} lg={3} xl={3} className="swap-f-box text-center">
+            <Col md={4} lg={4} xl={4} className="swap-f-box text-center">
               <div>
                 <h4>{t('features.feature2')}</h4>
                 {t('features.text2')}
               </div>
             </Col>
-            <Col md={3} lg={3} xl={3} className="swap-f-box text-center">
+            <Col md={4} lg={4} xl={4} className="swap-f-box text-center">
               <div>
                 <h4>{t('features.feature3')}</h4>
                 {t('features.text3')}
               </div>
             </Col>
-            <Col md={3} lg={3} xl={3} className="swap-f-box text-center">
-              <div>
-                <h4>{t('features.feature4')}</h4>
-                {t('features.text4')}
-              </div>
-            </Col>
-            <Col md={3} lg={3} xl={3} className="swap-f-box text-center">
+            <Col md={4} lg={4} xl={4} className="swap-f-box text-center">
               <div>
                 <h4>{t('features.feature5')}</h4>
                 {t('features.text5')}
               </div>
             </Col>
-            <Col md={3} lg={3} xl={3} className="swap-f-box text-center">
+            <Col md={4} lg={4} xl={4} className="swap-f-box text-center">
               <div>
                 <h4>{t('features.feature6')}</h4>
                 {t('features.text6')}
               </div>
             </Col>
-            <Col md={3} lg={3} xl={3} className="swap-f-box text-center">
+            <Col md={4} lg={4} xl={4} className="swap-f-box text-center">
               <div>
                 <h4>{t('features.feature7')}</h4>
                 {t('features.text7')}
