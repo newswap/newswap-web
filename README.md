@@ -29,7 +29,7 @@ yarn dev
 ## Build
 
 ```bash
-`yarn build`
+yarn build
 ```
 *Default* build is *TestNet*
 
@@ -42,7 +42,7 @@ yarn dev
 ### Run Build
 
 ```bash
-`yarn start`
+yarn start
 ```
 
 Run with last build
