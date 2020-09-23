@@ -60,7 +60,7 @@
   },
 
   "business": {
-    "title": "Business Model",
+    "title": "Economic Model",
     "text1": "The token price in NewSwap is set by the system and a transaction fee of 0.3% will be charged for all trades occurring in NewSwap, all fees are provided to the liquidity providers of the pool.",
     "text2": "Amount the transction fee, 0.25% will be allocated directly to the liquidity provider and 0.05% will go into the liquidity income pool to back the value of the NewSwap Token (NST)."
   },

@@ -54,8 +54,8 @@
   },
   "newton": {
     "base": "牛顿：社群经济基础设施",
-    "slogan": "每个人都应该从经济增长中收益",
-    "brought": "由牛顿项目提供技术支持",
+    "slogan": "每一个人都应该从经济增长中收益",
+    "brought": "由 牛顿项目 提供技术支持",
     "visitweb": "访问项目网站"
   },
 
@@ -66,7 +66,7 @@
   },
 
   "mining": {
-    "title": "流通性挖矿",
+    "title": "流动性挖矿",
     "token-type": "收益代币",
     "token-name": "NST (NewSwap Token)",
     "init": "初始总量：",
