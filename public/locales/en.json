@@ -17,16 +17,41 @@
     "newton extension": "Newton Extension",
     "learn": "Learn More",
     "pools": "Pools",
+    "apy": "Estimated APY",
     "comingsoon": "Coming Soon",
     "comingsoon2": "Coming with NewSwap v1.1",
     "invest warning": "Contents on this website is not intended as investment advice. Please make your own prudent decisions and independently assume the corresponding risks before trading or investing."
   },
-
-  "menu":{
+  "menu": {
     "nusd": "NUSD (NewUSD)",
     "nst": "NST (NewSwap Token)",
     "nsp": "NSP (NewSwap Power)"
   },
+<<<<<<< HEAD
+  "slogan": {
+    "HOME SECTIONS BANNERS": "---",
+    "home s1 1": "Decentralized Exchange Protocol on NewChain",
+    "home s1 2": "Running on the secure and reliable NewChain, NewSwap offers the high performance and low cost trades on multiple inter-blockchain assets and newton ecosystem tokens with automated market makers and a dual-token liquidity mining mechanism design. All transaction fees are provided to liquidity providers and governed by the community.",
+    "home s1 3": "Everyone is able to issue and trade digital assets",
+    "HOME SECTIONS POWERED BY NEWTON": "---"
+  },
+  "features": {
+    "feature1": "Secure and Reliable",
+    "text1": "Running on the Secure and Reliable NewChain",
+    "feature2": "Fast and Lowcost",
+    "text2": "Super Fast Transaction Speed and Lowcost Fee",
+    "feature3": "Easy to Use",
+    "text3": "User-Friendly Experience",
+    "feature4": "Automation",
+    "text4": "System Determines Price with Automated Market Makers(AMM)",
+    "feature5": "Multiple Assets",
+    "text5": "Multiple Inter-Blockchain Assets and Newton Ecosystem Tokens Support",
+    "feature6": "Liquidity Mining",
+    "text6": "A Dual-Token Liquidity Mining Mechanism Design",
+    "feature7": "Governance",
+    "text7": "Governance by Community Vote"
+  },
+=======
 
 "slogan":{
   "HOME SECTIONS BANNERS": "---",
@@ -53,21 +78,34 @@
   "text7": "Governance by Community Vote"
 },
 
+>>>>>>> e24ab22fe31218ac4ba66c5543f8778c2e3f0db0
   "newton": {
     "base": "Newton: Infrastructure for the Community Economy",
     "slogan": "Everyone Should Benefit from Economic Growth",
     "brought": "NewSwap is brought to you by Newton Project",
+    "powered": "Powered by NewChain",
     "visitweb": "Visit Website"
   },
-
   "mining": {
+    "token-type": "Reward Token",
+    "token-name": "NST (NewSwap Token)",
     "start": "Initial Amount: ",
     "start-text": "0",
     "model": "Distribution Model: ",
     "model-text": "Sustainable",
-    "method": "Mining: ",
+    "method": "How to mine: ",
     "method-text1": "Liquidity providers: provide liquidity on specified pools to mine NST by staking LP tokens and NSP (999:1).",
     "method-text2": "NSP holders: stake NSP in governance contract to mine NST."
+  },
+  "governance": {
+    "token-type": "Governance Token",
+    "token-name": "NSP (NewSwap Power)",
+    "start": "Total Amount: ",
+    "start-text": "1,000,000",
+    "model": "Distribution Model: ",
+    "model-text-1": "50% from Fundrasing",
+    "model-text-2": "50% into NSP-NUSD Pool",
+    "method": "Governing: ",
+    "method-text": "Stake NSP to join community vote for governance."
   }
-
 }
