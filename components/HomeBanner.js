@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
+import Link from "next/link";
 import { useTranslation, Trans, Translation } from 'react-i18next'
 
 
@@ -16,11 +17,21 @@ const HomeBanner = () => {
                 <h3>{t('slogan.home s1 3')}</h3>
                 <p>{t('slogan.home s1 2')}</p>
                 <p>
-                  <a href="https://app.newswap.org/" className="btn">{t('global.trade')}</a>
-                  <a href="#" className="btn">{t('global.gofarm')}</a>
+                  <Link href={process.env.NEXT_PUBLIC_NEWSWAP_APP_URL}>
+                    <a className="btn">{t('global.trade')}</a>
+                  </Link>
+                  <Link href={process.env.NEXT_PUBLIC_NEWSWAP_FARM_URL}>
+                    <a className="btn">{t('global.gofarm')}</a>
+                  </Link>
                 </p>
                 <p>
-                  <a href="#" className="dl">{t('global.newton extension')}</a> <a href="#" className="dl">NewPay App</a></p>
+                  <Link href={process.env.NEXT_PUBLIC_NEWTONEXTENSION_URL}>
+                    <a className="dl" target="_blank">{t('global.newton extension')}</a>
+                  </Link>
+                  <Link href={process.env.NEXT_PUBLIC_NEWPAY_URL}>
+                    <a className="dl" target="_blank">NewPay App</a>
+                  </Link>
+                </p>
               </div>
             </Col>
           </Row>

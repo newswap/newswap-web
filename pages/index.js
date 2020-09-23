@@ -12,7 +12,6 @@ import Footer from "../components/Footer";
 import { useTranslation, Trans, Translation } from 'react-i18next'
 
 
-
 const HomePage = () => {
   let { t ,i18n} = useTranslation()
   return (

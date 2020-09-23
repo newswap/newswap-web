@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import NavLinks from "./NavLinks";
+import Link from 'next/link'
 
 import headerLogo from "../assets/img/logo.svg";
 
@@ -54,11 +55,13 @@ const HeaderHome = (props) => {
             <div className="row align-items-center">
               <div className="col-xl-4 col-lg-4 col-md-8 col-8">
                 <div className="logo">
-                  <a href="/">
-                    <img src={headerLogo} alt="newswap" style={{
-                      height: 60
-                    }}/>
-                  </a>
+                  <Link href={process.env.NEXT_PUBLIC_WEBSITE_URL} >
+                    <a >
+                      <img src={headerLogo} alt="newswap" style={{
+                        height: 60
+                      }}/>
+                    </a>
+                  </Link>
                 </div>
               </div>
               <div className="col-xl-8 col-lg-8 col-md-4 col-4">

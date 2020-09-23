@@ -1,6 +1,8 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import { useTranslation, Trans, Translation } from 'react-i18next'
+import { useTranslation, Trans, Translation } from 'react-i18next';
+import Link from 'next/link'
+
 
 const AboutNewton = () => {
   let { t ,i18n} = useTranslation();
@@ -20,8 +22,11 @@ const AboutNewton = () => {
               }}>
                 {t('newton.slogan')}
               </h4>
-              <a href="https://newtonproject.org" target="_blank" className="btn">{t('newton.visitweb')}</a>
-
+              <Link href={process.env.NEXT_PUBLIC_NEWTON_WEBSITE_URL} >
+                <a target="_blank" className="btn">
+                  {t('newton.visitweb')}
+                </a>
+              </Link>
             </div>
           </Col>
         </Row>
