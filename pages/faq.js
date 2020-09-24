@@ -84,9 +84,6 @@ You can increase the slippage tolerance through the advanced settings window whe
 
               </div>
             </Col>
-            <Col lg={3}>
-              <Sidebar />
-            </Col>
           </Row>
         </Container>
       </section>

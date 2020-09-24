@@ -75,9 +75,6 @@ const PostDetails = () => {
 
               </div>
             </Col>
-            <Col lg={3}>
-              <Sidebar />
-            </Col>
           </Row>
         </Container>
       </section>
