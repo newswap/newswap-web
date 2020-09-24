@@ -33,24 +33,24 @@ const NavLinks = () => {
         </Link>
         <ul className="dropdown-list">
           <li>
-            <Link href="/#home-nsp">
+            <Link href="./#">
               <a>{t('menu.nsp')}</a>
             </Link>
           </li>
           <li>
-            <Link href="/#home-nst">
+            <Link href="./#">
               <a>{t('menu.nst')}</a>
             </Link>
           </li>
           <li>
-            <Link href="/#">
+            <Link href="./#">
               <a>{t('menu.nusd')}</a>
             </Link>
           </li>
         </ul>
       </li>
       <li>
-        <Link href="/#">
+        <Link href="./#">
           <a>{t('global.governance')}</a>
         </Link>
       </li>
