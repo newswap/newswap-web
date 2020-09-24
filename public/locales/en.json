@@ -16,6 +16,7 @@
     "apply listing": "Apply Listing",
     "github": "GitHub",
     "newton extension": "Newton Extension",
+    "NewPay": "NewPay App",
     "learn": "Learn More",
     "pools": "Pools",
     "apy": "Estimated APY",
@@ -32,7 +33,7 @@
 
   "slogan": {
     "home s1 1": "Decentralized Exchange Protocol on NewChain",
-    "home s1 2": "Running on the secure and reliable NewChain, NewSwap offers the high performance and low cost trades on multiple inter-blockchain assets and newton ecosystem tokens with automated market makers and a dual-token liquidity mining mechanism design. All transaction fees are provided to liquidity providers and governed by the community.",
+    "home s1 2": "Running on the secure and reliable NewChain, NewSwap offers the high performance and low cost trades of multiple inter-blockchain assets and newton ecosystem tokens with automated market makers and a dual-token liquidity mining mechanism design. All transaction fees are provided to liquidity providers and governed by the community.",
     "home s1 3": "Everyone is able to issue and trade digital assets"
   },
 
@@ -62,8 +63,10 @@
 
   "business": {
     "title": "Economic Model",
-    "text1": "The token price in NewSwap is set by the system and a transaction fee of 0.3% will be charged for all trades occurring in NewSwap, all fees are provided to the liquidity providers of the pool.",
-    "text2": "Amount the transction fee, 0.25% will be allocated directly to the liquidity provider and 0.05% will go into the liquidity income pool to back the value of the NewSwap Token (NST)."
+    "text1": "The token price in NewSwap is set by system and a transaction fee of 0.3% will be charged for all trades occurring in NewSwap. All fees are provided to liquidity providers of the pool.",
+    "text2": "The transaction fee of 0.25% will be rewarded directly to liquidity providers. The transaction fee of 0.05% will go into Liquidity Reward Pool to support the value of NewSwap Token (NST).",
+    "text3": "Adding liquidity on specified pools to mine NST by staking LP tokens and NewSwap Power(NSP). Also, staking NSP into governance contracts could mine NST.",
+    "note": "Before mining launches, the transaction fee of 0.3% will be rewarded directly to liquidity providers."
   },
 
   "mining": {
@@ -71,12 +74,12 @@
     "token-type": "Reward Token",
     "token-name": "NST (NewSwap Token)",
     "init": "Initial Amount: ",
-    "init-text": "0",
+    "init-text": "TBA",
     "model": "Distribution Model: ",
-    "model-text": "Sustainable",
+    "model-text": "TBA",
     "method": "How to mine: ",
-    "method-text1": "Liquidity providers: provide liquidity on specified pools to mine NST by staking LP tokens and NSP (999:1).",
-    "method-text2": "NSP holders: stake NSP in governance contract to mine NST."
+    "method-text1": "TBA",
+    "method-text2": " "
   },
 
   "governance": {
@@ -84,11 +87,11 @@
     "token-type": "Governance Token",
     "token-name": "NSP (NewSwap Power)",
     "total": "Total Amount: ",
-    "total-text": "1,000,000",
+    "total-text": "TBA",
     "model": "Distribution Model: ",
-    "model-text-1": "50% from Fundrasing",
-    "model-text-2": "50% into NSP-NUSD Pool",
+    "model-text-1": "TBA",
+    "model-text-2": " ",
     "method": "Governing: ",
-    "method-text": "Stake NSP to join community vote for governance."
+    "method-text": "TBA"
   }
 }
