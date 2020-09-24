@@ -187,6 +187,7 @@ body {
   -background: #fff;
   overflow-x: hidden !important;
   font-weight: 300;
+  -filter: invert(1);
 }
 body {
   height: 100vh;
