@@ -64,8 +64,8 @@
   "business": {
     "title": "经济模型",
     "text1": "NewSwap 中的通证价格由系统定价，在 NewSwap 中发生的所有交易将收取 0.3% 的交易手续费。所有的手续费都奖励给协议的流动性提供者。",
-    "text2": "开启流动性挖矿后，交易中的 0.25% 将直接分配给流动性提供者，0.05% 将进入流动性收益池，以流动性通证的形式支撑收益代币 NewSwap Token(NST) 的价值。",
-    "text3": "向指定的 NewSwap 流动性池中提供流动性，并配比治理代币 NewSwap Power(NSP) 可以在指定矿池中挖矿 NST，在治理合约中锁定 NSP 亦可参与治理并挖矿 NST。",
+    "text2": "开启流动性挖矿后，交易中的 0.25% 将直接分配给流动性提供者，0.05% 将进入流动性收益池，以流动性通证的形式支撑收益代币 NST (NewSwap Token) 的价值。",
+    "text3": "向指定的 NewSwap 流动性池中提供流动性，并配比治理代币 NSP (NewSwap Power) 可以在指定矿池中挖矿 NST，在治理合约中锁定 NSP 亦可参与治理并挖矿 NST。",
     "note": "挖矿开启前，交易手续费的 0.3% 将全部奖励给流动性提供者。"
   },
 
@@ -73,10 +73,10 @@
     "title": "流动性挖矿",
     "token-type": "收益代币",
     "token-name": "NST (NewSwap Token)",
-    "init": "初始总量：",
+    "init": "发行总量：",
     "init-text": "稍后公布",
     "model": "发行模型：",
-    "model-text": "稍后公布",
+    "model-text": "流动性挖矿",
     "method": "挖矿方式：",
     "method-text1": "稍后公布",
     "method-text2": " "
@@ -89,9 +89,9 @@
     "total": "发行总量：",
     "total-text": "稍后公布",
     "model": "发行模型：",
-    "model-text-1": "稍后公布",
+    "model-text-1": "通证交换",
     "model-text-2": " ",
-    "method": "治理方式：",
+    "method": "治理模型：",
     "method-text": "稍后公布"
   }
 }

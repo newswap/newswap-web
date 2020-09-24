@@ -73,10 +73,10 @@
     "title": "Liquidity Mining",
     "token-type": "Reward Token",
     "token-name": "NST (NewSwap Token)",
-    "init": "Initial Amount: ",
+    "init": "Total Amount: ",
     "init-text": "TBA",
     "model": "Distribution Model: ",
-    "model-text": "TBA",
+    "model-text": "Liquidity Mining",
     "method": "How to mine: ",
     "method-text1": "TBA",
     "method-text2": " "
@@ -89,7 +89,7 @@
     "total": "Total Amount: ",
     "total-text": "TBA",
     "model": "Distribution Model: ",
-    "model-text-1": "TBA",
+    "model-text-1": "Token Exchange",
     "model-text-2": " ",
     "method": "Governing: ",
     "method-text": "TBA"
