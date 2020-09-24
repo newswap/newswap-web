@@ -3328,6 +3328,7 @@ h1 span {
   background-color: #e5e8eb;
   border-radius: 12px; 
   padding:6px;
+  margin-bottom: 0;
 }
 .pool-card > .soon:hover {
   top:unset;

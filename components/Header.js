@@ -58,7 +58,7 @@ const HeaderHome = (props) => {
                   <Link href={process.env.NEXT_PUBLIC_WEBSITE_URL} >
                     <a >
                       <img src={headerLogo} alt="newswap" style={{
-                        height: 40
+                        height: 50
                       }}/>
                     </a>
                   </Link>
