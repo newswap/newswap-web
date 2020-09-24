@@ -15,12 +15,12 @@ const NavLinks = () => {
   return (
     <ul className="main-nav__navigation-box">
       <li>
-        <Link href="https://app.newswap.org/">
+        <Link href={process.env.NEXT_PUBLIC_NEWSWAP_APP_URL}>
           <a>{t('global.exchange')}</a>
         </Link>
       </li>
       <li>
-        <Link href="#">
+      <Link href={process.env.NEXT_PUBLIC_NEWSWAP_FARM_URL}>
           <a>{t('global.farm')}</a>
         </Link>
       </li>
@@ -38,12 +38,12 @@ const NavLinks = () => {
             </Link>
           </li>
           <li>
-            <Link href="/#">
+            <Link href="/#home-nst">
               <a>{t('menu.nst')}</a>
             </Link>
           </li>
           <li>
-            <Link href="/#">
+            <Link href="/#home-nsp">
               <a>{t('menu.nsp')}</a>
             </Link>
           </li>
@@ -55,7 +55,7 @@ const NavLinks = () => {
         </Link>
       </li>
       <li>
-        <Link href="https://info.newswap.org/">
+        <Link href={process.env.NEXT_PUBLIC_NEWSWAP_INFO_URL}>
           <a>{t('global.analytics')}</a>
         </Link>
       </li>
@@ -83,7 +83,7 @@ const NavLinks = () => {
             </Link>
           </li>
           <li>
-            <Link href="http://github.com/newswap/">
+            <Link href={process.env.NEXT_PUBLIC_GITHUB_URL}>
               <a>{t('global.github')}</a>
             </Link>
           </li>

@@ -1,32 +1,65 @@
 # NewSwap Web
 
-- Website: [newswap.org](https://newswap.org/)
+Website: [newswap.org](https://newswap.org/)
 
-
-### Install Dependencies
+## Install Dependencies
 
 ```bash
 yarn
 ```
 
-### Development 
+## Environments 
+
+**Dev:** `.env`
+
+**TestNet:** `.env.testnet`
+
+**Production:** `.env.production`
+
+## Development 
 
 ```bash
 yarn dev
 ```
+*Default* is **Dev**
 
-### Build
+- `yarn dev:testnet`
 
-`yarn build` or `npm run build`
+- `yarn dev:production`
 
-### Run
+## Build
 
-`yarn start` or `npm run start`
+```bash
+yarn build
+```
+*Default* build is **TestNet**
 
-### Export Static HTML for webserver
+- `yarn build:dev`
+
+- `yarn build:testnet`
+
+- `yarn build:production`
+
+### Run Build
+
+```bash
+yarn start
+```
+
+Run with last build
+
+## Export HTML files
+
+Create a build and export it's static HTML files to **html** folder
 
 ```bash
 yarn export
 ```
 
-This will create a build and export it's static HTML files to **html** folder
+*Default* export is **TestNet**
+
+- `yarn export:dev`
+
+- `yarn export:testnet`
+
+- `yarn export:production`

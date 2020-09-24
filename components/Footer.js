@@ -19,7 +19,7 @@ const Footer = () => {
       </div>
       <div className="footer-bottom">
         <div className="footer-text text-center">
-          <p>© 2020 NewSwap</p>
+          <p>{process.env.NEXT_PUBLIC_ENV_NOTICE}© 2020 NewSwap</p>
         </div>
       </div>
     </footer>
