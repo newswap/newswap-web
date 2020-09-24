@@ -63,3 +63,15 @@ yarn export
 - `yarn export:testnet`
 
 - `yarn export:production`
+
+## Making Contribution
+
+#### Localization
+
+Translation Files: **./public/locales/*.json**
+
+Run following command before making a commit, that should unify the json format.
+
+```bash
+yarn i18n:clean
+```

@@ -5,6 +5,26 @@
   "version": "0.0.1",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "dev": "next",
+    "dev:testnet": "dotenv -e .env.testnet next",
+    "dev:production": "dotenv -e .env.production next",
+
+    "build:dev": "dotenv -e .env next build",
+    "build:testnet": "dotenv -e .env.testnet next build",
+    "build:production": "dotenv -e .env.production next build",
+    "build": "dotenv -e .env.testnet build", 
+
+    "start": "next start",
+
+    "export:dev": "dotenv -e .env next build && next export -o html",
+    "export:testnet": "dotenv -e .env.testnet next build && next export -o html",
+    "export:production": "dotenv -e .env.production next build && next export -o html",
+    "export": "dotenv -e .env.testnet next build && next export -o html",
+
+    "i18n:clean": "prettier --write ./public/locales/*.json"
+  },
+
   "dependencies": {
     "bootstrap": "^4.5.0",
     "dotenv": "^8.2.0",
@@ -25,21 +45,8 @@
     "react-visibility-sensor": "^5.1.1",
     "swiper": "^6.0.4"
   },
-  "scripts": {
-    "dev": "next",
-    "dev:testnet": "dotenv -e .env.testnet next",
-    "dev:production": "dotenv -e .env.production next",
 
-    "build:dev": "dotenv -e .env next build",
-    "build:testnet": "dotenv -e .env.testnet next build",
-    "build:production": "dotenv -e .env.production next build",
-    "build": "dotenv -e .env.testnet build", 
-
-    "start": "next start",
-
-    "export:dev": "dotenv -e .env next build && next export -o html",
-    "export:testnet": "dotenv -e .env.testnet next build && next export -o html",
-    "export:production": "dotenv -e .env.production next build && next export -o html",
-    "export": "dotenv -e .env.testnet next build && next export -o html" 
+  "devDependencies": {
+    "prettier": "^2.1.2"
   }
 }

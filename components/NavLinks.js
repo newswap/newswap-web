@@ -33,11 +33,6 @@ const NavLinks = () => {
         </Link>
         <ul className="dropdown-list">
           <li>
-            <Link href="/#">
-              <a>{t('menu.nusd')}</a>
-            </Link>
-          </li>
-          <li>
             <Link href="/#home-nst">
               <a>{t('menu.nst')}</a>
             </Link>
@@ -45,6 +40,11 @@ const NavLinks = () => {
           <li>
             <Link href="/#home-nsp">
               <a>{t('menu.nsp')}</a>
+            </Link>
+          </li>
+          <li>
+            <Link href="/#">
+              <a>{t('menu.nusd')}</a>
             </Link>
           </li>
         </ul>
