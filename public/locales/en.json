@@ -64,7 +64,7 @@
   "business": {
     "title": "Economic Model",
     "text1": "The token price in NewSwap is set by system and a transaction fee of 0.3% will be charged for all trades occurring in NewSwap. All fees are provided to liquidity providers of the pool.",
-    "text2": "When liquidity mining launched, the transaction fee of 0.25% will be rewarded directly to liquidity providers. The transaction fee of 0.05% will go into Liquidity Reward Pool to support the value of NewSwap Token (NST).",
+    "text2": "When liquidity mining is launched, the transaction fee of 0.25% will be rewarded directly to liquidity providers. The transaction fee of 0.05% will go into Liquidity Reward Pool to support the value of NewSwap Token (NST).",
     "text3": "Adding liquidity on specified pools to mine NST by staking LP tokens and NewSwap Power(NSP). Also, staking NSP into governance contracts could mine NST.",
     "note": "Before mining launches, the transaction fee of 0.3% will be rewarded directly to liquidity providers."
   },
