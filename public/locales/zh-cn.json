@@ -16,9 +16,9 @@
     "apply listing": "上币申请",
     "github": "GitHub",
     "newton extension": "牛顿浏览器插件",
-    "NewPay": "NewPay",
-    "pools": "矿池",
+    "NewPay": "NewPay App",
     "learn": "了解更多",
+    "pools": "矿池",
     "apy": "预估年化收益率",
     "comingsoon": "即将上线",
     "comingsoon2": "于 NewSwap v1.1 上线",
@@ -63,8 +63,10 @@
 
   "business": {
     "title": "经济模型",
-    "text1": "NewSwap 中的通证价格由系统定价，在 NewSwap 中发生的所有交易将收取 0.3% 的交易手续费，所有的手续费都提供给协议的流动性提供者，交易平台不收取任何手续费。",
-    "text2": "其中，交易中的 0.25% 将直接分配给流动性提供者，0.05% 将进入流动性收益池，以流动性通证的形式支撑收益代币NewSwap Token(NST) 的价值。"
+    "text1": "NewSwap 中的通证价格由系统定价，在 NewSwap 中发生的所有交易将收取 0.3% 的交易手续费。所有的手续费都奖励给协议的流动性提供者。",
+    "text2": "交易中的 0.25% 将直接分配给流动性提供者，0.05% 将进入流动性收益池，以流动性通证的形式支撑收益代币 NewSwap Token(NST) 的价值。",
+    "text3": "向指定的 NewSwap 流动性池中提供流动性，并配比治理代币 NewSwap Power(NSP) 可以在指定矿池中挖矿 NST，在治理合约中锁定 NSP 亦可参与治理并挖矿 NST。",
+    "note": "挖矿开启前，交易手续费的 0.3% 将全部奖励给流动性提供者。"
   },
 
   "mining": {
@@ -72,12 +74,12 @@
     "token-type": "收益代币",
     "token-name": "NST (NewSwap Token)",
     "init": "初始总量：",
-    "init-text": "0",
+    "init-text": "稍后公布",
     "model": "发行模型：",
-    "model-text": "永续发行",
+    "model-text": "稍后公布",
     "method": "挖矿方式：",
-    "method-text1": "流动性提供者: 向指定的 NewSwap 流动性池中提供流动性，并换购0.1%的 NSP，把流动性代币和 NSP（999:1）打入挖矿合约挖 NST。",
-    "method-text2": "NSP 持有者: 在治理合约中锁定 NSP 参与治理可挖 NST。"
+    "method-text1": "稍后公布",
+    "method-text2": " "
   },
 
   "governance": {
@@ -85,11 +87,11 @@
     "token-type": "治理代币",
     "token-name": "NSP (NewSwap Power)",
     "total": "发行总量：",
-    "total-text": "100万",
+    "total-text": "稍后公布",
     "model": "发行模型：",
-    "model-text-1": "50% 进行募资",
-    "model-text-2": "50% 形成 NSP-NUSD 流动资金池",
+    "model-text-1": "稍后公布",
+    "model-text-2": " ",
     "method": "治理方式: ",
-    "method-text": "锁仓 NSP 可以参与投票治理。"
+    "method-text": "稍后公布"
   }
 }
