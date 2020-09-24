@@ -23,35 +23,35 @@
     "comingsoon2": "Coming with NewSwap v1.1",
     "invest warning": "Contents on this website is not intended as investment advice. Please make your own prudent decisions and independently assume the corresponding risks before trading or investing."
   },
-  
+
   "menu": {
     "nusd": "NUSD (NewUSD)",
     "nst": "NST (NewSwap Token)",
     "nsp": "NSP (NewSwap Power)"
   },
 
-"slogan":{
-  "home s1 1": "Decentralized Exchange Protocol on NewChain",
-  "home s1 2": "Running on the secure and reliable NewChain, NewSwap offers the high performance and low cost trades on multiple inter-blockchain assets and newton ecosystem tokens with automated market makers and a dual-token liquidity mining mechanism design. All transaction fees are provided to liquidity providers and governed by the community.",
-  "home s1 3": "Everyone is able to issue and trade digital assets"
-},
+  "slogan": {
+    "home s1 1": "Decentralized Exchange Protocol on NewChain",
+    "home s1 2": "Running on the secure and reliable NewChain, NewSwap offers the high performance and low cost trades on multiple inter-blockchain assets and newton ecosystem tokens with automated market makers and a dual-token liquidity mining mechanism design. All transaction fees are provided to liquidity providers and governed by the community.",
+    "home s1 3": "Everyone is able to issue and trade digital assets"
+  },
 
-"features":{
-  "feature1": "Secure & Reliable",
-  "text1": "Running on NewChain, users own their assets",
-  "feature2": "Fast & Lowcost",
-  "text2": "Fast Transaction Speed and Low Transaction Fee",
-  "feature3": "Easy to Use",
-  "text3": "User-Friendly Experience",
-  "feature4": "Fully Automated",
-  "text4": "System Determines Price with Automated Market Makers(AMM)",
-  "feature5": "Multiple Assets",
-  "text5": "Multiple Inter-Blockchain Assets and Newton Ecosystem Tokens Support",
-  "feature6": "Liquidity Mining",
-  "text6": "A Dual-Token Liquidity Mining Mechanism Design",
-  "feature7": "Governance",
-  "text7": "Governance by Community Vote"
-},
+  "features": {
+    "feature1": "Secure & Reliable",
+    "text1": "Running on NewChain, users own their assets",
+    "feature2": "Fast & Lowcost",
+    "text2": "Fast Transaction Speed and Low Transaction Fee",
+    "feature3": "Easy to Use",
+    "text3": "User-Friendly Experience",
+    "feature4": "Fully Automated",
+    "text4": "System Determines Price with Automated Market Makers(AMM)",
+    "feature5": "Multiple Assets",
+    "text5": "Multiple Inter-Blockchain Assets and Newton Ecosystem Tokens Support",
+    "feature6": "Liquidity Mining",
+    "text6": "A Dual-Token Liquidity Mining Mechanism Design",
+    "feature7": "Governance",
+    "text7": "Governance by Community Vote"
+  },
 
   "newton": {
     "base": "Newton: Infrastructure for the Community Economy",
