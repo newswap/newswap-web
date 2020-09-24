@@ -12,10 +12,11 @@
     "faq": "常见问题",
     "more": "更多",
     "downloads": "下载",
-    "tools": "工具",
+    "tools": "工具下载",
     "apply listing": "上币申请",
     "github": "GitHub",
     "newton extension": "牛顿浏览器插件",
+    "NewPay": "NewPay",
     "pools": "矿池",
     "learn": "了解更多",
     "apy": "预估年化收益率",
@@ -76,7 +77,7 @@
     "model-text": "永续发行",
     "method": "挖矿方式：",
     "method-text1": "流动性提供者: 向指定的 NewSwap 流动性池中提供流动性，并换购0.1%的 NSP，把流动性代币和 NSP（999:1）打入挖矿合约挖 NST。",
-    "method-text2": "NSP 持有者: 在治理合约中锁定NSP参与治理可挖NST。"
+    "method-text2": "NSP 持有者: 在治理合约中锁定 NSP 参与治理可挖 NST。"
   },
 
   "governance": {
@@ -86,7 +87,7 @@
     "total": "发行总量：",
     "total-text": "100万",
     "model": "发行模型：",
-    "model-text-1": "50% 来自募资",
+    "model-text-1": "50% 进行募资",
     "model-text-2": "50% 形成 NSP-NUSD 流动资金池",
     "method": "治理方式: ",
     "method-text": "锁仓 NSP 可以参与投票治理。"

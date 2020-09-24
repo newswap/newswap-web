@@ -16,6 +16,7 @@
     "apply listing": "Apply Listing",
     "github": "GitHub",
     "newton extension": "Newton Extension",
+    "NewPay": "NewPay",
     "learn": "Learn More",
     "pools": "Pools",
     "apy": "Estimated APY",
@@ -23,7 +24,7 @@
     "comingsoon2": "Coming with NewSwap v1.1",
     "invest warning": "Contents on this website is not intended as investment advice. Please make your own prudent decisions and independently assume the corresponding risks before trading or investing."
   },
-  
+
   "menu": {
     "nusd": "NUSD (NewUSD)",
     "nst": "NST (NewSwap Token)",
