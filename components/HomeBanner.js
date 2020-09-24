@@ -15,7 +15,11 @@ const HomeBanner = () => {
               <div className="banner-text-inner text-center">
                 <h1 data-i18n="[html]content.body">{t('slogan.home s1 1')}</h1>
                 <h3>{t('slogan.home s1 3')}</h3>
-                <p>{t('slogan.home s1 2')}</p>
+                <Row className="justify-content-center">
+                  <Col md={10} lg={10} xl={10}>
+                    <p>{t('slogan.home s1 2')}</p>
+                  </Col>
+                </Row>
                 <p>
                   <Link href={process.env.NEXT_PUBLIC_NEWSWAP_APP_URL}>
                     <a className="btn">{t('global.trade')}</a>

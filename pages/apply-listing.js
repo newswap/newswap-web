@@ -6,9 +6,13 @@ import MobileMenu from "../components/MobileMenu";
 import Sidebar from "../components/Sidebar";
 import Footer from "../components/Footer";
 
+import { useTranslation, Trans, Translation } from 'react-i18next'
+
+
 const PostDetails = () => {
+  let { t ,i18n} = useTranslation();
   return (
-    <Layout pageTitle="Page Title">
+    <Layout pageTitle="Apply Listing">
       <Header />
       <MobileMenu />
       <section className="pt-150 pb-30">
@@ -21,39 +25,19 @@ const PostDetails = () => {
                     <div className="post-details">
                       <div className="post-title">
                         <h3>
-                          <a href="#">Page Title</a>
+                          {t('global.apply listing')}
                         </h3>
                       </div>
+                      <h4>English</h4>
                       <p>
-                        There are many variations of passages of Lorem Ipsum
-                        available, but the majority have suffered alteration in
-                        some form, by injected humour, or randomised words which
-                        don't look even slightly believable. If you are going to
-                        use a passage of Lorem Ipsum, you need to be sure there
-                        isn't anything embarrassing hidden in the middle of
-                        text. All the Lorem Ipsum generators on the Internet
-                        tend to repeat predefined chunks as necessary, making
-                        this the first true generator on the Internet. It uses a
-                        dictionary of over 200 Latin words, combined with a
-                        handful of model sentence structures, to generate Lorem
-                        Ipsum which looks reasonable. The generated Lorem Ipsum
-                        is therefore always free from repetition, injected
-                        humour, or non-characteristic words etc.
+                      NewSwap is a decentralized trading protocol based on Newton's public chain NewChain, which realizes fast and safe exchange between NEW and NRC6 tokens issued based on NewChain, and between NRC6 tokens. After passing the review, the applicant will receive the listing information email, and can create a trading pair on NewSwap. Finally, the review will be done by the community.
                       </p>
+                      <p><a href="https://forms.gle/HBBs31Fi98gmajJd9" target="_blank" className="btn">Application Form</a></p>
+                      <h4>中文</h4>
                       <p>
-                        t is a long established fact that a reader will be
-                        distracted by the readable content of a page when
-                        looking at its layout. The point of using Lorem Ipsum is
-                        that it has a more-or-less normal distribution of
-                        letters, as opposed to using 'Content here, content
-                        here', making it look like readable English. Many
-                        desktop publishing packages and web page editors now use
-                        Lorem Ipsum as their default model text, and a search
-                        for 'lorem ipsum' will uncover many web sites still in
-                        their infancy. Various versions have evolved over the
-                        years, sometimes by accident, sometimes on purpose
-                        injected humour and the like.
+                      NewSwap是基于牛顿公链NewChain的去中心化交易协议，实现NEW和基于NewChain发行的NRC6 通证之间、NRC6通证之间的快速安全兑换。通过审核后申请人将收到上线信息邮件，即可在NewSwap上创建交易对，审核将社群治理化。
                       </p>
+                      <p><a href="https://wj.qq.com/s2/7238184/79cd/" target="_blank" className="btn">填写申请表</a></p>
                     </div>
                   </div>
                 </div>

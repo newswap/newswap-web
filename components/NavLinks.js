@@ -78,7 +78,7 @@ const NavLinks = () => {
             </Link>
           </li>
           <li>
-            <Link href="/#">
+            <Link href="/apply-listing">
               <a>{t('global.apply listing')}</a>
             </Link>
           </li>

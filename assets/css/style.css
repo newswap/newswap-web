@@ -2129,6 +2129,9 @@ section.app-video:before {
 .single-post-inner .post-details a:hover {
   color: #20C5A0;
 }
+.single-post-inner .post-details a.btn:hover {
+  color: #fff;
+}
 .post-details {
   padding: 20px 0 0 0;
 }
