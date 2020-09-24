@@ -20,7 +20,7 @@ const NavLinks = () => {
         </Link>
       </li>
       <li>
-      <Link href={process.env.NEXT_PUBLIC_NEWSWAP_FARM_URL}>
+        <Link href={process.env.NEXT_PUBLIC_NEWSWAP_FARM_URL}>
           <a>{t('global.farm')}</a>
         </Link>
       </li>
@@ -68,12 +68,12 @@ const NavLinks = () => {
         </Link>
         <ul className="dropdown-list">
           <li>
-            <Link href="/#">
+            <Link href="/faq">
               <a>{t('global.faq')}</a>
             </Link>
           </li>
           <li>
-            <Link href="/#">
+            <Link href="/tools">
               <a>{t('global.tools')}</a>
             </Link>
           </li>
