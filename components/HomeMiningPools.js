@@ -10,7 +10,7 @@ import TokenHT from "../assets/img/tokens/ht.png";
 import TokenBNB from "../assets/img/tokens/bnb.png";
 import TokenOKB from "../assets/img/tokens/okb.png";
 import TokenYFI from "../assets/img/tokens/yfi.png";
-import TokenUNI from "../assets/img/tokens/uni.png";
+import TokenUNKNOWN from "../assets/img/tokens/unknown.png";
 
 
 const HomeMiningPools = () => {
@@ -82,10 +82,10 @@ const HomeMiningPools = () => {
           </Col>
           <Col sm={3} md={3} lg={3} className="pool-card-col">
             <div className="text-center pool-card">
-              <div><img src={TokenUNI} alt="" /> <img src={TokenNEW} alt="" /></div>
-              <h4>UNI-NEW</h4>
+              <div><img src={TokenUNKNOWN} alt="" /> <img src={TokenNEW} alt="" /></div>
+              <h4>???-NEW</h4>
               <p className="apy">APY: -</p>
-              <a href="#" className="btn soon">{t('global.comingsoon')}</a>
+              {t('global.open apply')}
             </div>
           </Col>
         </Row>

@@ -83,8 +83,18 @@ const NavLinks = () => {
             </Link>
           </li>
           <li>
+            <Link href={process.env.NEXT_PUBLIC_TWITTER_URL}>
+              <a target="_blank">Twitter</a>
+            </Link>
+          </li>
+          <li>
+            <Link href={process.env.NEXT_PUBLIC_TELEGRAM_URL}>
+              <a target="_blank">Telegram</a>
+            </Link>
+          </li>
+          <li>
             <Link href={process.env.NEXT_PUBLIC_GITHUB_URL}>
-              <a>{t('global.github')}</a>
+              <a target="_blank">{t('global.github')}</a>
             </Link>
           </li>
         </ul>

@@ -11,11 +11,13 @@ const HomeSections = () => {
         <Container>
           <Row className="justify-content-center">
             <Col md={9} lg={9}>
-              <div className="text-center user-interact-inner">
+              <div className="text-left user-interact-inner">
                 <h2>{t('business.title')}</h2>
-                <p>{t('business.text1')}</p>
-                <p>{t('business.text2')}</p>
-                <p>{t('business.text3')}</p>
+                <ul>
+                  <li>{t('business.text1')}</li>
+                  <li>{t('business.text2')}</li>
+                  <li>{t('business.text3')}</li>
+                </ul>
               </div>
             </Col>
           </Row>
@@ -35,7 +37,6 @@ const HomeSections = () => {
                   <li><strong>{t('mining.init')}</strong>{t('mining.init-text')}</li>
                   <li><strong>{t('mining.model')}</strong>{t('mining.model-text')}</li>
                   <li><strong>{t('mining.method')}</strong>{t('mining.method-text1')}</li>
-                  <li></li>
                 </ul>
               </div>
             </Col>
