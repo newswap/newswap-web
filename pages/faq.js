@@ -26,7 +26,6 @@ const PostDetails = () => {
                       <div className="post-title">
                         <h3>{t('global.faq')}</h3>
                       </div>
-                      <h1>NewSwap FAQ</h1>
                       <h4>1. What is NewSwap?</h4>
                       <p>NewSwap is an application protocol built on Newton&#39;s NewChain, which realizes the exchange between NEW and the NRC6 token issued based on NewChain. Any two NRC6 tokens can also be exchanged on it.</p>
                       <p>Its characteristics are: system automatic pricing, fast and convenient exchange process, each transaction fee is automatically transferred to the liquidity provider, decentralized, safe and reliable, users can fully control their assets by controlling their own private keys, and the threshold is extremely low. it has global liquidity.</p>
