@@ -27,7 +27,7 @@ We may release future updates so it will overwrite this file. it's better and sa
     5:02 feature type3
     5.3 NewSwap Features
     5.4 About Newton
-    5.5 Business Model
+    5.5 Economic Model
 06: Video section
 07: bottle delivery
 08: start about section
@@ -1561,7 +1561,7 @@ x.swap-f-box div {
   font-size: large;
 }
 
-/* 5.5: Business Model */
+/* 5.5: Economic Model */
 
 .business-model .model-card .user-interact-inner {
   padding: 20px;
@@ -1573,7 +1573,26 @@ x.swap-f-box div {
   font-weight: 500;
 }
 
+.economic-model-start .user-interact-inner {
+  background-image: url(../img/bg-home-economic.jpg);
+  background-size: cover;
+  background-position: center top; 
+  mix-blend-mode: multiply; 
+  padding: 24px;
+  border-radius: 32px;
+}
 
+.economic-model-start .user-interact-inner h2 {
+	x-background-image: -webkit-linear-gradient(92deg, #86d400, #aca093);
+	x-webkit-background-clip: text;
+	x-webkit-text-fill-color: transparent;
+  x-webkit-animation: hue 3s infinite linear;
+}
+
+.economic-model-start .user-interact-inner p {
+  line-height: 1.5em;
+  margin-bottom: 0.75em;
+}
 
 /*===========================================
     Counter area
