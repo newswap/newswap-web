@@ -64,7 +64,11 @@ yarn export
 
 - `yarn export:production`
 
-## Making Contribution
+## Branches
+
+![Branches](./docs/assets/repo-branches.gif)
+
+## Contributing
 
 #### Localization
 
