@@ -231,6 +231,12 @@ body {
   -webkit-transition: 0.3s all linear;
   transition: 0.3s all linear;
   font-size: 16px;
+  margin-bottom: 1.5em;
+}
+.btn.small {
+  padding: 6px 16px;
+  color: #20C5A0;
+  font-size: small;
 }
 
 .btn.active,

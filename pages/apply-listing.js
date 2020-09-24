@@ -32,12 +32,12 @@ const PostDetails = () => {
                       <p>
                       NewSwap is a decentralized trading protocol based on Newton's public chain NewChain, which realizes fast and safe exchange between NEW and NRC6 tokens issued based on NewChain, and between NRC6 tokens. After passing the review, the applicant will receive the listing information email, and can create a trading pair on NewSwap. Finally, the review will be done by the community.
                       </p>
-                      <p><a href="https://forms.gle/HBBs31Fi98gmajJd9" target="_blank" className="btn">Application Form</a></p>
+                      <p><a href="https://forms.gle/HBBs31Fi98gmajJd9" target="_blank" className="btn small">Application Form</a></p>
                       <h4>中文</h4>
                       <p>
                       NewSwap是基于牛顿公链NewChain的去中心化交易协议，实现NEW和基于NewChain发行的NRC6 通证之间、NRC6通证之间的快速安全兑换。通过审核后申请人将收到上线信息邮件，即可在NewSwap上创建交易对，审核将社群治理化。
                       </p>
-                      <p><a href="https://wj.qq.com/s2/7238184/79cd/" target="_blank" className="btn">填写申请表</a></p>
+                      <p><a href="https://wj.qq.com/s2/7238184/79cd/" target="_blank" className="btn small">填写申请表</a></p>
                     </div>
                   </div>
                 </div>

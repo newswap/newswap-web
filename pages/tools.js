@@ -26,52 +26,47 @@ const PostDetails = () => {
                       <div className="post-title">
                         <h3>{t('global.tools')}</h3>
                       </div>
-
-                      <div className="alert alert-info" role="alert">
-                        English Version
-                      </div>
-                      <h4>NewPay App</h4>
+                      <h4>NewPay Mobile App</h4>
                       <p>Supports iOS/Android</p>
                       <p>
                         <Link href={process.env.NEXT_PUBLIC_NEWPAY_URL}>
-                          <a target="_blank">Visit Download Page</a>
+                          <a target="_blank" className="btn small">Visit Download Page</a>
                         </Link>
                       </p>
                       <h4>Newton Browser Extension</h4>
                       <p>Supports Google Chrome/Firefox</p>
                       <p>
                         <Link href={process.env.NEXT_PUBLIC_NEWTONEXTENSION_URL}>
-                          <a target="_blank">Visit Download Page</a>
+                          <a target="_blank" className="btn small">Visit Download Page</a>
                         </Link>
                       </p>
                       <h4>NewAssets Generator</h4>
+                      <p>Currently supports issuing NRC6 Assets</p>
                       <p>
                         <Link href={process.env.NEXT_PUBLIC_NEWASSET_GENERATOR_URL}>
-                          <a target="_blank">Visit</a>
+                          <a target="_blank" className="btn small">Visit</a>
                         </Link>
                       </p>
                       
-                      <div className="alert alert-info" role="alert">
-                        中文版本
-                      </div>
-                      <h4>NewPay App</h4>
+                      <h4>NewPay 手机 App</h4>
                       <p>支持 苹果 iOS 与 安卓 Android</p>
                       <p>
                         <Link href={process.env.NEXT_PUBLIC_NEWPAY_URL}>
-                          <a target="_blank">访问下载页面</a>
+                          <a target="_blank" className="btn small">访问下载页面</a>
                         </Link>
                       </p>
                       <h4>牛顿浏览器插件</h4>
                       <p>支持 谷歌 Chrome 与 火狐 Firefox 浏览器</p>
                       <p>
                         <Link href={process.env.NEXT_PUBLIC_NEWTONEXTENSION_URL}>
-                          <a target="_blank">访问下载页面</a>
+                          <a target="_blank" className="btn small">访问下载页面</a>
                         </Link>
                       </p>
                       <h4>NewAssets Generator</h4>
+                      <p>现在支持发行 NRC6 通证资产</p>
                       <p>
                         <Link href={process.env.NEXT_PUBLIC_NEWASSET_GENERATOR_URL}>
-                          <a target="_blank">访问</a>
+                          <a target="_blank" className="btn small">访问网站</a>
                         </Link>
                       </p>
                     </div>
