@@ -29,8 +29,8 @@ const HomeBanner = () => {
                   </Link>
                 </p>
                 <p>
-                  <Link href={process.env.NEXT_PUBLIC_NEWTONEXTENSION_URL}>
-                    <a className="dl" target="_blank">{t('global.newton extension')}</a>
+                  <Link href="./tools">
+                    <a className="dl">{t('global.newton extension')}</a>
                   </Link>
                   <Link href={process.env.NEXT_PUBLIC_NEWPAY_URL}>
                     <a className="dl" target="_blank">NewPay App</a>
