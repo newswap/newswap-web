@@ -12,7 +12,7 @@ import { useTranslation, Trans, Translation } from 'react-i18next'
 const PostDetails = () => {
   let { t ,i18n} = useTranslation();
   return (
-    <Layout pageTitle="Tools">
+    <Layout pageTitle={t('pages.tools') + ' - ' + t('global.site title')}>
       <Header />
       <MobileMenu />
       <section className="pt-150 pb-30">
@@ -36,8 +36,8 @@ const PostDetails = () => {
                       <h4>Newton Browser Extension</h4>
                       <p>Supports Google Chrome/Firefox</p>
                       <p>
-                        <Link href={process.env.NEXT_PUBLIC_NEWTONEXTENSION_URL}>
-                          <a target="_blank" className="btn small">Visit Download Page</a>
+                        <Link href={process.env.NEXT_PUBLIC_NEWTONEXTENSION_FIREFOX_URL}>
+                          <a target="_blank" className="btn small">Download for Firefox Browser</a>
                         </Link>
                       </p>
                       <h4>NewAssets Generator</h4>
@@ -58,8 +58,8 @@ const PostDetails = () => {
                       <h4>牛顿浏览器插件</h4>
                       <p>支持 谷歌 Chrome 与 火狐 Firefox 浏览器</p>
                       <p>
-                        <Link href={process.env.NEXT_PUBLIC_NEWTONEXTENSION_URL}>
-                          <a target="_blank" className="btn small">访问下载页面</a>
+                        <Link href={process.env.NEXT_PUBLIC_NEWTONEXTENSION_FIREFOX_URL}>
+                          <a target="_blank" className="btn small">下载 Firefox 火狐浏览器插件</a>
                         </Link>
                       </p>
                       <h4>NewAssets Generator</h4>

@@ -2,8 +2,6 @@ import React, { useState, useEffect } from "react";
 import Head from "next/head";
 import { Link as ScrollLink, animateScroll as scroll } from "react-scroll";
 
-import favImg from "../assets/img/favicon.png";
-
 const Layout = (props) => {
   const [scrollTop, setScrollTop] = useState(false);
 
@@ -26,12 +24,20 @@ const Layout = (props) => {
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>{props.pageTitle}</title>
-        <link rel="shortcut icon" type="image/png" href="/favicon.png" />
+        <link rel="shortcut icon" type="image/png" href="https://newswap.org/favicon.png" />
         <link
           href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700"
           rel="stylesheet"
         />
       </Head>
+      <div style={{
+              margin:0,
+              width:0,
+              height:0,
+              overflow:"hidden"
+            }}>
+        <img src="/thumbnail.jpg" />
+      </div>
       <div className="page-wrapper" id="wrapper">
         {props.children}
       </div>

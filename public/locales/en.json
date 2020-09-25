@@ -1,5 +1,7 @@
 {
   "global": {
+    "home site title": "NewSwap - Decentralized Exchange Protocol on NewChain",
+    "site title": "NewSwap",
     "exchange": "Exchange",
     "download": "Download",
     "trade": "Start Trading",
@@ -24,6 +26,13 @@
     "comingsoon2": "Coming with NewSwap v1.1",
     "open apply": "Open for Apply",
     "invest warning": "Contents on this website is not intended as investment advice. Please make your own prudent decisions and independently assume the corresponding risks before trading or investing."
+  },
+
+  "pages": {
+    "about": "",
+    "faq": "FAQ",
+    "tools": "Tools",
+    "apply-listing": "Apply Listing"
   },
 
   "menu": {

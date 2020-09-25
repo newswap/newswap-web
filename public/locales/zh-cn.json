@@ -1,5 +1,7 @@
 {
   "global": {
+    "home site title": "NewSwap - 牛顿公链上的去中心化交换协议",
+    "site title": "NewSwap",
     "exchange": "交易",
     "download": "下载",
     "trade": "开始交易",
@@ -24,6 +26,13 @@
     "comingsoon2": "于 NewSwap v1.1 上线",
     "open apply": "虚位以待",
     "invest warning": "本网站所展示的内容均不作为任何投资建议，交易及投资前请自行审慎决策，并独立承担相应风险。"
+  },
+
+  "pages": {
+    "about": "",
+    "faq": "常见问题",
+    "tools": "相关工具",
+    "apply-listing": "上币申请"
   },
 
   "menu": {

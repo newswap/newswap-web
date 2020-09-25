@@ -12,7 +12,7 @@ import { useTranslation, Trans, Translation } from 'react-i18next'
 const PostDetails = () => {
   let { t ,i18n} = useTranslation();
   return (
-    <Layout pageTitle="Apply Listing">
+    <Layout pageTitle={t('pages.apply-listing') + ' - ' + t('global.site title')}>
       <Header />
       <MobileMenu />
       <section className="pt-150 pb-30">
