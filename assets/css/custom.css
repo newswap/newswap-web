@@ -2,3 +2,19 @@
     Custom Stylesheet (Any custom styling you want to apply should be defined here).
 ====================================================================================*/
 
+body {
+    filter: invert(1);
+    background: linear-gradient( 90.7deg,  rgb(20, 19, 5) 1.9%, rgb(10, 1, 12) 39.3%, rgb(2, 10, 15) 64.7%, rgb(16, 17, 3) 100.8% );
+}
+
+body img {
+    filter: invert(1);
+}
+  
+body .logo img {
+    filter: invert(0);
+}
+
+.main-header.sticky {
+    background: rgba(255, 255, 255, 0.9);
+}
