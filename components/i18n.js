@@ -5,9 +5,12 @@ import {initReactI18next} from 'react-i18next';
 import enUsTrans from "../public/locales/en.json";
 import zhCnTrans from "../public/locales/zh-cn.json";
 
-i18n.use(LanguageDetector)
+i18n.
+
+use(LanguageDetector)
 
 .use(initReactI18next) 
+
 .init({
   resources: {
     en: {
@@ -18,7 +21,7 @@ i18n.use(LanguageDetector)
     },
   },
   preload: ['en'],
-  fallbackLng: "en",
+  fallbackLng: { 'zh': ['zh'], 'default': ['en'] },
   debug: false,
   interpolation: {
     escapeValue: false, 
