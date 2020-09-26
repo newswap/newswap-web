@@ -41,7 +41,7 @@ const MobileMenu = () => {
               <i className="fa fa-github"></i>
               </a>
             </Link>
-            <Link href={process.env.NEXT_PUBLIC_GITHUB_URL} >
+            <Link href={process.env.NEXT_PUBLIC_TELEGRAM_URL} >
               <a target="_blank">
               <i className="fa fa-telegram"></i>
               </a>
