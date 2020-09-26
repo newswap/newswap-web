@@ -99,10 +99,23 @@ const NavLinks = () => {
           </li>
         </ul>
       </li>
-      <li>
-        <Link href="#">
-          <a onClick={()=>i18n.changeLanguage(i18n.language=='en'?'zh':'en')}><span style={{fontSize:13, fontWeight:400,}}>{i18n.language=='en'?'中文':'English'}</span></a>
-        </Link>
+
+      <li className="dropdown">
+            <a>🌐</a>
+            <i className="fa fa-angle-down" onClick={handleDropdownStatus}></i>
+
+        <ul className="dropdown-list">
+          <li>
+            <a onClick={()=>i18n.changeLanguage('en')}>English 🇬🇧 🇺🇸 🇨🇦 🇦🇺</a>
+          </li>
+          <li>
+            <a onClick={()=>i18n.changeLanguage('zh')}>中文 🇨🇳 🇭🇰 🇹🇼 🇸🇬</a>
+          </li>
+          <li style={{ display: "none"}}>
+            <a onClick={()=>i18n.changeLanguage(i18n.language=='en'?'zh':'en')}><span style={{fontSize:13, fontWeight:400,}}>{i18n.language=='en'?'🌐中文':'🌐English'}</span></a>
+          </li>
+
+        </ul>
       </li>
 
     </ul>
