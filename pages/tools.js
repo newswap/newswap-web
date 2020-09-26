@@ -40,7 +40,7 @@ const PostDetails = () => {
                           <a target="_blank" className="btn small">Download for Firefox Browser</a>
                         </Link>
                       </p>
-                      <h4>NewAssets Generator</h4>
+                      <h4>NewAsset Generator</h4>
                       <p>Currently supports issuing NRC6 Assets</p>
                       <p>
                         <Link href={process.env.NEXT_PUBLIC_NEWASSET_GENERATOR_URL}>
@@ -62,7 +62,7 @@ const PostDetails = () => {
                           <a target="_blank" className="btn small">下载 Firefox 火狐浏览器插件</a>
                         </Link>
                       </p>
-                      <h4>NewAssets Generator</h4>
+                      <h4>NewAsset Generator</h4>
                       <p>现在支持发行 NRC6 通证资产</p>
                       <p>
                         <Link href={process.env.NEXT_PUBLIC_NEWASSET_GENERATOR_URL}>
