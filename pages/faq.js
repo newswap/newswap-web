@@ -50,6 +50,11 @@ const PostDetails = () => {
                       <p>After passing the review, the applicant will receive the list information via email and can create a trading pair and add a fund pool on NewSwap.</p>
                       <h4>10. Do I need to register an account?</h4>
                       <p>No need to register for an account. Personal computer users only need to create a decentralized wallet through the Chrome and Firefox browser extension Newton, and successfully connect it with NewSwap to use NewSwap. Mobile phone users can use NewSwap with NewPay 1.6 version.</p>
+                      <h4>11. What are the contract addresses for NewSwap?</h4>
+                      <p><strong>Factory</strong> contract deployed at: 0x723913136a42684B5e3657e3cD2f67ee3e83A82D</p>
+                      <p><strong>WNEW</strong> contract deployed at: 0xf4905b9bc02Ce21C98Eac1803693A9357D5253bf</p>
+                      <p><strong>Router</strong> contract deployed at: 0x9e5A14dd31D1e7120eC45E6E4EfA287c94bCcf2f</p>
+                      <p>Addresses are the same for NewChain TestNet & MainNet.</p>
 
                       <hr />
 
@@ -77,6 +82,11 @@ const PostDetails = () => {
                       <p>通过审核后，申请人会通过邮件收到上线信息，即可在 NewSwap 上创建交易对并添加资金池。</p>
                       <h4>10. 我需要注册账号吗？</h4>
                       <p>无需注册账户。个人电脑用户只需要通过 Chrome 或 Firefox 浏览器扩展程序 Newton 创建去中心化钱包，将其与 NewSwap 成功连接即可使用 NewSwap。手机用户使用 NewPay 1.6 版本即可使用 NewSwap。</p>
+                      <h4>11. NewSwap 相关合约地址是什么?</h4>
+                      <p><strong>Factory</strong> 合约部署于：0x723913136a42684B5e3657e3cD2f67ee3e83A82D</p>
+                      <p><strong>WNEW</strong> 合约部署于：0xf4905b9bc02Ce21C98Eac1803693A9357D5253bf</p>
+                      <p><strong>Router</strong> 合约部署于：0x9e5A14dd31D1e7120eC45E6E4EfA287c94bCcf2f</p>
+                      <p>牛顿公链主网（MainNet）与测试网（TestNet）以上合约部署地址相同。</p>
                     </div>
                   </div>
                 </div>
