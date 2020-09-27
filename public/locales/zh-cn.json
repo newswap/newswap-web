@@ -36,7 +36,7 @@
   },
 
   "menu": {
-    "nusd": "NUSD (美元稳定币)",
+    "nusdt": "NUSDT (跨链 USDT)",
     "nst": "NST (收益代币)",
     "nsp": "NSP (治理代币)"
   },

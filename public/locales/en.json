@@ -36,7 +36,7 @@
   },
 
   "menu": {
-    "nusd": "NUSD (NewUSD)",
+    "nusdt": "NUSDT (Cross-chain USDT)",
     "nst": "NST (NewSwap Token)",
     "nsp": "NSP (NewSwap Power)"
   },
