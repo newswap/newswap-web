@@ -239,6 +239,7 @@
     }
 
     .header-menu #menu-button {
+        color: #20C5A0;
         font-size: 28px;
         display: inline-block;
         cursor: pointer;
@@ -293,7 +294,7 @@
 
     .header-menu>ul>li:not(.active):hover>a,
     .header-menu>ul>li:not(.active)>a:hover {
-        x-color: #20C5A0;
+        color: #20C5A0;
     }
 
     .header-menu>ul>li>ul {

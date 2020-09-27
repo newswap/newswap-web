@@ -62,7 +62,6 @@ We may release future updates so it will overwrite this file. it's better and sa
     21.10: Form validation
     21.11: Content animation
     21.12: Pool Card
-22: Darkmode(Invert)
 ----------------------------------------------*/
 
 /*=============================================
@@ -1642,6 +1641,7 @@ x.swap-f-box div {
   margin-bottom: 39px;
 }
 .user-interact-inner h2 {
+  color: #36324a;
   line-height: 54px;
   margin-bottom: 29px;
 }
@@ -3481,6 +3481,7 @@ h1 span {
   position: relative;
   font-size: 1.5em;
   font-family: var(--heading-font);
+  color: #36324a;
   cursor: pointer;
 }
 .mobile-nav__container li.dropdown ul {
@@ -3655,48 +3656,4 @@ h1 span {
     width: 45px;
     height: 45px;
   }
-}
-
-/*=============================================
-    22: Darkmode(Invert)
-==============================================*/
-
-@media (prefers-color-scheme: dark) {
-  /* Global Invert */
-  body, h1,h2,h3,h4,h5,h6,p,
-  .h1,.h2,.h3,.h4,.h5,.h6 
-  {
-      color: rgb(40, 40, 40);
-  }
-  body {
-      filter: invert(1);
-      background: linear-gradient( 90.7deg,  rgb(20, 19, 5) 1.9%, rgb(10, 1, 12) 39.3%, rgb(2, 10, 15) 64.7%, rgb(16, 17, 3) 100.8% );
-  }
-
-  /* Invert back */
-
-  body img, 
-  a,
-  .pool-card h4,
-  .invest-warning,
-  .x-skip {
-      filter: invert(1);
-  }
-
-  .pool-card > a.soon,
-  .x-skip {
-      filter: invert(0);
-  }
-
-  /* New Appearance */
-  .main-header.sticky {
-      background: rgba(255, 255, 255, 0.9);
-  }
-  .header-menu ul li a {
-      color: #fff !important;
-  }
-  .pool-card:hover {
-      box-shadow: 0 0 20px rgba(223, 58, 95, 0.75) !important;
-  }
-
 }
