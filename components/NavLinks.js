@@ -44,7 +44,7 @@ const NavLinks = () => {
           </li>
           <li>
             <Link href="./#">
-              <a>{t('menu.nusd')}</a>
+              <a>{t('menu.nusdt')}</a>
             </Link>
           </li>
         </ul>
