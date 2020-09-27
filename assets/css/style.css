@@ -241,7 +241,7 @@ body {
 
 .btn.active,
 .btn:hover,
-.btn:focus {
+.x-btn:focus {
   color: #fff;
   text-decoration: none;
 }
