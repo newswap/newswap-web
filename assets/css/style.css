@@ -1641,7 +1641,6 @@ x.swap-f-box div {
   margin-bottom: 39px;
 }
 .user-interact-inner h2 {
-  color: #36324a;
   line-height: 54px;
   margin-bottom: 29px;
 }
@@ -3481,7 +3480,6 @@ h1 span {
   position: relative;
   font-size: 1.5em;
   font-family: var(--heading-font);
-  color: #36324a;
   cursor: pointer;
 }
 .mobile-nav__container li.dropdown ul {

@@ -2,19 +2,48 @@
     Custom Stylesheet (Any custom styling you want to apply should be defined here).
 ====================================================================================*/
 
-body {
-    filter: invert(1);
-    background: linear-gradient( 90.7deg,  rgb(20, 19, 5) 1.9%, rgb(10, 1, 12) 39.3%, rgb(2, 10, 15) 64.7%, rgb(16, 17, 3) 100.8% );
+
+/*=============================================
+    XX: Darkmode type A(Invert)
+==============================================*/
+
+@media (prefers-color-scheme: dark) {
+    /* Global Invert */
+    body, h1,h2,h3,h4,h5,h6,p,
+    .h1,.h2,.h3,.h4,.h5,.h6 
+    {
+        color: rgb(40, 40, 40);
+    }
+    body {
+        filter: invert(1);
+        background: linear-gradient( 90.7deg,  rgb(20, 19, 5) 1.9%, rgb(10, 1, 12) 39.3%, rgb(2, 10, 15) 64.7%, rgb(16, 17, 3) 100.8% );
+    }
+
+    /* Invert back */
+
+    body img, 
+    a,
+    .pool-card h4,
+    .invest-warning,
+    .x-skip {
+        filter: invert(1);
+    }
+
+    .pool-card > a.soon,
+    .x-skip {
+        filter: invert(0);
+    }
+
+    /* New Appearance */
+    .main-header.sticky {
+        background: rgba(255, 255, 255, 0.9);
+    }
+    .header-menu ul li a {
+        color: #fff !important;
+    }
+    .pool-card:hover {
+        box-shadow: 0 0 20px rgba(223, 58, 95, 0.75) !important;
+    }
+
 }
 
-body img {
-    filter: invert(1);
-}
-  
-body .logo img {
-    filter: invert(0);
-}
-
-.main-header.sticky {
-    background: rgba(255, 255, 255, 0.9);
-}
