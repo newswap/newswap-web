@@ -24,11 +24,11 @@ const NavLinks = () => {
           <a>{t('global.farm')}</a>
         </Link>
       </li>
-      <li className="dropdown">
-        <Link href="#">
+      <li href="./#" className="dropdown">
+        <Link href="./#">
           <>
-            <a>{t('global.tokens')}</a>
-            <i className="fa fa-angle-down" onClick={handleDropdownStatus}></i>
+            <a href="./#" onClick={handleDropdownStatus}>{t('global.tokens')}</a>
+            <i className="fa fa-angle-down"></i>
           </>
         </Link>
         <ul className="dropdown-list">
@@ -60,10 +60,10 @@ const NavLinks = () => {
         </Link>
       </li>
       <li className="dropdown">
-        <Link href="#">
+        <Link href="./#">
           <>
-            <a>{t('global.more')}</a>
-            <i className="fa fa-angle-down" onClick={handleDropdownStatus}></i>
+            <a href="./#" onClick={handleDropdownStatus}>{t('global.more')}</a>
+            <i className="fa fa-angle-down"></i>
           </>
         </Link>
         <ul className="dropdown-list">
@@ -101,18 +101,17 @@ const NavLinks = () => {
       </li>
 
       <li className="dropdown">
-            <a>🌐</a>
-            <i className="fa fa-angle-down" onClick={handleDropdownStatus}></i>
-
+            <a href="./#" onClick={handleDropdownStatus}>🌐</a>
+            <i className="fa fa-angle-down"></i>
         <ul className="dropdown-list">
           <li>
-            <a onClick={()=>i18n.changeLanguage('en')}>English</a>
+            <a href="./#" onClick={()=>i18n.changeLanguage('en')}>English</a>
           </li>
           <li>
-            <a onClick={()=>i18n.changeLanguage('zh')}>简体中文</a>
+            <a href="./#" onClick={()=>i18n.changeLanguage('zh')}>简体中文</a>
           </li>
           <li style={{ display: "none"}}>
-            <a onClick={()=>i18n.changeLanguage(i18n.language=='en'?'zh':'en')}><span style={{fontSize:13, fontWeight:400,}}>{i18n.language=='en'?'🌐中文':'🌐English'}</span></a>
+            <a href="./#" onClick={()=>i18n.changeLanguage(i18n.language=='en'?'zh':'en')}><span style={{fontSize:13, fontWeight:400,}}>{i18n.language=='en'?'🌐中文':'🌐English'}</span></a>
           </li>
 
         </ul>
