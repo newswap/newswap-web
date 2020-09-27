@@ -30,14 +30,14 @@ const PostDetails = () => {
                       <p>Supports iOS/Android</p>
                       <p>
                         <Link href={process.env.NEXT_PUBLIC_NEWPAY_URL}>
-                          <a target="_blank" className="btn small">Visit Download Page</a>
+                          <a target="_blank" className="btn small">Download Page</a>
                         </Link>
                       </p>
                       <h4>Newton Browser Extension</h4>
                       <p>Supports Google Chrome/Firefox</p>
                       <p>
                         <Link href={process.env.NEXT_PUBLIC_NEWTONEXTENSION_FIREFOX_URL}>
-                          <a target="_blank" className="btn small">Download for Firefox Browser</a>
+                          <a target="_blank" className="btn small">Firefox Browser</a>
                         </Link>
                       </p>
                       <h4>NewAsset Generator</h4>
@@ -59,7 +59,7 @@ const PostDetails = () => {
                       <p>支持 谷歌 Chrome 与 火狐 Firefox 浏览器</p>
                       <p>
                         <Link href={process.env.NEXT_PUBLIC_NEWTONEXTENSION_FIREFOX_URL}>
-                          <a target="_blank" className="btn small">下载 Firefox 火狐浏览器插件</a>
+                          <a target="_blank" className="btn small">Firefox 火狐浏览器插件</a>
                         </Link>
                       </p>
                       <h4>NewAsset Generator</h4>
