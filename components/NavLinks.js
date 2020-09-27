@@ -44,7 +44,7 @@ const NavLinks = () => {
           </li>
           <li>
             <Link href="./#">
-              <a>{t('menu.nusd')}</a>
+              <a>{t('menu.nusdt')}</a>
             </Link>
           </li>
         </ul>
@@ -106,10 +106,10 @@ const NavLinks = () => {
 
         <ul className="dropdown-list">
           <li>
-            <a onClick={()=>i18n.changeLanguage('en')}>English 🇬🇧 🇺🇸 🇨🇦 🇦🇺</a>
+            <a onClick={()=>i18n.changeLanguage('en')}>English</a>
           </li>
           <li>
-            <a onClick={()=>i18n.changeLanguage('zh')}>中文 🇨🇳 🇭🇰 🇹🇼 🇸🇬</a>
+            <a onClick={()=>i18n.changeLanguage('zh')}>简体中文</a>
           </li>
           <li style={{ display: "none"}}>
             <a onClick={()=>i18n.changeLanguage(i18n.language=='en'?'zh':'en')}><span style={{fontSize:13, fontWeight:400,}}>{i18n.language=='en'?'🌐中文':'🌐English'}</span></a>
