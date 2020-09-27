@@ -1246,7 +1246,7 @@ label input[type="radio"] {
 }
 
 .home-main-banner h1 {
-	background-image: -webkit-linear-gradient(92deg, #5ed48f, #a426f3);
+	background-image: -webkit-linear-gradient(92deg, #00bde8, #d702e3);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
   -webkit-animation: hue 3s infinite linear;
