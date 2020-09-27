@@ -103,7 +103,7 @@ const NavLinks = () => {
       <li className="dropdown">
             <a href="./#" onClick={handleDropdownStatus}>🌐</a>
             <i className="fa fa-angle-down"></i>
-        <ul className="dropdown-list">
+        <ul className="dropdown-list langMenu">
           <li>
             <a href="./#" onClick={()=>i18n.changeLanguage('en')}>English</a>
           </li>

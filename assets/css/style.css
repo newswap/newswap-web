@@ -1041,6 +1041,10 @@ label input[type="radio"] {
   transform: translateY(-50%);
 }
 
+.header-menu ul ul.langMenu li a {
+  width: 130px;
+}
+
 .logo .sticky-logo {
   display: none;
 }
