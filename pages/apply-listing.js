@@ -8,11 +8,12 @@ import Footer from "../components/Footer";
 
 import { useTranslation, Trans, Translation } from 'react-i18next'
 
+var pageDescription = "Apply to be listed in NewSwap Default Token List. 申请加入 NewSwap 默认通证列表。"
 
 const PostDetails = () => {
   let { t ,i18n} = useTranslation();
   return (
-    <Layout pageTitle={t('pages.apply-listing') + ' - ' + t('global.site title')}>
+    <Layout pageTitle={t('pages.apply-listing') + ' - ' + t('global.site title')}  pageDescription={pageDescription}>
       <Header />
       <MobileMenu />
       <section className="pt-150 pb-30">
