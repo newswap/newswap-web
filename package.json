@@ -2,7 +2,7 @@
   "name": "newswap-web-react-next",
   "private": true,
   "description": "newswap.org website",
-  "version": "0.6.5",
+  "version": "0.7.0",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
