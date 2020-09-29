@@ -66,7 +66,7 @@ const PostDetails = () => {
                           <a target="_blank" className="btn small">Firefox 火狐浏览器插件</a>
                         </Link>
                         　
-                        <Link href={process.env.NEXT_PUBLIC_NEWTONEXTENSION_FIREFOX_URL}>
+                        <Link href={process.env.NEXT_PUBLIC_NEWTONEXTENSION_CHROME_URL}>
                           <a target="_blank" className="btn small">谷歌 Chrome 浏览器插件</a>
                         </Link>
                       </p>
