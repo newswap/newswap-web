@@ -39,6 +39,10 @@ const PostDetails = () => {
                         <Link href={process.env.NEXT_PUBLIC_NEWTONEXTENSION_FIREFOX_URL}>
                           <a target="_blank" className="btn small">Firefox Browser</a>
                         </Link>
+                        　
+                        <Link href={process.env.NEXT_PUBLIC_NEWTONEXTENSION_CHROME_URL}>
+                          <a target="_blank" className="btn small">Google Chrome</a>
+                        </Link>
                       </p>
                       <h4>NewAsset Generator</h4>
                       <p>Currently supports issuing NRC6 Assets</p>
@@ -60,6 +64,10 @@ const PostDetails = () => {
                       <p>
                         <Link href={process.env.NEXT_PUBLIC_NEWTONEXTENSION_FIREFOX_URL}>
                           <a target="_blank" className="btn small">Firefox 火狐浏览器插件</a>
+                        </Link>
+                        　
+                        <Link href={process.env.NEXT_PUBLIC_NEWTONEXTENSION_FIREFOX_URL}>
+                          <a target="_blank" className="btn small">谷歌 Chrome 浏览器插件</a>
                         </Link>
                       </p>
                       <h4>NewAsset Generator</h4>
