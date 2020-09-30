@@ -38,7 +38,8 @@
   "menu": {
     "nusdt": "NUSDT (跨链 USDT)",
     "nst": "NST (收益代币)",
-    "nsp": "NSP (治理代币)"
+    "nsp": "NSP (治理代币)",
+    "cross-chain-assets": "跨链资产"
   },
 
   "slogan": {
