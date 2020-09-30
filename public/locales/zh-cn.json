@@ -103,5 +103,11 @@
     "model-text-2": " ",
     "method": "治理模型：",
     "method-text": "稍后公布"
+  },
+
+  "tokens": {
+    "New Address": "合约地址",
+    "Raw Address": "合约原始地址",
+    "Cross-chain Assets Title": "牛顿公链主网（NewChain MainNet）跨链资产"
   }
 }
