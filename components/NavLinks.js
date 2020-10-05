@@ -24,33 +24,33 @@ const NavLinks = () => {
           <a>{t('global.farm')}</a>
         </Link>
       </li>
-      <li href="./#" className="dropdown">
-        <Link href="./#">
+      <li href="#" className="dropdown">
+        <Link href="#">
           <>
-            <a href="./#" onClick={handleDropdownStatus}>{t('global.tokens')}</a>
+            <a href="#" onClick={handleDropdownStatus}>{t('global.tokens')}</a>
             <i className="fa fa-angle-down"></i>
           </>
         </Link>
         <ul className="dropdown-list">
           <li>
-            <Link href="./#">
+            <Link href="#">
               <a>{t('menu.nsp')}</a>
             </Link>
           </li>
           <li>
-            <Link href="./#">
+            <Link href="#">
               <a>{t('menu.nst')}</a>
             </Link>
           </li>
           <li>
-            <Link href="./#">
-              <a>{t('menu.nusdt')}</a>
+            <Link href="/tokens/cross-chain-assets">
+              <a>{t('menu.cross-chain-assets')}</a>
             </Link>
           </li>
         </ul>
       </li>
       <li>
-        <Link href="./#">
+        <Link href="#">
           <a>{t('global.governance')}</a>
         </Link>
       </li>
@@ -60,9 +60,9 @@ const NavLinks = () => {
         </Link>
       </li>
       <li className="dropdown">
-        <Link href="./#">
+        <Link href="#">
           <>
-            <a href="./#" onClick={handleDropdownStatus}>{t('global.more')}</a>
+            <a href="#" onClick={handleDropdownStatus}>{t('global.more')}</a>
             <i className="fa fa-angle-down"></i>
           </>
         </Link>
@@ -101,17 +101,17 @@ const NavLinks = () => {
       </li>
 
       <li className="dropdown">
-            <a href="./#" onClick={handleDropdownStatus}>🌐</a>
+            <a href="#" onClick={handleDropdownStatus}>🌐</a>
             <i className="fa fa-angle-down"></i>
         <ul className="dropdown-list langMenu">
           <li>
-            <a href="./#" onClick={()=>i18n.changeLanguage('en')}>English</a>
+            <a href="#" onClick={()=>i18n.changeLanguage('en')}>English</a>
           </li>
           <li>
-            <a href="./#" onClick={()=>i18n.changeLanguage('zh')}>简体中文</a>
+            <a href="#" onClick={()=>i18n.changeLanguage('zh')}>简体中文</a>
           </li>
           <li style={{ display: "none"}}>
-            <a href="./#" onClick={()=>i18n.changeLanguage(i18n.language=='en'?'zh':'en')}><span style={{fontSize:13, fontWeight:400,}}>{i18n.language=='en'?'🌐中文':'🌐English'}</span></a>
+            <a href="#" onClick={()=>i18n.changeLanguage(i18n.language=='en'?'zh':'en')}><span style={{fontSize:13, fontWeight:400,}}>{i18n.language=='en'?'🌐中文':'🌐English'}</span></a>
           </li>
 
         </ul>

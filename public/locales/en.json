@@ -38,7 +38,8 @@
   "menu": {
     "nusdt": "NUSDT (Cross-chain USDT)",
     "nst": "NST (NewSwap Token)",
-    "nsp": "NSP (NewSwap Power)"
+    "nsp": "NSP (NewSwap Power)",
+    "cross-chain-assets": "Cross-chain Assets"
   },
 
   "slogan": {
@@ -103,5 +104,11 @@
     "model-text-2": " ",
     "method": "Governing: ",
     "method-text": "TBA"
+  },
+
+  "tokens": {
+    "New Address": "Contract Address",
+    "Raw Address": "Contract Raw Address",
+    "Cross-chain Assets Title": "Cross-chain Assets on NewChain MainNet"
   }
 }
