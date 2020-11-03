@@ -12,9 +12,7 @@ const HomeBanner = () => {
           <Row className="justify-content-center">
             <Col md={12} lg={12} xl={12}>
               <div className="banner-text-inner text-center">
-                <h1 data-i18n="[html]content.body">
-                  {t("slogan.home s1 1")}
-                </h1>
+                <h1 data-i18n="[html]content.body">{t("slogan.home s1 1")}</h1>
                 <h3>{t("slogan.home s1 3")}</h3>
                 <Row className="justify-content-center">
                   <Col md={10} lg={10} xl={10}>
@@ -22,22 +20,16 @@ const HomeBanner = () => {
                   </Col>
                 </Row>
                 <p>
-                  <Link
-                    href={process.env.NEXT_PUBLIC_NEWSWAP_APP_URL}
-                  >
+                  <Link href={process.env.NEXT_PUBLIC_NEWSWAP_APP_URL}>
                     <a className="btn">{t("global.trade")}</a>
                   </Link>
-                  <Link
-                    href={process.env.NEXT_PUBLIC_NEWSWAP_FARM_URL}
-                  >
+                  <Link href={process.env.NEXT_PUBLIC_NEWSWAP_FARM_URL}>
                     <a className="btn">{t("global.gofarm")}</a>
                   </Link>
                 </p>
                 <p>
                   <Link href="./tools">
-                    <a className="dl">
-                      {t("global.newton extension")}
-                    </a>
+                    <a className="dl">{t("global.newton extension")}</a>
                   </Link>
                   <Link href={process.env.NEXT_PUBLIC_NEWPAY_URL}>
                     <a className="dl" target="_blank">
@@ -49,67 +41,37 @@ const HomeBanner = () => {
             </Col>
           </Row>
           <Row className="justify-content-center swap-f">
-            <Col
-              md={4}
-              lg={4}
-              xl={4}
-              className="swap-f-box text-center"
-            >
+            <Col md={4} lg={4} xl={4} className="swap-f-box text-center">
               <div>
                 <h4>{t("features.feature1")}</h4>
                 {t("features.text1")}
               </div>
             </Col>
-            <Col
-              md={4}
-              lg={4}
-              xl={4}
-              className="swap-f-box text-center"
-            >
+            <Col md={4} lg={4} xl={4} className="swap-f-box text-center">
               <div>
                 <h4>{t("features.feature2")}</h4>
                 {t("features.text2")}
               </div>
             </Col>
-            <Col
-              md={4}
-              lg={4}
-              xl={4}
-              className="swap-f-box text-center"
-            >
+            <Col md={4} lg={4} xl={4} className="swap-f-box text-center">
               <div>
                 <h4>{t("features.feature3")}</h4>
                 {t("features.text3")}
               </div>
             </Col>
-            <Col
-              md={4}
-              lg={4}
-              xl={4}
-              className="swap-f-box text-center"
-            >
+            <Col md={4} lg={4} xl={4} className="swap-f-box text-center">
               <div>
                 <h4>{t("features.feature5")}</h4>
                 {t("features.text5")}
               </div>
             </Col>
-            <Col
-              md={4}
-              lg={4}
-              xl={4}
-              className="swap-f-box text-center"
-            >
+            <Col md={4} lg={4} xl={4} className="swap-f-box text-center">
               <div>
                 <h4>{t("features.feature6")}</h4>
                 {t("features.text6")}
               </div>
             </Col>
-            <Col
-              md={4}
-              lg={4}
-              xl={4}
-              className="swap-f-box text-center"
-            >
+            <Col md={4} lg={4} xl={4} className="swap-f-box text-center">
               <div>
                 <h4>{t("features.feature7")}</h4>
                 {t("features.text7")}

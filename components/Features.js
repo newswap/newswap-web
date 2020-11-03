@@ -44,7 +44,6 @@ const FEATURES_DATA = [
     text: "基于双通证设计的流动性挖矿机制",
     image: img2,
   },
-  ,
   {
     title: "社群治理",
     text: "由社群共同参与投票治理",
@@ -100,18 +99,11 @@ const Features = () => {
             <Swiper className="feature-carousel" {...swiperParams}>
               {FEATURES_DATA.map((feature, index) => (
                 <SwiperSlide key={`feature-post-${index}`}>
-                  <FeatureCard
-                    title={feature.title}
-                    text={feature.text}
-                    image={feature.image}
-                  />
+                  <FeatureCard title={feature.title} text={feature.text} image={feature.image} />
                 </SwiperSlide>
               ))}
             </Swiper>
-            <div
-              id="features-paginations"
-              className="swiper-pagination d-flex justify-content-center align-items-center"
-            />
+            <div id="features-paginations" className="swiper-pagination d-flex justify-content-center align-items-center" />
           </Col>
         </Row>
       </Container>

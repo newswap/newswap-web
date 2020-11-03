@@ -35,8 +35,7 @@ const HomeSections = () => {
                 <ul>
                   <li>
                     <strong>
-                      {t("mining.token-type")}:{" "}
-                      {t("mining.token-name")}
+                      {t("mining.token-type")}: {t("mining.token-name")}
                     </strong>
                   </li>
                   <li>
@@ -62,8 +61,7 @@ const HomeSections = () => {
                 <ul>
                   <li>
                     <strong>
-                      {t("governance.token-type")}:{" "}
-                      {t("governance.token-name")}
+                      {t("governance.token-type")}: {t("governance.token-name")}
                     </strong>
                   </li>
                   <li>

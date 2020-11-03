@@ -11,9 +11,7 @@ const Footer = () => {
         <div className="container">
           <Row className="justify-content-center">
             <Col md={12} lg={12} xl={12}>
-              <div className="invest-warning">
-                {t("global.invest warning")}
-              </div>
+              <div className="invest-warning">{t("global.invest warning")}</div>
             </Col>
           </Row>
         </div>

@@ -25,25 +25,17 @@ const HeaderHome = (props) => {
   });
 
   const mobileMenu = () => {
-    document
-      .querySelector(".side-menu__toggler")
-      .addEventListener("click", function (e) {
-        document
-          .querySelector(".side-menu__block")
-          .classList.toggle("active");
-        e.preventDefault();
-      });
+    document.querySelector(".side-menu__toggler").addEventListener("click", function (e) {
+      document.querySelector(".side-menu__block").classList.toggle("active");
+      e.preventDefault();
+    });
 
     //Close Mobile Menu
-    let sideMenuCloser = document.querySelectorAll(
-      ".side-menu__close-btn, .side-menu__block-overlay",
-    );
+    let sideMenuCloser = document.querySelectorAll(".side-menu__close-btn, .side-menu__block-overlay");
 
     sideMenuCloser.forEach((sideMenuCloserBtn) => {
       sideMenuCloserBtn.addEventListener("click", function (e) {
-        document
-          .querySelector(".side-menu__block")
-          .classList.remove("active");
+        document.querySelector(".side-menu__block").classList.remove("active");
         e.preventDefault();
       });
     });
@@ -51,11 +43,7 @@ const HeaderHome = (props) => {
 
   return (
     <header className={`header ${props.extraClassName}`}>
-      <div
-        className={`main-header ${
-          sticky === true ? "sticky fadeInDown" : " "
-        }`}
-      >
+      <div className={`main-header ${sticky === true ? "sticky fadeInDown" : " "}`}>
         <div className="main-menu-wrap">
           <div className="container">
             <div className="row align-items-center">
@@ -79,10 +67,7 @@ const HeaderHome = (props) => {
                   <div className="menu-wraper">
                     <nav>
                       <div className="header-menu">
-                        <div
-                          id="menu-button"
-                          className="menu-opened side-menu__toggler"
-                        >
+                        <div id="menu-button" className="menu-opened side-menu__toggler">
                           <i className="fa fa-bars"></i>
                         </div>
                         <NavLinks />

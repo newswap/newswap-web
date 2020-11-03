@@ -26,8 +26,7 @@ const HomeMiningPools = () => {
           <Col sm={3} md={3} lg={3} className="pool-card-col">
             <div className="text-center pool-card">
               <div>
-                <img src={TokenNEW} alt="" />{" "}
-                <img src={TokenNUSDT} alt="" />
+                <img src={TokenNEW} alt="" /> <img src={TokenNUSDT} alt="" />
               </div>
               <h4>NEW-NUSDT</h4>
               <p className="apy">APY: -</p>
@@ -39,8 +38,7 @@ const HomeMiningPools = () => {
           <Col sm={3} md={3} lg={3} className="pool-card-col">
             <div className="text-center pool-card">
               <div>
-                <img src={TokenETH} alt="" />{" "}
-                <img src={TokenNEW} alt="" />
+                <img src={TokenETH} alt="" /> <img src={TokenNEW} alt="" />
               </div>
               <h4>ETH-NEW</h4>
               <p className="apy">APY: -</p>
@@ -52,8 +50,7 @@ const HomeMiningPools = () => {
           <Col sm={3} md={3} lg={3} className="pool-card-col">
             <div className="text-center pool-card">
               <div>
-                <img src={TokenBTC} alt="" />{" "}
-                <img src={TokenNEW} alt="" />
+                <img src={TokenBTC} alt="" /> <img src={TokenNEW} alt="" />
               </div>
               <h4>BTC-NEW</h4>
               <p className="apy">APY: -</p>
@@ -65,8 +62,7 @@ const HomeMiningPools = () => {
           <Col sm={3} md={3} lg={3} className="pool-card-col">
             <div className="text-center pool-card">
               <div>
-                <img src={TokenHT} alt="" />{" "}
-                <img src={TokenNEW} alt="" />
+                <img src={TokenHT} alt="" /> <img src={TokenNEW} alt="" />
               </div>
               <h4>HT-NEW</h4>
               <p className="apy">APY: -</p>
@@ -78,8 +74,7 @@ const HomeMiningPools = () => {
           <Col sm={3} md={3} lg={3} className="pool-card-col">
             <div className="text-center pool-card">
               <div>
-                <img src={TokenBNB} alt="" />{" "}
-                <img src={TokenNEW} alt="" />
+                <img src={TokenBNB} alt="" /> <img src={TokenNEW} alt="" />
               </div>
               <h4>BNB-NEW</h4>
               <p className="apy">APY: -</p>
@@ -91,8 +86,7 @@ const HomeMiningPools = () => {
           <Col sm={3} md={3} lg={3} className="pool-card-col">
             <div className="text-center pool-card">
               <div>
-                <img src={TokenOKB} alt="" />{" "}
-                <img src={TokenNEW} alt="" />
+                <img src={TokenOKB} alt="" /> <img src={TokenNEW} alt="" />
               </div>
               <h4>OKB-NEW</h4>
               <p className="apy">APY: -</p>
@@ -104,8 +98,7 @@ const HomeMiningPools = () => {
           <Col sm={3} md={3} lg={3} className="pool-card-col">
             <div className="text-center pool-card">
               <div>
-                <img src={TokenYFI} alt="" />{" "}
-                <img src={TokenNEW} alt="" />
+                <img src={TokenYFI} alt="" /> <img src={TokenNEW} alt="" />
               </div>
               <h4>YFI-NEW</h4>
               <p className="apy">APY: -</p>
@@ -117,8 +110,7 @@ const HomeMiningPools = () => {
           <Col sm={3} md={3} lg={3} className="pool-card-col">
             <div className="text-center pool-card">
               <div>
-                <img src={TokenUNKNOWN} alt="" />{" "}
-                <img src={TokenNEW} alt="" />
+                <img src={TokenUNKNOWN} alt="" /> <img src={TokenNEW} alt="" />
               </div>
               <h4>???-NEW</h4>
               <p className="apy">APY: -</p>

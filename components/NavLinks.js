@@ -1,9 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
-import {
-  Link as ScrollLink,
-  animateScroll as scroll,
-} from "react-scroll";
+import { Link as ScrollLink, animateScroll as scroll } from "react-scroll";
 import { useTranslation, Trans, Translation } from "react-i18next";
 
 const NavLinks = () => {
@@ -11,9 +8,7 @@ const NavLinks = () => {
   const handleDropdownStatus = (e) => {
     // setDropdownStatus(!dropdownStatus);
     let clickedItem = e.currentTarget.parentNode;
-    clickedItem
-      .querySelector(".dropdown-list")
-      .classList.toggle("show");
+    clickedItem.querySelector(".dropdown-list").classList.toggle("show");
   };
   let { t, i18n } = useTranslation();
   return (
@@ -125,17 +120,8 @@ const NavLinks = () => {
             </a>
           </li>
           <li style={{ display: "none" }}>
-            <a
-              href="#"
-              onClick={() =>
-                i18n.changeLanguage(
-                  i18n.language == "en" ? "zh" : "en",
-                )
-              }
-            >
-              <span style={{ fontSize: 13, fontWeight: 400 }}>
-                {i18n.language == "en" ? "🌐中文" : "🌐English"}
-              </span>
+            <a href="#" onClick={() => i18n.changeLanguage(i18n.language == "en" ? "zh" : "en")}>
+              <span style={{ fontSize: 13, fontWeight: 400 }}>{i18n.language == "en" ? "🌐中文" : "🌐English"}</span>
             </a>
           </li>
         </ul>

@@ -6,10 +6,7 @@ import { useTranslation, Trans, Translation } from "react-i18next";
 const TokenCard = (props) => {
   let { t, i18n } = useTranslation();
   let explorerURL = "https://explorer.newtonproject.org/token/";
-  let tokenIconURL =
-    "https://misc.newswap.org/tokenlist/assets/1012/" +
-    props.rawAddr +
-    "/logo.png";
+  let tokenIconURL = "https://misc.newswap.org/tokenlist/assets/1012/" + props.rawAddr + "/logo.png";
   return (
     <div className="text-center token-card">
       <div className="token-icon">
@@ -20,14 +17,14 @@ const TokenCard = (props) => {
       <div>
         <p className="new-addr-title">{t("tokens.New Address")}</p>
         <p className="new-addr">
-          <a href={explorerURL + props.newAddr} target="_blank">
+          <a href={explorerURL + props.newAddr} target="_blank" rel="noreferrer">
             {props.newAddr}
           </a>
         </p>
       </div>
       <p className="raw-addr-title">{t("tokens.Raw Address")}</p>
       <p className="raw-addr">
-        <a href={explorerURL + props.rawAddr} target="_blank">
+        <a href={explorerURL + props.rawAddr} target="_blank" rel="noreferrer">
           {props.rawAddr}
         </a>
       </p>

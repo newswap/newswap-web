@@ -23,10 +23,7 @@ const MobileMenu = () => {
               />
             </a>
           </Link>
-          <a
-            href="#"
-            className="side-menu__toggler side-menu__close-btn"
-          >
+          <a href="#" className="side-menu__toggler side-menu__close-btn">
             <i
               className="fa fa-window-close"
               style={{
