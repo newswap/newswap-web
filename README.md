@@ -62,7 +62,7 @@ yarn export
 
 - `yarn export:testnet`
 
-- `yarn export:production`
+- `yarn export:production`  
 
 ## Branches
 
