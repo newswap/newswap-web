@@ -12,7 +12,7 @@
     "build:dev": "dotenv -e .env next build",
     "build:testnet": "dotenv -e .env.testnet next build",
     "build:production": "dotenv -e .env.production next build",
-    "build": "dotenv -e .env.testnet build",
+    "build": "dotenv -e .env.testnet next build",
     "start": "next start",
     "export:dev": "dotenv -e .env next build && next export -o html",
     "export:testnet": "dotenv -e .env.testnet next build && next export -o html",
