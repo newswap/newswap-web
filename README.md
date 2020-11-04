@@ -8,7 +8,7 @@ Website: [newswap.org](https://newswap.org/)
 yarn
 ```
 
-## Environments 
+## Environments
 
 **Dev:** `.env`
 
@@ -16,12 +16,13 @@ yarn
 
 **Production:** `.env.production`
 
-## Development 
+## Development
 
 ```bash
 yarn dev
 ```
-*Default* is **Dev**
+
+_Default_ is **Dev**
 
 - `yarn dev:testnet`
 
@@ -32,7 +33,8 @@ yarn dev
 ```bash
 yarn build
 ```
-*Default* build is **TestNet**
+
+_Default_ build is **TestNet**
 
 - `yarn build:dev`
 
@@ -56,7 +58,7 @@ Create a build and export it's static HTML files to **html** folder
 yarn export
 ```
 
-*Default* export is **TestNet**
+_Default_ export is **TestNet**
 
 - `yarn export:dev`
 
@@ -72,9 +74,11 @@ yarn export
 
 #### Localization
 
-Translation Files: **./public/locales/*.json**
+Translation Files: **./public/locales/\*.json**
 
-Run following command before making a commit, that should unify the json format.
+#### Formatting Your Code
+
+Run following command to follow the formatting rules in this repo before making a commit.
 
 ```bash
 yarn i18n:clean
