@@ -1,4 +1,4 @@
-import React, { Component }  from 'react';
+import React, { Component } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "react-modal-video/css/modal-video.min.css";
 import "../assets/css/font-awesome.min.css";

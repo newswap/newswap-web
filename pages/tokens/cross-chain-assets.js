@@ -26,14 +26,20 @@ const ASSETS_DATA = [
 const PostDetails = () => {
   let { t, i18n } = useTranslation();
   return (
-    <Layout pageTitle={t("tokens.Cross-chain Assets Title") + " - " + t("global.site title")}>
+    <Layout
+      pageTitle={
+        t("tokens.Cross-chain Assets Title") + " - " + t("global.site title")
+      }
+    >
       <Header />
       <MobileMenu />
       <section className="pt-150 pb-30">
         <Container>
           <Row>
             <Col lg={12}>
-              <h2 style={{ textAlign: "center" }}>{t("tokens.Cross-chain Assets Title")}</h2>
+              <h2 style={{ textAlign: "center" }}>
+                {t("tokens.Cross-chain Assets Title")}
+              </h2>
             </Col>
           </Row>
         </Container>
@@ -43,7 +49,12 @@ const PostDetails = () => {
           <Row className="justify-content-center">
             {ASSETS_DATA.map((token, index) => (
               <Col lg={3} key={`token-card-${index}`}>
-                <TokenCard name={token.name} symbol={token.symbol} newAddr={token.newAddr} rawAddr={token.rawAddr} />
+                <TokenCard
+                  name={token.name}
+                  symbol={token.symbol}
+                  newAddr={token.newAddr}
+                  rawAddr={token.rawAddr}
+                />
               </Col>
             ))}
           </Row>

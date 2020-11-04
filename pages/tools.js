@@ -37,12 +37,20 @@ const PostDetails = () => {
                       <h4>Newton Browser Extension</h4>
                       <p>Supports Google Chrome/Firefox</p>
                       <p>
-                        <Link href={process.env.NEXT_PUBLIC_NEWTONEXTENSION_FIREFOX_URL}>
+                        <Link
+                          href={
+                            process.env.NEXT_PUBLIC_NEWTONEXTENSION_FIREFOX_URL
+                          }
+                        >
                           <a target="_blank" className="btn small">
                             Firefox Browser
                           </a>
                         </Link>
-                        <Link href={process.env.NEXT_PUBLIC_NEWTONEXTENSION_CHROME_URL}>
+                        <Link
+                          href={
+                            process.env.NEXT_PUBLIC_NEWTONEXTENSION_CHROME_URL
+                          }
+                        >
                           <a target="_blank" className="btn small">
                             Google Chrome
                           </a>
@@ -51,7 +59,9 @@ const PostDetails = () => {
                       <h4>NewAsset Generator</h4>
                       <p>Currently supports issuing NRC6 Assets</p>
                       <p>
-                        <Link href={process.env.NEXT_PUBLIC_NEWASSET_GENERATOR_URL}>
+                        <Link
+                          href={process.env.NEXT_PUBLIC_NEWASSET_GENERATOR_URL}
+                        >
                           <a target="_blank" className="btn small">
                             Visit
                           </a>
@@ -70,12 +80,20 @@ const PostDetails = () => {
                       <h4>牛顿浏览器插件</h4>
                       <p>支持 谷歌 Chrome 与 火狐 Firefox 浏览器</p>
                       <p>
-                        <Link href={process.env.NEXT_PUBLIC_NEWTONEXTENSION_FIREFOX_URL}>
+                        <Link
+                          href={
+                            process.env.NEXT_PUBLIC_NEWTONEXTENSION_FIREFOX_URL
+                          }
+                        >
                           <a target="_blank" className="btn small">
                             Firefox 火狐浏览器插件
                           </a>
                         </Link>
-                        <Link href={process.env.NEXT_PUBLIC_NEWTONEXTENSION_CHROME_URL}>
+                        <Link
+                          href={
+                            process.env.NEXT_PUBLIC_NEWTONEXTENSION_CHROME_URL
+                          }
+                        >
                           <a target="_blank" className="btn small">
                             谷歌 Chrome 浏览器插件
                           </a>
@@ -84,7 +102,9 @@ const PostDetails = () => {
                       <h4>NewAsset Generator</h4>
                       <p>现在支持发行 NRC6 通证资产</p>
                       <p>
-                        <Link href={process.env.NEXT_PUBLIC_NEWASSET_GENERATOR_URL}>
+                        <Link
+                          href={process.env.NEXT_PUBLIC_NEWASSET_GENERATOR_URL}
+                        >
                           <a target="_blank" className="btn small">
                             访问网站
                           </a>

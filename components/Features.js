@@ -99,11 +99,18 @@ const Features = () => {
             <Swiper className="feature-carousel" {...swiperParams}>
               {FEATURES_DATA.map((feature, index) => (
                 <SwiperSlide key={`feature-post-${index}`}>
-                  <FeatureCard title={feature.title} text={feature.text} image={feature.image} />
+                  <FeatureCard
+                    title={feature.title}
+                    text={feature.text}
+                    image={feature.image}
+                  />
                 </SwiperSlide>
               ))}
             </Swiper>
-            <div id="features-paginations" className="swiper-pagination d-flex justify-content-center align-items-center" />
+            <div
+              id="features-paginations"
+              className="swiper-pagination d-flex justify-content-center align-items-center"
+            />
           </Col>
         </Row>
       </Container>

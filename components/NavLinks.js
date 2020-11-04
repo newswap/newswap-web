@@ -120,8 +120,15 @@ const NavLinks = () => {
             </a>
           </li>
           <li style={{ display: "none" }}>
-            <a href="#" onClick={() => i18n.changeLanguage(i18n.language == "en" ? "zh" : "en")}>
-              <span style={{ fontSize: 13, fontWeight: 400 }}>{i18n.language == "en" ? "🌐中文" : "🌐English"}</span>
+            <a
+              href="#"
+              onClick={() =>
+                i18n.changeLanguage(i18n.language == "en" ? "zh" : "en")
+              }
+            >
+              <span style={{ fontSize: 13, fontWeight: 400 }}>
+                {i18n.language == "en" ? "🌐中文" : "🌐English"}
+              </span>
             </a>
           </li>
         </ul>
