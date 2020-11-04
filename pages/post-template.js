@@ -57,7 +57,6 @@ const PostDetails = () => {
                     </div>
                   </div>
                 </div>
-
               </div>
             </Col>
             <Col lg={3}>

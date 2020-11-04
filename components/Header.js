@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import NavLinks from "./NavLinks";
-import Link from 'next/link'
+import Link from "next/link";
 
 import headerLogo from "../assets/img/logo.svg";
 
@@ -34,7 +34,7 @@ const HeaderHome = (props) => {
 
     //Close Mobile Menu
     let sideMenuCloser = document.querySelectorAll(
-      ".side-menu__close-btn, .side-menu__block-overlay"
+      ".side-menu__close-btn, .side-menu__block-overlay",
     );
 
     sideMenuCloser.forEach((sideMenuCloserBtn) => {
@@ -55,11 +55,15 @@ const HeaderHome = (props) => {
             <div className="row align-items-center">
               <div className="col-xl-4 col-lg-4 col-md-8 col-8">
                 <div className="logo">
-                  <Link href={process.env.NEXT_PUBLIC_WEBSITE_URL} >
-                    <a >
-                      <img src={headerLogo} alt="newswap" style={{
-                        height: 50
-                      }}/>
+                  <Link href={process.env.NEXT_PUBLIC_WEBSITE_URL}>
+                    <a>
+                      <img
+                        src={headerLogo}
+                        alt="newswap"
+                        style={{
+                          height: 50,
+                        }}
+                      />
                     </a>
                   </Link>
                 </div>

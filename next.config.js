@@ -1,6 +1,4 @@
-const withImages = require('next-images')
-module.exports = withImages(
-  {
-    trailingSlash: true,
-  }
-);
+const withImages = require("next-images");
+module.exports = withImages({
+  trailingSlash: true,
+});
