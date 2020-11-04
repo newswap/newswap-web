@@ -9,7 +9,7 @@ on:
       - production
 
 jobs:
-  testnet-export:
+  production-export:
     runs-on: ubuntu-latest
     strategy:
       matrix:
