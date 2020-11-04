@@ -1,4 +1,4 @@
-# Newton Project Individual Contributor License Agreement ("Agreement") 
+# Newton Project Individual Contributor License Agreement ("Agreement")
 
 Thank you for your interest in Newton Project ("Newton Project"). In order to clarify the intellectual property license granted with Contributions from any person or entity, Newton Project must have a Contributor License Agreement ("CLA") on file that has been signed by each Contributor, indicating agreement to the license terms below. This license is for your protection as a Contributor as well as the protection of Newton Project and its users; it does not change your rights to use your own Contributions for any other purpose.
 
