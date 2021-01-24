@@ -107,6 +107,7 @@
   },
 
   "tokens": {
+    "Cross-chain assets description": "Following Cross-Chain Assets are verified on NewChain Mainnet by Newton Project. When using assets on NewChain please check it is the correct one with the right contract address. To learn more about Cross-Chain Assets or transfer assets between different blockchains, please visit ",
     "New Address": "Contract Address",
     "Raw Address": "Contract Raw Address",
     "Cross-chain Assets Title": "Cross-chain Assets on NewChain MainNet"
