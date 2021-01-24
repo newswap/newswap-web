@@ -87,7 +87,15 @@ const PostDetails = () => {
           <Row>
             <Col lg={12}>
               <p>
-              {t("tokens.Cross-chain assets description")} <a className="dl" href="https://newbridge.network" target="_blank">NewBridge.Network</a>
+                {t("tokens.Cross-chain assets description")}{" "}
+                <a
+                  className="dl"
+                  href="https://newbridge.network"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  NewBridge.Network
+                </a>
               </p>
             </Col>
           </Row>
