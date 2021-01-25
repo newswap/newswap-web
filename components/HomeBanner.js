@@ -23,8 +23,8 @@ const HomeBanner = () => {
                   <Link href={process.env.NEXT_PUBLIC_NEWSWAP_APP_URL}>
                     <a className="btn">{t("global.trade")}</a>
                   </Link>
-                  <Link href={process.env.NEXT_PUBLIC_NEWSWAP_FARM_URL}>
-                    <a className="btn">{t("global.gofarm")}</a>
+                  <Link href={process.env.NEXT_PUBLIC_NEWSWAP_MINING_URL}>
+                    <a className="btn">{t("global.gomining")}</a>
                   </Link>
                 </p>
                 <p>
