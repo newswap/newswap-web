@@ -22,6 +22,12 @@ const ASSETS_DATA = [
     rawAddr: "0x27bf64753db1aB9fB88C80F6911F1e9410F0DD1a",
   },
   {
+    name: "NewWBTC",
+    symbol: "NWBTC",
+    newAddr: "NEW182TbfRwWuSmUWb987RaBQXrAmw8xhngxpb9",
+    rawAddr: "0x9fAaBEa3686c7176349406AB52D1eD31B693ac0b",
+  },
+  {
     name: "NewETH",
     symbol: "NETH",
     newAddr: "NEW182M3EkuUjCqqWXoeaDiAiDSgw8b8pomEjFz",
@@ -44,12 +50,6 @@ const ASSETS_DATA = [
     symbol: "NOKB",
     newAddr: "NEW182a15c6vU8ULtrCeqSJ66bos4hPHe2enBqi",
     rawAddr: "0xe5E93F385bBebc4656FBA1b3faFF2B5C9B761EA0",
-  },
-  {
-    name: "NewBNB",
-    symbol: "NBNB",
-    newAddr: "NEW182KPeMW6TsEDvcoUy9jCeFvX9BbX88VQbmw",
-    rawAddr: "0x45A3d925d5A4bF0d49412aE6c011C5B5E883D312",
   },
   {
     name: "NewUNI",
