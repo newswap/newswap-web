@@ -46,12 +46,6 @@ const ASSETS_DATA = [
     rawAddr: "0xe5E93F385bBebc4656FBA1b3faFF2B5C9B761EA0",
   },
   {
-    name: "NewBNB",
-    symbol: "NBNB",
-    newAddr: "NEW182KPeMW6TsEDvcoUy9jCeFvX9BbX88VQbmw",
-    rawAddr: "0x45A3d925d5A4bF0d49412aE6c011C5B5E883D312",
-  },
-  {
     name: "NewUNI",
     symbol: "NUNI",
     newAddr: "NEW182YwjjS5jbjaXyzFVw41rRwGcy8FYsKx7Ep",
