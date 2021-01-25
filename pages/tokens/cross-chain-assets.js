@@ -22,6 +22,12 @@ const ASSETS_DATA = [
     rawAddr: "0x27bf64753db1aB9fB88C80F6911F1e9410F0DD1a",
   },
   {
+    name: "NewWBTC",
+    symbol: "NWBTC",
+    newAddr: "NEW182TbfRwWuSmUWb987RaBQXrAmw8xhngxpb9",
+    rawAddr: "0x9fAaBEa3686c7176349406AB52D1eD31B693ac0b",
+  },
+  {
     name: "NewETH",
     symbol: "NETH",
     newAddr: "NEW182M3EkuUjCqqWXoeaDiAiDSgw8b8pomEjFz",
