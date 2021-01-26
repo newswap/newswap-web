@@ -276,8 +276,8 @@ body {
   border-color: #20c5a0;
 }
 .btn:hover:before {
-  -webkit-transform: scale(20);
-  transform: scale(20);
+  -webkit-transform: scale(50);
+  transform: scale(50);
   opacity: 1;
   visibility: visible;
 }
@@ -3336,6 +3336,11 @@ h1 span {
   color: #6f6c7f;
   border-color: #e5e8eb;
   background-color: #e5e8eb;
+  border-radius: 12px;
+  padding: 6px;
+  margin-bottom: 0;
+}
+.pool-card > .gomining {
   border-radius: 12px;
   padding: 6px;
   margin-bottom: 0;

@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { useTranslation, Trans, Translation } from "react-i18next";
+import Link from "next/link";
 
 import TokenBTC from "../assets/img/tokens/btc.png";
 import TokenETH from "../assets/img/tokens/eth.png";
@@ -30,9 +31,9 @@ const HomeMiningPools = () => {
               </div>
               <h4>NEW-NUSDT</h4>
               <p className="apy">APY: -</p>
-              <a href="#" className="btn soon">
-                {t("global.comingsoon2")}
-              </a>
+              <Link href={process.env.NEXT_PUBLIC_NEWSWAP_MINING_URL}>
+                <a className="btn gomining">{t("global.gomining")}</a>
+              </Link>
             </div>
           </Col>
           <Col sm={3} md={3} lg={3} className="pool-card-col">
