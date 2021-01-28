@@ -6,12 +6,12 @@ import MobileMenu from "../components/MobileMenu";
 import Sidebar from "../components/Sidebar";
 import Footer from "../components/Footer";
 
-import unified from 'unified';
-import parse from 'remark-parse';
-import remark2react from 'remark-react';
+import unified from "unified";
+import parse from "remark-parse";
+import remark2react from "remark-react";
 
-import markdown_en from '../faq/faq.en.md';
-import markdown_cn from '../faq/faq.cn.md';
+import markdown_en from "../faq/faq.en.md";
+import markdown_cn from "../faq/faq.cn.md";
 
 import { useTranslation, Trans, Translation } from "react-i18next";
 
@@ -42,13 +42,12 @@ const PostDetails = () => {
                       <div className="post-title">
                         <h3>{t("global.faq")}</h3>
                       </div>
-                      <p><a href="#content-en">English</a> | <a href="#content-cn">中文</a></p>
-                      <div id="content-en">
-                        {( content_en )}
-                      </div>
-                      <div id="content-cn">
-                        {( content_cn )}
-                      </div>
+                      <p>
+                        <a href="#content-en">English</a> |{" "}
+                        <a href="#content-cn">中文</a>
+                      </p>
+                      <div id="content-en">{content_en}</div>
+                      <div id="content-cn">{content_cn}</div>
                     </div>
                   </div>
                 </div>
