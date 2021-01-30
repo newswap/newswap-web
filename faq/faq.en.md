@@ -1,7 +1,3 @@
-#### English
-
-NewSwap FAQ
-
 #### 1. What is NewSwap?
 
 NewSwap is an application protocol built on Newton's NewChain, which realizes the exchange between NEW and the NRC6 token issued based on NewChain. Any two NRC6 tokens can also be exchanged on it.
@@ -10,7 +6,7 @@ Its characteristics are: system automatic pricing, fast and convenient exchange 
 
 #### 2. How does NewSwap work?
 
-NewSwap is an automatic liquidity agreement. There is no need to bid and match transactions, and there are no centralized organizations and facilities to guarantee transactions. Each trading pool is controlled by a smart contract, which supports operations such as the exchange of tokens and the increase or decrease of liquidity. Each fund pool uses the formula x*y=k to guarantee transactions. x=token 1, y=token 2, k=constant.
+NewSwap is an automatic liquidity agreement. There is no need to bid and match transactions, and there are no centralized organizations and facilities to guarantee transactions. Each trading pool is controlled by a smart contract, which supports operations such as the exchange of tokens and the increase or decrease of liquidity. Each fund pool uses the formula x\*y=k to guarantee transactions. x=token 1, y=token 2, k=constant.
 
 #### 3. What tokens are supported for exchange?
 
@@ -18,7 +14,7 @@ It supports the exchange between NEW and NRC6 certificates, as well as the excha
 
 #### 4. What determines the price?
 
-The price is determined by the relative number of tokens in each fund pool. The smart contract maintains a constant formula: x*y=k, under this condition, x=token 1, y=token 2, k=constant. Each transaction will withdraw a certain number of tokens in exchange for the quantity of another token. During this period, the constant k remains unchanged and the balance is updated. Therefore, each transaction will adjust the balance of the token, thereby changing the price.
+The price is determined by the relative number of tokens in each fund pool. The smart contract maintains a constant formula: x\*y=k, under this condition, x=token 1, y=token 2, k=constant. Each transaction will withdraw a certain number of tokens in exchange for the quantity of another token. During this period, the constant k remains unchanged and the balance is updated. Therefore, each transaction will adjust the balance of the token, thereby changing the price.
 
 #### 5. Why does my exchange fail?
 
