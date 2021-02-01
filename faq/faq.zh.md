@@ -74,7 +74,7 @@ NewSwap 是一个自动的流动性协议。不需要出价和撮合交易，没
 
 ### NewSwap 已上线哪些跨链资产？
 
-NewSwap 支持 NRC6 通证资产的交易兑换，包括通过 NewBridge 跨链到 NewChain 来的资产，更多跨链资产请访问 NewBridge [跨链资产](https://newbridge.network/zh/docs/assets/。
+NewSwap 支持 NRC6 通证资产的交易兑换，包括通过 NewBridge 跨链到 NewChain 来的资产，更多跨链资产请访问 NewBridge [跨链资产](https://newbridge.network/zh/docs/assets/)。
 
 ### NewSwap 相关合约地址是什么?
 
