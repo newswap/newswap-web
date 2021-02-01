@@ -1,12 +1,13 @@
 {
   "global": {
+    "content lang": "content-zh",
     "home site title": "NewSwap - 牛顿公链上的去中心化交换协议",
     "site title": "NewSwap",
     "exchange": "交易",
     "download": "下载",
     "trade": "开始交易",
-    "farm": "挖矿",
-    "gofarm": "参与挖矿",
+    "mining": "挖矿",
+    "gomining": "去挖矿",
     "tokens": "通证",
     "governance": "治理",
     "analytics": "统计",

@@ -1,12 +1,13 @@
 {
   "global": {
+    "content lang": "content-en",
     "home site title": "NewSwap - Decentralized Exchange Protocol on NewChain",
     "site title": "NewSwap",
     "exchange": "Exchange",
     "download": "Download",
     "trade": "Start Trading",
-    "farm": "Farm",
-    "gofarm": "Go Farming",
+    "mining": "Mining",
+    "gomining": "Go Mining",
     "tokens": "Tokens",
     "governance": "Governance",
     "analytics": "Analytics",
