@@ -65,6 +65,7 @@ We may release future updates so it will overwrite this file. it's better and sa
 22: Tokens
     22.11: Cross-chain Tokens
     22.21: Token Card
+31: FAQ
 ----------------------------------------------*/
 
 /*=============================================
@@ -149,6 +150,7 @@ h6,
   font-family: "Poppins", sans-serif;
   color: #36324a;
   font-weight: 300;
+  margin-top: 1rem;
 }
 h1,
 .h1 {
@@ -157,20 +159,20 @@ h1,
 }
 h2,
 .h2 {
-  font-size: 40px;
+  font-size: 32px;
   line-height: 48px;
 }
 h3,
 .h3 {
-  font-size: 36px;
+  font-size: 26px;
 }
 h4,
 .h4 {
-  font-size: 26px;
+  font-size: 20px;
 }
 h5,
 .h5 {
-  font-size: 20px;
+  font-size: 18px;
 }
 h6,
 .h6 {
@@ -3729,4 +3731,16 @@ h1 span {
 .token-card .raw-addr {
   font-size: medium;
   line-height: 1em;
+}
+
+/*=============================================
+    31: FAQ
+==============================================*/
+
+.content-en #content-zh {
+  display: none;
+}
+
+.content-zh #content-en {
+  display: none;
 }
