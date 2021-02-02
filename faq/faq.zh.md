@@ -66,6 +66,10 @@ NewSwap 是一个自动的流动性协议。不需要出价和撮合交易，没
 
 每次添加或者移除流动性通证，协议会自动把待领取的 NEW 转至用户地址，所以“可领取的 NEW”数量显示为 0。
 
+### NUSDT-NEW 流动性挖矿的完整操作是怎样的？
+
+要进行 NUSDT-NEW 流动性挖矿，您的钱包中需要拥有 NUSDT 和 NEW 然后提供流动性。更多可通过介绍视频来了解 [NewSwap 流动性挖矿介绍视频](https://newton-video.oss-cn-beijing.aliyuncs.com/newpayintro/newswap-lp-mining-cn.mp4)。
+
 ## 其他
 
 ### 我需要注册账号吗？
