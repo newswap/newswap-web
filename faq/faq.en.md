@@ -56,6 +56,10 @@ The liquidity mining of the NUSDT-NEW trading pair has been launched. The incent
 
 Every time a liquidity token is added or removed, protocol will automatically transfer the NEW to be received to the user address, so the number of "NEW available for collection" is displayed as 0.
 
+### Demonstration Video
+
+[NUSDT-NEW Mining Demonstration](https://newton-video.oss-cn-beijing.aliyuncs.com/newpayintro/newswap-lp-mining-en.mp4) .
+
 ## Other General Questions
 
 ### Do I need to register an account?
