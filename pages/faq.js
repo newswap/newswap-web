@@ -13,39 +13,20 @@ import remark2react from "remark-react";
 import markdown_en from "../faq/faq.en.md";
 import markdown_zh from "../faq/faq.zh.md";
 
-import { useTranslation } from "react-i18next";
-import { useState, useEffect } from "react"
+import { useTranslation, Trans, Translation } from "react-i18next";
+
+const content_en = unified()
+  .use(parse)
+  .use(remark2react)
+  .processSync(markdown_en).result;
+
+const content_zh = unified()
+  .use(parse)
+  .use(remark2react)
+  .processSync(markdown_zh).result;
 
 const PostDetails = () => {
-  const { t, i18n } = useTranslation();
-
-  const content_en = unified()
-    .use(parse)
-    .use(remark2react)
-    .processSync(markdown_en).result;
-
-  const content_zh = unified()
-    .use(parse)
-    .use(remark2react)
-    .processSync(markdown_zh).result;
-
-  const getLanguage = () => {
-    let language = i18n.language
-    let languageCss;
-    if(language.indexOf("en") > -1) {
-      languageCss ="content-en"
-    } else {
-      languageCss = "content-zh"
-    }
-    return languageCss;
-  }
-
-  const [language, setlanguage] = useState("content-en")
-
-  useEffect(() => {
-    setlanguage(getLanguage());
-  }, [i18n.language])
-
+  let { t, i18n } = useTranslation();
   return (
     <Layout pageTitle={t("pages.faq") + " - " + t("global.site title")}>
       <Header />
@@ -56,7 +37,7 @@ const PostDetails = () => {
             <Col lg={9}>
               <div className="post-details-inner">
                 <div className="single-post-inner">
-                  <div className={"post-content " + language}>
+                  <div className={"post-content " + t("global.content lang")}>
                     <div className="post-details">
                       <div className="post-title">
                         <h3>{t("global.faq")}</h3>
