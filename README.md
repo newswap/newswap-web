@@ -81,5 +81,5 @@ Translation Files: **./public/locales/\*.json**
 Run following command to follow the formatting rules in this repo before making a commit.
 
 ```bash
-yarn prettier
+yarn i18n:clean
 ```
