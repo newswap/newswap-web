@@ -31,10 +31,10 @@ const PostDetails = () => {
   const getLanguage = () => {
     let language = i18n.language;
     let languageCss;
-    if (language.indexOf("en") > -1) {
-      languageCss = "content-en";
-    } else {
+    if (language.indexOf("zh") > -1) {
       languageCss = "content-zh";
+    } else {
+      languageCss = "content-en";
     }
     return languageCss;
   };
