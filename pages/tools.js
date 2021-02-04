@@ -34,7 +34,7 @@ const PostDetails = () => {
                           </a>
                         </Link>
                       </p>
-                      <h4>Newton Browser Extension</h4>
+                      <h4>NewMask Newton Browser Extension</h4>
                       <p>Supports Google Chrome/Firefox</p>
                       <p>
                         <Link
@@ -77,7 +77,7 @@ const PostDetails = () => {
                           </a>
                         </Link>
                       </p>
-                      <h4>牛顿浏览器插件</h4>
+                      <h4>NewMask 电脑浏览器插件</h4>
                       <p>支持 谷歌 Chrome 与 火狐 Firefox 浏览器</p>
                       <p>
                         <Link

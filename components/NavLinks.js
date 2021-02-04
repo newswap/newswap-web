@@ -19,8 +19,8 @@ const NavLinks = () => {
         </Link>
       </li>
       <li>
-        <Link href={process.env.NEXT_PUBLIC_NEWSWAP_FARM_URL}>
-          <a>{t("global.farm")}</a>
+        <Link href={process.env.NEXT_PUBLIC_NEWSWAP_MINING_URL}>
+          <a>{t("global.mining")}</a>
         </Link>
       </li>
       <li href="#" className="dropdown">

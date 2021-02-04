@@ -1,12 +1,13 @@
 {
   "global": {
+    "content lang": "content-zh",
     "home site title": "NewSwap - 牛顿公链上的去中心化交换协议",
     "site title": "NewSwap",
     "exchange": "交易",
     "download": "下载",
     "trade": "开始交易",
-    "farm": "挖矿",
-    "gofarm": "参与挖矿",
+    "mining": "挖矿",
+    "gomining": "去挖矿",
     "tokens": "通证",
     "governance": "治理",
     "analytics": "统计",
@@ -107,6 +108,7 @@
   },
 
   "tokens": {
+    "Cross-chain assets description": "下面列出的跨链资产是在 NewChain 主网（MainNet）认证的资产。当在 NewChain 上使用以下资产时，请检查其合约地址是否正确。了解更多跨链资产信息或在不同的区块链间转移资产，请访问 ",
     "New Address": "合约地址",
     "Raw Address": "合约原始地址",
     "Cross-chain Assets Title": "牛顿公链主网（NewChain MainNet）跨链资产"
