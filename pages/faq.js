@@ -3,7 +3,6 @@ import { Container, Row, Col } from "react-bootstrap";
 import Layout from "../components/Layout";
 import Header from "../components/Header";
 import MobileMenu from "../components/MobileMenu";
-import Sidebar from "../components/Sidebar";
 import Footer from "../components/Footer";
 
 import unified from "unified";
