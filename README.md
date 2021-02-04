@@ -64,7 +64,7 @@ _Default_ export is **TestNet**
 
 - `yarn export:testnet`
 
-- `yarn export:production`  
+- `yarn export:production`
 
 ## Branches
 

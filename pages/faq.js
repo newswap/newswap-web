@@ -13,7 +13,7 @@ import markdown_en from "../faq/faq.en.md";
 import markdown_zh from "../faq/faq.zh.md";
 
 import { useTranslation } from "react-i18next";
-import { useState, useEffect } from "react"
+import { useState, useEffect } from "react";
 
 const PostDetails = () => {
   const { t, i18n } = useTranslation();
@@ -29,21 +29,21 @@ const PostDetails = () => {
     .processSync(markdown_zh).result;
 
   const getLanguage = () => {
-    let language = i18n.language
+    let language = i18n.language;
     let languageCss;
-    if(language.indexOf("en") > -1) {
-      languageCss ="content-en"
+    if (language.indexOf("en") > -1) {
+      languageCss = "content-en";
     } else {
-      languageCss = "content-zh"
+      languageCss = "content-zh";
     }
     return languageCss;
-  }
+  };
 
-  const [language, setlanguage] = useState("content-en")
+  const [language, setlanguage] = useState("content-en");
 
   useEffect(() => {
     setlanguage(getLanguage());
-  }, [i18n.language])
+  }, [i18n.language]);
 
   return (
     <Layout pageTitle={t("pages.faq") + " - " + t("global.site title")}>
