@@ -62,13 +62,23 @@ NewSwap 是一个自动的流动性协议。不需要出价和撮合交易，没
 
 已上线主流资产交易对中 NUSDT-NEW 交易对的流动性挖矿，该矿池中的矿量来自于 2021/2/1 至 2022/1/31 期社群挖矿激励的 NEW，详情请见 [NEP-40](https://neps.newtonproject.org/neps/nep-40/)。
 
+### NUSDT-NEW 流动性挖矿的完整操作是怎样的？
+
+要进行 NUSDT-NEW 流动性挖矿，您的钱包中需要拥有 NUSDT 和 NEW 然后提供流动性。更多可通过介绍视频来了解 [NewSwap 流动性挖矿介绍视频](https://newton-video.oss-cn-beijing.aliyuncs.com/newpayintro/newswap-lp-mining-cn.mp4)。
+
 ### 添加流动性通流动流动性挖矿矿池后，为什么“可领取的 NEW”的数量变为 0？
 
 每次添加或者移除流动性通证，协议会自动把待领取的 NEW 转至用户地址，所以“可领取的 NEW”数量显示为 0。
 
-### NUSDT-NEW 流动性挖矿的完整操作是怎样的？
+### 质押交易对流动性通证后可获得流动性挖矿收益，是否也可以获得该交易对的交易手续费？
 
-要进行 NUSDT-NEW 流动性挖矿，您的钱包中需要拥有 NUSDT 和 NEW 然后提供流动性。更多可通过介绍视频来了解 [NewSwap 流动性挖矿介绍视频](https://newton-video.oss-cn-beijing.aliyuncs.com/newpayintro/newswap-lp-mining-cn.mp4)。
+可以。NewSwap 交易对流动性挖矿指的是在 NewSwap 中添加某交易对的流动性后将获得的流动通证质押进指定矿池而获得额外的NEW，这些 NEW 来自于社群挖矿的 NEW。
+
+质押某交易对流动性通证意味着已经添加过该交易对流动性，也可以获得该交易对资金池中的交易手续费。
+
+质押某交易对流动性通证后，增加或者移除该交易对流动性通证会收到流动性挖矿应得的NEW。
+
+将某交易对流动性通证从矿池移除后，将返回该交易对的流动性通证，在 NewSwap 资金池中移除该交易对流动性意味着销毁该流动性通证，同时返回质押的通证和应得的交易手续费。
 
 ## 其他
 
