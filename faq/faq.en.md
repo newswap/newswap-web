@@ -52,13 +52,26 @@ After passing the review, the applicant will receive the list information via em
 
 The liquidity mining of the NUSDT-NEW trading pair has been launched. The incentive NEW for this mining pool comes from the incentives of community mining during 2021/2/1 to 2022/1/31. For details, please see [NEP-40](https:/ /neps.newtonproject.org/neps/nep-40/).
 
+### Demonstration Video
+
+[NUSDT-NEW Mining Demonstration](https://newton-video.oss-cn-beijing.aliyuncs.com/newpayintro/newswap-lp-mining-en.mp4) .
+
 ### After adding the liquidity mining pool, why does the number of "NEW available for collection" become 0?
 
 Every time a liquidity token is added or removed, protocol will automatically transfer the NEW to be received to the user address, so the number of "NEW available for collection" is displayed as 0.
 
-### Demonstration Video
+### Pledging liquidity tokens of trading pair will bring liquidity mining income, will it bring transaction fees for the trading pair?
 
-[NUSDT-NEW Mining Demonstration](https://newton-video.oss-cn-beijing.aliyuncs.com/newpayintro/newswap-lp-mining-en.mp4) .
+Yes. NewSwap trading pair liquidity mining means adding the liquidity of a certain trading pair in NewSwap and pledge the obtained liquidity tokens into the designated mining pool to obtain additional NEW. The NEW comes from the community mining pool.
+
+Pledge of the liquidity tokens of a certain trading pair means the liquidity of the trading pair has been added, and the transaction fees in the fund pool of the trading pair can also be obtained.
+
+After adding a certain trading pair liquidity token,the owner will receive the addtional NEW after adding or removing the liquidity tokens of the trading pair.
+
+After removing the liquidity tokens of a trading pair from the mining pool, the liquidity token of the trading pair will be returned. 
+
+Removing the liquidity of the trading pair from the NewSwap fund pool means destroying the liquidity token and returning the pledge tokens and deserved transaction fees at the same time.
+
 
 ## Other General Questions
 
