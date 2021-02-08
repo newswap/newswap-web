@@ -2228,6 +2228,25 @@ section.app-video:before {
   visibility: visible;
   opacity: 1;
 }
+
+.single-post-inner h1 {
+  font-size: 26px;
+}
+.single-post-inner h2 {
+  font-size: 24px;
+}
+.single-post-inner h3 {
+  font-size: 22px;
+}
+.single-post-inner h4 {
+  font-size: 20px;
+}
+.single-post-inner h5 {
+  font-size: 18px;
+}
+.single-post-inner h6 {
+  font-size: 16px;
+}
 /* ==============================================
         post page
 ==============================================*/
