@@ -112,5 +112,12 @@
     "New Address": "合约地址",
     "Raw Address": "合约原始地址",
     "Cross-chain Assets Title": "牛顿公链主网（NewChain MainNet）跨链资产"
+  },
+
+  "cny-trade-mining": {
+    "title": "春节交易挖矿",
+    "tagline": "活动时间：2020.2.11 08:00 - 2020.2.18 08:00 (新加坡时间)",
+    "desc": "只需在 NewSwap 中进行资产交易，就能瓜分春节交易挖矿奖励总额 1000万 NEW。",
+    "btn": "查看我的交易挖矿"
   }
 }

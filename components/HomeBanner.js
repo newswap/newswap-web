@@ -40,6 +40,26 @@ const HomeBanner = () => {
               </div>
             </Col>
           </Row>
+
+          <Row className="justify-content-center">
+            <Col md={12} lg={12} xl={12}>
+              <div className="banner-text-inner text-center">
+                <h2 data-i18n="[html]content.body">
+                  {t("cny-trade-mining.title")}
+                </h2>
+                <h4>{t("cny-trade-mining.desc")}</h4>
+                <p>{t("cny-trade-mining.tagline")}</p>
+                <Link
+                  href={
+                    process.env.NEXT_PUBLIC_NEWSWAP_MINING_URL + "/tradeMining"
+                  }
+                >
+                  <a className="btn">{t("cny-trade-mining.btn")}</a>
+                </Link>
+              </div>
+            </Col>
+          </Row>
+
           <Row className="justify-content-center swap-f">
             <Col md={4} lg={4} xl={4} className="swap-f-box text-center">
               <div>
