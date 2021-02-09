@@ -1,0 +1,42 @@
+name: Build TestNet CI
+
+on:
+  push:
+    branches:
+      - testnet
+
+jobs:
+  testnet-build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [14.x]
+    steps:
+      - name: Wait on tests
+        uses: lewagon/wait-on-check-action@v0.1
+        with:
+          ref: testnet # can be commit SHA or tag too
+          check-name: "testnet-export (14.x)"
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          wait-interval: 60 # seconds
+
+      - name: Check out Git repository
+        uses: actions/checkout@v2
+
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node-version }}
+
+      - name: Install Modules
+        run: yarn
+
+      - name: Build
+        run: yarn export:testnet
+
+      - name: Publish To Branch
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./html
+          publish_branch: www-testnet
