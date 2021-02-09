@@ -1,0 +1,123 @@
+{
+  "global": {
+    "content lang": "content-zh",
+    "home site title": "NewSwap - 牛顿公链上的去中心化交换协议",
+    "site title": "NewSwap",
+    "exchange": "交易",
+    "download": "下载",
+    "trade": "开始交易",
+    "mining": "挖矿",
+    "gomining": "去挖矿",
+    "tokens": "通证",
+    "governance": "治理",
+    "analytics": "统计",
+    "about": "关于",
+    "faq": "常见问题",
+    "more": "更多",
+    "downloads": "下载",
+    "tools": "相关工具",
+    "apply listing": "申请加入通证列表",
+    "github": "GitHub",
+    "newton extension": "牛顿浏览器插件",
+    "NewPay": "NewPay App",
+    "learn": "了解更多",
+    "pools": "矿池",
+    "apy": "预估年化收益率",
+    "comingsoon": "即将上线",
+    "comingsoon2": "于 NewSwap v1.1 上线",
+    "open apply": "虚位以待",
+    "invest warning": "本网站所展示的内容均不作为任何投资建议，交易及投资前请自行审慎决策，并独立承担相应风险。"
+  },
+
+  "pages": {
+    "about": "",
+    "faq": "常见问题",
+    "tools": "相关工具",
+    "apply-listing": "上币申请"
+  },
+
+  "menu": {
+    "nusdt": "NUSDT (跨链 USDT)",
+    "nst": "NST (收益代币)",
+    "nsp": "NSP (治理代币)",
+    "cross-chain-assets": "跨链资产"
+  },
+
+  "slogan": {
+    "home s1 1": "牛顿公链上的去中心化交换协议",
+    "home s1 2": "NewSwap 在安全可靠的 NewChain 上运行，性能高、成本低，支持多种跨链资产以及牛顿生态项目通证的交易，拥有自动化做市商和基于双通证设计的流动性挖矿机制，所有的手续费都提供给流动性提供者，并且由社群共同治理。",
+    "home s1 3": "人人都可以发行、交易数字资产"
+  },
+
+  "features": {
+    "feature1": "安全可靠",
+    "text1": "运行于牛顿公链 NewChain，用户自己掌握资产",
+    "feature2": "快速低成本",
+    "text2": "极快的交易速度和低廉的交易手续费",
+    "feature3": "简单易用",
+    "text3": "低门槛、用户友好的操作体验",
+    "feature4": "自动化操作",
+    "text4": "拥有自动化做市商，价格由系统决定",
+    "feature5": "多资产支持",
+    "text5": "支持多种跨链资产以及牛顿生态项目通证的交易",
+    "feature6": "流动性挖矿",
+    "text6": "基于双通证设计的流动性挖矿机制",
+    "feature7": "社群治理",
+    "text7": "由社群共同参与投票治理"
+  },
+
+  "newton": {
+    "base": "牛顿：社群经济基础设施",
+    "slogan": "每一个人都应该从经济增长中受益",
+    "brought": "由牛顿项目提供技术支持",
+    "visitweb": "访问项目网站"
+  },
+
+  "business": {
+    "title": "经济模型",
+    "text1": "NewSwap 中的通证价格由系统定价，在 NewSwap 中发生的所有交易将收取 0.3% 的交易手续费。所有的手续费都奖励给协议的流动性提供者。",
+    "text2": "开启流动性挖矿后，交易中的 0.25% 将直接分配给流动性提供者，0.05% 将进入流动性收益池，以流动性通证的形式支撑收益代币 NST (NewSwap Token) 的价值。",
+    "text3": "向指定的 NewSwap 流动性池中提供流动性，并配比治理代币 NSP (NewSwap Power) 可以在指定矿池中挖矿 NST，在治理合约中锁定 NSP 亦可参与治理并挖矿 NST。",
+    "note": "挖矿开启前，交易手续费的 0.3% 将全部奖励给流动性提供者。"
+  },
+
+  "mining": {
+    "title": "流动性挖矿",
+    "token-type": "收益代币",
+    "token-name": "NST (NewSwap Token)",
+    "init": "发行总量：",
+    "init-text": "稍后公布",
+    "model": "发行模型：",
+    "model-text": "流动性挖矿",
+    "method": "挖矿方式：",
+    "method-text1": "稍后公布",
+    "method-text2": " "
+  },
+
+  "governance": {
+    "title": "社群治理",
+    "token-type": "治理代币",
+    "token-name": "NSP (NewSwap Power)",
+    "total": "发行总量：",
+    "total-text": "稍后公布",
+    "model": "发行模型：",
+    "model-text-1": "通证交换",
+    "model-text-2": " ",
+    "method": "治理模型：",
+    "method-text": "稍后公布"
+  },
+
+  "tokens": {
+    "Cross-chain assets description": "下面列出的跨链资产是在 NewChain 主网（MainNet）认证的资产。当在 NewChain 上使用以下资产时，请检查其合约地址是否正确。了解更多跨链资产信息或在不同的区块链间转移资产，请访问 ",
+    "New Address": "合约地址",
+    "Raw Address": "合约原始地址",
+    "Cross-chain Assets Title": "牛顿公链主网（NewChain MainNet）跨链资产"
+  },
+
+  "cny-trade-mining": {
+    "title": "春节交易挖矿",
+    "tagline": "活动时间：2020.2.11 08:00 - 2020.2.18 08:00 (新加坡时间)",
+    "desc": "只需在 NewSwap 中进行资产交易，就能瓜分春节交易挖矿奖励总额 1000万 NEW。",
+    "btn": "查看我的交易挖矿"
+  }
+}
