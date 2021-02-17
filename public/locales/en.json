@@ -112,12 +112,5 @@
     "New Address": "Contract Address",
     "Raw Address": "Contract Raw Address",
     "Cross-chain Assets Title": "Cross-chain Assets on NewChain MainNet"
-  },
-
-  "cny-trade-mining": {
-    "title": "Chinese New Year Trade Mining",
-    "tagline": "2020.2.11 08:00 - 2020.2.18 08:00 (SGT)",
-    "desc": "Trade digital assets in NewSwap and win your Chinese New Year rewards. 10M NEW in total.",
-    "btn": "View My Trade Mining"
   }
 }
