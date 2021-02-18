@@ -1,19 +1,19 @@
 [
   {
-    "name": "NBTC Party!",
-    "pool_asset_logo_rawAddr": "0x27bf64753db1aB9fB88C80F6911F1e9410F0DD1a",
+    "name": "MCT Party!",
+    "pool_asset_logo_rawAddr": "0x483246B0Ae0B14DB4C4597C7CC4af2e2ea440a55",
     "pool_status": "open",
-    "asset_1_symbol": "NBTC",
-    "asset_1_rawAddr": "0x27bf64753db1aB9fB88C80F6911F1e9410F0DD1a",
+    "asset_1_symbol": "MCT",
+    "asset_1_rawAddr": "0x483246B0Ae0B14DB4C4597C7CC4af2e2ea440a55",
     "asset_2_symbol": "NEW",
     "asset_2_rawAddr": "newton"
   },
   {
-    "name": "NUSDT Party!",
-    "pool_asset_logo_rawAddr": "0x20F12218281F9CA566B5c41F17c6c19050125cD3",
+    "name": "IMX Party!",
+    "pool_asset_logo_rawAddr": "0xEd4e695e436a4fCE38BBA9FB66D980aFD66b0e3e",
     "pool_status": "open",
-    "asset_1_symbol": "NUSDT",
-    "asset_1_rawAddr": "0x20F12218281F9CA566B5c41F17c6c19050125cD3",
+    "asset_1_symbol": "IMX",
+    "asset_1_rawAddr": "0xEd4e695e436a4fCE38BBA9FB66D980aFD66b0e3e",
     "asset_2_symbol": "NEW",
     "asset_2_rawAddr": "newton"
   }
