@@ -12,7 +12,7 @@ const MobileMenu = () => {
       </div>
       <div className="side-menu__block-inner ">
         <div className="side-menu__top">
-          <Link href={process.env.NEXT_PUBLIC_WEBSITE_URL}>
+          <Link href="/">
             <a>
               <img
                 src={headerLogo}

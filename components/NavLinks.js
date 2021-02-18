@@ -18,11 +18,34 @@ const NavLinks = () => {
           <a>{t("global.exchange")}</a>
         </Link>
       </li>
-      <li>
-        <Link href={process.env.NEXT_PUBLIC_NEWSWAP_MINING_URL}>
-          <a>{t("global.mining")}</a>
+
+      <li className="dropdown">
+        <Link href="#">
+          <>
+            <a href="#" onClick={handleDropdownStatus}>
+              {t("global.mining")}
+            </a>
+            <i className="fa fa-angle-down"></i>
+          </>
         </Link>
+        <ul className="dropdown-list">
+          <li>
+            <Link href={process.env.NEXT_PUBLIC_NEWSWAP_MINING_URL}>
+              <a>{t("mining.nusdt mining")}</a>
+            </Link>
+          </li>
+          <li>
+            <Link
+              href={
+                process.env.NEXT_PUBLIC_NEWSWAP_MINING_URL + "/communityMining"
+              }
+            >
+              <a>{t("mining.community mining")}</a>
+            </Link>
+          </li>
+        </ul>
       </li>
+
       <li href="#" className="dropdown">
         <Link href="#">
           <>
@@ -33,16 +56,6 @@ const NavLinks = () => {
           </>
         </Link>
         <ul className="dropdown-list">
-          <li>
-            <Link href="#">
-              <a>{t("menu.nsp")}</a>
-            </Link>
-          </li>
-          <li>
-            <Link href="#">
-              <a>{t("menu.nst")}</a>
-            </Link>
-          </li>
           <li>
             <Link href="/tokens/cross-chain-assets">
               <a>{t("menu.cross-chain-assets")}</a>
