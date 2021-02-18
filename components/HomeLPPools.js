@@ -115,7 +115,9 @@ const HomeMiningPools = () => {
               </div>
               <h4>???-NEW</h4>
               <p className="apy">APY: -</p>
-              {t("global.open apply")}
+              <a href="/apply-listing" className="btn gomining">
+                {t("global.open apply")}
+              </a>
             </div>
           </Col>
         </Row>
