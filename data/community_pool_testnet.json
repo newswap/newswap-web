@@ -1,0 +1,20 @@
+[
+  {
+    "name": "NBTC Party!",
+    "pool_asset_logo_rawAddr": "0x27bf64753db1aB9fB88C80F6911F1e9410F0DD1a",
+    "pool_status": "open",
+    "asset_1_symbol": "NBTC",
+    "asset_1_rawAddr": "0x27bf64753db1aB9fB88C80F6911F1e9410F0DD1a",
+    "asset_2_symbol": "NEW",
+    "asset_2_rawAddr": "newton"
+  },
+  {
+    "name": "NUSDT Party!",
+    "pool_asset_logo_rawAddr": "0x20F12218281F9CA566B5c41F17c6c19050125cD3",
+    "pool_status": "open",
+    "asset_1_symbol": "NUSDT",
+    "asset_1_rawAddr": "0x20F12218281F9CA566B5c41F17c6c19050125cD3",
+    "asset_2_symbol": "NEW",
+    "asset_2_rawAddr": "newton"
+  }
+]

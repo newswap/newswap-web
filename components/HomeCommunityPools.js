@@ -6,48 +6,8 @@ import Link from "next/link";
 import CommunityPoolCard from "../components/Pools/CommunityPoolCard";
 import TokenUNKNOWN from "../assets/img/tokens/unknown.png";
 import TokenNEW from "../assets/img/tokens/new.png";
-
-const TESTNET_POOL_DATA = [
-  {
-    name: "NBTC Party!",
-    pool_asset_logo_rawAddr: "0x27bf64753db1aB9fB88C80F6911F1e9410F0DD1a",
-    pool_status: "open",
-    asset_1_symbol: "NBTC",
-    asset_1_rawAddr: "0x27bf64753db1aB9fB88C80F6911F1e9410F0DD1a",
-    asset_2_symbol: "NEW",
-    asset_2_rawAddr: "newton",
-  },
-  {
-    name: "NUSDT Party!",
-    pool_asset_logo_rawAddr: "0x20F12218281F9CA566B5c41F17c6c19050125cD3",
-    pool_status: "open",
-    asset_1_symbol: "NUSDT",
-    asset_1_rawAddr: "0x20F12218281F9CA566B5c41F17c6c19050125cD3",
-    asset_2_symbol: "NEW",
-    asset_2_rawAddr: "newton",
-  },
-];
-
-const MAINNET_POOL_DATA = [
-  {
-    name: "NUSDT Party!",
-    pool_asset_logo_rawAddr: "0x4BFB4297f9C28a373aE6ae58a8f8EfeFF334cae8",
-    pool_status: "open",
-    asset_1_symbol: "NUSDT",
-    asset_1_rawAddr: "0x4BFB4297f9C28a373aE6ae58a8f8EfeFF334cae8",
-    asset_2_symbol: "NEW",
-    asset_2_rawAddr: "newton",
-  },
-  {
-    name: "NUSDT 🎉 Party!",
-    pool_asset_logo_rawAddr: "0x27bf64753db1aB9fB88C80F6911F1e9410F0DD1a",
-    pool_status: "open",
-    asset_1_symbol: "NBTC",
-    asset_1_rawAddr: "0x27bf64753db1aB9fB88C80F6911F1e9410F0DD1a",
-    asset_2_symbol: "NEW",
-    asset_2_rawAddr: "newton",
-  },
-];
+import TESTNET_POOL_DATA from "../data/community_pool_testnet.json";
+import MAINNET_POOL_DATA from "../data/community_pool_mainnet.json";
 
 let POOL_DATA = TESTNET_POOL_DATA;
 let chain_id = "1007";
