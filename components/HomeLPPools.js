@@ -16,7 +16,7 @@ import TokenUNKNOWN from "../assets/img/tokens/unknown.png";
 const HomeMiningPools = () => {
   let { t, i18n } = useTranslation();
   return (
-    <section className="pt-80 pb-80">
+    <section className="pt-40 pb-40">
       <Container>
         <Row className="justify-content-center">
           <Col md={12} lg={10}>
