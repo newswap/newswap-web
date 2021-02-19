@@ -8,8 +8,7 @@ import Footer from "../components/Footer";
 
 import { useTranslation, Trans, Translation } from "react-i18next";
 
-var pageDescription =
-  "Apply for Community LP Mining. 申请社群 LP 挖矿。";
+var pageDescription = "Apply for Community LP Mining. 申请社群 LP 挖矿。";
 
 var cmf_testnet_en = "#";
 var cmf_testnet_zh = "#";
@@ -34,7 +33,9 @@ const PostDetails = () => {
   let { t, i18n } = useTranslation();
   return (
     <Layout
-      pageTitle={t("pages.apply community mining") + " - " + t("global.site title")}
+      pageTitle={
+        t("pages.apply community mining") + " - " + t("global.site title")
+      }
       pageDescription={pageDescription}
     >
       <Header />
