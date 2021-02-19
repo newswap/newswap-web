@@ -18,7 +18,9 @@
     "export:testnet": "dotenv -e .env.testnet next build && next export -o html",
     "export:production": "dotenv -e .env.production next build && next export -o html",
     "export": "dotenv -e .env.testnet next build && next export -o html",
-    "prettier": "prettier --write ."
+    "lint": "eslint .",
+    "fc": "prettier --check .",
+    "ff": "prettier --write ."
   },
   "dependencies": {
     "bootstrap": "^4.5.0",
