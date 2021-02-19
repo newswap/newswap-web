@@ -44,13 +44,13 @@ const HomeCommunityPools = () => {
           ))}
           <Col sm={3} md={3} lg={3} className="pool-card-col">
             <div className="text-center pool-card">
-              <h4>{t("mining.community mining")}</h4>
+              <h4>{t("global.application")}</h4>
               <div>
                 <img src={TokenUNKNOWN} alt="" /> <img src={TokenNEW} alt="" />
               </div>
               <h4>???-NEW LP</h4>
-              <a href="/apply-listing" className="btn gomining">
-                {t("global.open apply")}
+              <a href="/apply-community-mining" className="btn gomining">
+                {t("global.apply now")}
               </a>
             </div>
           </Col>
