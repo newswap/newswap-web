@@ -16,7 +16,10 @@
     "more": "更多",
     "downloads": "下载",
     "tools": "相关工具",
-    "apply listing": "加入列表申请",
+    "application": "申请",
+    "apply now": "立即申请",
+    "apply listing": "申请加入通证列表",
+    "apply community mining": "申请社群LP挖矿",
     "github": "GitHub",
     "newton extension": "牛顿浏览器插件",
     "NewPay": "NewPay App",
@@ -33,7 +36,8 @@
     "about": "",
     "faq": "常见问题",
     "tools": "相关工具",
-    "apply-listing": "加入列表申请"
+    "apply listing": "申请加入通证列表",
+    "apply community mining": "申请社群LP挖矿"
   },
 
   "menu": {
