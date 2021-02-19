@@ -10,9 +10,9 @@ import { useTranslation, Trans, Translation } from "react-i18next";
 
 var pageDescription = "Apply for Community LP Mining. 申请社群 LP 挖矿。";
 
-var cmf_testnet_en = "#";
-var cmf_testnet_zh = "#";
-var cmf_mainnet_en = "https://forms.gle/uKSY8m3qPa1WVQ7r5";
+var cmf_testnet_en = "https://forms.gle/uKSY8m3qPa1WVQ7r5";
+var cmf_testnet_zh = "https://wj.qq.com/s2/8071142/c4ac/";
+var cmf_mainnet_en = "#";
 var cmf_mainnet_zh = "https://wj.qq.com/s2/8013861/aaa9";
 
 let cmf_url_en = "";
