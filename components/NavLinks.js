@@ -74,6 +74,11 @@ const NavLinks = () => {
             </Link>
           </li>
           <li>
+            <Link href="/apply-community-mining">
+              <a>{t("global.apply community mining")}</a>
+            </Link>
+          </li>
+          <li>
             <Link href={process.env.NEXT_PUBLIC_TWITTER_URL}>
               <a target="_blank">Twitter</a>
             </Link>
