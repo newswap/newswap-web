@@ -1,0 +1,20 @@
+[
+  {
+    "name": "MCT Party!",
+    "pool_asset_logo_rawAddr": "0x483246B0Ae0B14DB4C4597C7CC4af2e2ea440a55",
+    "pool_status": "open",
+    "asset_1_symbol": "MCT",
+    "asset_1_rawAddr": "0x483246B0Ae0B14DB4C4597C7CC4af2e2ea440a55",
+    "asset_2_symbol": "NEW",
+    "asset_2_rawAddr": "newton"
+  },
+  {
+    "name": "IMX Party!",
+    "pool_asset_logo_rawAddr": "0xEd4e695e436a4fCE38BBA9FB66D980aFD66b0e3e",
+    "pool_status": "open",
+    "asset_1_symbol": "IMX",
+    "asset_1_rawAddr": "0xEd4e695e436a4fCE38BBA9FB66D980aFD66b0e3e",
+    "asset_2_symbol": "NEW",
+    "asset_2_rawAddr": "newton"
+  }
+]

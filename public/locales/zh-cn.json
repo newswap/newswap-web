@@ -16,7 +16,7 @@
     "more": "更多",
     "downloads": "下载",
     "tools": "相关工具",
-    "apply listing": "申请加入通证列表",
+    "apply listing": "加入列表申请",
     "github": "GitHub",
     "newton extension": "牛顿浏览器插件",
     "NewPay": "NewPay App",
@@ -33,7 +33,7 @@
     "about": "",
     "faq": "常见问题",
     "tools": "相关工具",
-    "apply-listing": "上币申请"
+    "apply-listing": "加入列表申请"
   },
 
   "menu": {
@@ -91,7 +91,10 @@
     "model-text": "流动性挖矿",
     "method": "挖矿方式：",
     "method-text1": "稍后公布",
-    "method-text2": " "
+    "method-text2": " ",
+    "nusdt mining": "NUSDT 挖矿",
+    "community mining": "社群挖矿",
+    "community pools": "社群矿池"
   },
 
   "governance": {

@@ -55,7 +55,7 @@ const HeaderHome = (props) => {
             <div className="row align-items-center">
               <div className="col-xl-4 col-lg-4 col-md-8 col-8">
                 <div className="logo">
-                  <Link href={process.env.NEXT_PUBLIC_WEBSITE_URL}>
+                  <Link href="/">
                     <a>
                       <img
                         src={headerLogo}
