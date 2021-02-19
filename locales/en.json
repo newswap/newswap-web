@@ -16,7 +16,7 @@
     "more": "More",
     "downloads": "Downloads",
     "tools": "Tools",
-    "apply listing": "Apply Listing for Default Token List",
+    "apply listing": "Apply Listing",
     "github": "GitHub",
     "newton extension": "Newton Extension",
     "NewPay": "NewPay App",
@@ -91,7 +91,10 @@
     "model-text": "Liquidity Mining",
     "method": "How to mine: ",
     "method-text1": "TBA",
-    "method-text2": " "
+    "method-text2": " ",
+    "nusdt mining": "NUSDT Mining",
+    "community mining": "Community Mining",
+    "community pools": "Community Pools"
   },
 
   "governance": {
