@@ -12,7 +12,7 @@ var pageDescription = "Apply for Community LP Mining. 申请社群 LP 挖矿。"
 
 var cmf_testnet_en = "https://forms.gle/uKSY8m3qPa1WVQ7r5";
 var cmf_testnet_zh = "https://wj.qq.com/s2/8071142/c4ac/";
-var cmf_mainnet_en = "#";
+var cmf_mainnet_en = "https://forms.gle/uKSY8m3qPa1WVQ7r5";
 var cmf_mainnet_zh = "https://wj.qq.com/s2/8013861/aaa9";
 
 let cmf_url_en = "";
@@ -22,11 +22,9 @@ let apply_chain = "";
 if (process.env.NEXT_PUBLIC_ENV_NOTICE == "") {
   cmf_url_en = cmf_mainnet_en;
   cmf_url_zh = cmf_mainnet_zh;
-  apply_chain = "";
 } else {
   cmf_url_en = cmf_testnet_en;
   cmf_url_zh = cmf_testnet_zh;
-  apply_chain = " (Testnet)";
 }
 
 const PostDetails = () => {
