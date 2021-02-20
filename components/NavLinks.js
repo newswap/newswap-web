@@ -18,11 +18,9 @@ const NavLinks = () => {
           <a>{t("global.exchange")}</a>
         </Link>
       </li>
-      <li>
-        <Link href={process.env.NEXT_PUBLIC_NEWSWAP_MINING_URL}>
-          <a>{t("global.mining")}</a>
-        </Link>
-      </li>
+
+      <NavLinksMiningPatch />
+
       <li href="#" className="dropdown">
         <Link href="#">
           <>
@@ -33,16 +31,6 @@ const NavLinks = () => {
           </>
         </Link>
         <ul className="dropdown-list">
-          <li>
-            <Link href="#">
-              <a>{t("menu.nsp")}</a>
-            </Link>
-          </li>
-          <li>
-            <Link href="#">
-              <a>{t("menu.nst")}</a>
-            </Link>
-          </li>
           <li>
             <Link href="/tokens/cross-chain-assets">
               <a>{t("menu.cross-chain-assets")}</a>
@@ -83,6 +71,11 @@ const NavLinks = () => {
           <li>
             <Link href="/apply-listing">
               <a>{t("global.apply listing")}</a>
+            </Link>
+          </li>
+          <li>
+            <Link href="/apply-community-mining">
+              <a>{t("global.apply community mining")}</a>
             </Link>
           </li>
           <li>
@@ -138,3 +131,50 @@ const NavLinks = () => {
 };
 
 export default NavLinks;
+
+const NavLinksMiningPatch = () => {
+  const handleDropdownStatus = (e) => {
+    let clickedItem = e.currentTarget.parentNode;
+    clickedItem.querySelector(".dropdown-list").classList.toggle("show");
+  };
+  let { t, i18n } = useTranslation();
+
+  if (process.env.NEXT_PUBLIC_ENV_NOTICE == "") {
+    return (
+      <li>
+        <Link href={process.env.NEXT_PUBLIC_NEWSWAP_MINING_URL}>
+          <a>{t("global.mining")}</a>
+        </Link>
+      </li>
+    );
+  } else {
+    return (
+      <li className="dropdown">
+        <Link href="#">
+          <>
+            <a href="#" onClick={handleDropdownStatus}>
+              {t("global.mining")}
+            </a>
+            <i className="fa fa-angle-down"></i>
+          </>
+        </Link>
+        <ul className="dropdown-list">
+          <li>
+            <Link href={process.env.NEXT_PUBLIC_NEWSWAP_MINING_URL}>
+              <a>{t("mining.nusdt mining")}</a>
+            </Link>
+          </li>
+          <li>
+            <Link
+              href={
+                process.env.NEXT_PUBLIC_NEWSWAP_MINING_URL + "/communityMining"
+              }
+            >
+              <a>{t("mining.community mining")}</a>
+            </Link>
+          </li>
+        </ul>
+      </li>
+    );
+  }
+};

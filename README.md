@@ -76,10 +76,24 @@ _Default_ export is **TestNet**
 
 Translation Files: **./public/locales/\*.json**
 
-#### Formatting Your Code
+## Formatting Your Code
 
-Run following command to follow the formatting rules in this repo before making a commit.
+Always check your code before making a commit. Some useful tools integrated in this project.
+
+**Lint** (Eslint)
 
 ```bash
-yarn i18n:clean
+yarn lint
+```
+
+**Formatting Check** (Prettier)
+
+```bash
+yarn fc
+```
+
+**Formatting Fix** (Prettier)
+
+```bash
+yarn ff
 ```
