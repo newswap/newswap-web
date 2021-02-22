@@ -31,15 +31,22 @@ const HomeCommunityPools = () => {
           </Col>
           {POOL_DATA.map((pool, index) => (
             <CommunityPoolCard
-              key={`pool-card-${index}`}
               chain_id={chain_id}
-              name={pool.name}
-              pool_asset_logo_rawAddr={pool.pool_asset_logo_rawAddr}
+              key={`pool-card-${index}`}
+              pool_index={pool.index}
+              cat={pool.cat}
               status={pool.status}
+              type_1={pool.type_1}
+              name={pool.name}
+              time_start={pool.time_start}
+              time_end={pool.time_end}
+              pool_uri={pool.pool_uri}
+              pool_rawAddr={pool.pool_rawAddr}
               asset_1_symbol={pool.asset_1_symbol}
               asset_1_rawAddr={pool.asset_1_rawAddr}
               asset_2_symbol={pool.asset_2_symbol}
               asset_2_rawAddr={pool.asset_2_rawAddr}
+              lp_rawAddr={pool.lp_rawAddr}
             />
           ))}
           <Col sm={3} md={3} lg={3} className="pool-card-col">
