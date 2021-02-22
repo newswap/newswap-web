@@ -1,20 +1,34 @@
 [
   {
+    "index": 1,
+    "cat": "community_mining",
+    "status": "active",
+    "type_1": "timed",
     "name": "MCT Party!",
-    "pool_asset_logo_rawAddr": "0x483246B0Ae0B14DB4C4597C7CC4af2e2ea440a55",
-    "pool_status": "open",
+    "time_start": "2021-02-19T00:00Z",
+    "time_end": "2021-03-18T00:00Z",
+    "pool_uri": "",
+    "pool_rawAddr": "",
     "asset_1_symbol": "MCT",
     "asset_1_rawAddr": "0x483246B0Ae0B14DB4C4597C7CC4af2e2ea440a55",
     "asset_2_symbol": "NEW",
-    "asset_2_rawAddr": "newton"
+    "asset_2_rawAddr": "newton",
+    "lp_rawAddr": ""
   },
   {
+    "index": 1,
+    "cat": "community_mining",
+    "status": "active",
+    "type_1": "timed",
     "name": "IMX Party!",
-    "pool_asset_logo_rawAddr": "0xEd4e695e436a4fCE38BBA9FB66D980aFD66b0e3e",
-    "pool_status": "open",
+    "time_start": "2021-02-19T00:00Z",
+    "time_end": "2021-03-18T00:00Z",
+    "pool_uri": "",
+    "pool_rawAddr": "",
     "asset_1_symbol": "IMX",
     "asset_1_rawAddr": "0xEd4e695e436a4fCE38BBA9FB66D980aFD66b0e3e",
     "asset_2_symbol": "NEW",
-    "asset_2_rawAddr": "newton"
+    "asset_2_rawAddr": "newton",
+    "lp_rawAddr": ""
   }
 ]
