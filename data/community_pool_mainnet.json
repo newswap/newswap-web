@@ -1,1 +1,50 @@
-[]
+[
+  {
+    "index": 1,
+    "cat": "community_mining",
+    "status": "active",
+    "type_1": "timed",
+    "name": "IMX Party!",
+    "time_start": "2021-02-25T00:00Z",
+    "time_end": "2021-03-11T00:00Z",
+    "pool_uri": "",
+    "pool_rawAddr": "",
+    "asset_1_symbol": "IMX",
+    "asset_1_rawAddr": "0x223E2E48f2f09c314f4caD3101f63213cB775A93",
+    "asset_2_symbol": "NEW",
+    "asset_2_rawAddr": "newton",
+    "lp_rawAddr": ""
+  },
+  {
+    "index": 2,
+    "cat": "community_mining",
+    "status": "active",
+    "type_1": "timed",
+    "name": "MCT Party!",
+    "time_start": "2021-02-25T00:00Z",
+    "time_end": "2021-03-11T00:00Z",
+    "pool_uri": "",
+    "pool_rawAddr": "",
+    "asset_1_symbol": "MCT",
+    "asset_1_rawAddr": "0x483246B0Ae0B14DB4C4597C7CC4af2e2ea440a55",
+    "asset_2_symbol": "NEW",
+    "asset_2_rawAddr": "newton",
+    "lp_rawAddr": ""
+  },
+  {
+    "index": 3,
+    "cat": "community_mining",
+    "status": "active",
+    "type_1": "timed",
+    "name": "MZD Party!",
+    "time_start": "2021-02-25T00:00Z",
+    "time_end": "2021-03-11T00:00Z",
+    "pool_uri": "",
+    "pool_rawAddr": "",
+    "asset_1_symbol": "MZD",
+    "asset_1_rawAddr": "0x40D690551F5F21EccB8cEdc09e86C2dd2E40Dd52",
+    "asset_2_symbol": "NEW",
+    "asset_2_rawAddr": "newton",
+    "lp_rawAddr": ""
+  }
+]
