@@ -43,7 +43,7 @@ const PostDetails = () => {
                       </p>
                       <p>
                         <a
-                          href="https://forms.gle/HBBs31Fi98gmajJd9"
+                          href="https://newtonproject.typeform.com/to/w2zGAnbe"
                           target="_blank"
                           className="btn small"
                           rel="noreferrer"
