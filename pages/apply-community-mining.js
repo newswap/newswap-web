@@ -10,9 +10,9 @@ import { useTranslation, Trans, Translation } from "react-i18next";
 
 var pageDescription = "Apply for Community LP Mining. 申请社群 LP 挖矿。";
 
-var cmf_testnet_en = "https://forms.gle/uKSY8m3qPa1WVQ7r5";
+var cmf_testnet_en = "https://newtonproject.typeform.com/to/blVhn7Mx";
 var cmf_testnet_zh = "https://wj.qq.com/s2/8071142/c4ac/";
-var cmf_mainnet_en = "https://forms.gle/uKSY8m3qPa1WVQ7r5";
+var cmf_mainnet_en = "https://newtonproject.typeform.com/to/vruwAXwR";
 var cmf_mainnet_zh = "https://wj.qq.com/s2/8013861/aaa9";
 
 let cmf_url_en = "";
@@ -69,6 +69,7 @@ const PostDetails = () => {
                           Application Form{apply_chain}
                         </a>
                       </p>
+                      <p>Copy URL and Open in Browser {cmf_url_en}</p>
                       <hr />
                       <p>
                         牛顿NEP-40决议将600亿NEW的社群挖矿分成3个阶段，第一个阶段按照原共识机制挖矿，第二阶段新增挖矿类型并确定各自预算。其中NUSDT
@@ -85,6 +86,7 @@ const PostDetails = () => {
                           填写申请表{apply_chain}
                         </a>
                       </p>
+                      <p>复制网址并在浏览器中打开 {cmf_url_zh}</p>
                     </div>
                   </div>
                 </div>
