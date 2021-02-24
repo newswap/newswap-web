@@ -69,6 +69,7 @@ const PostDetails = () => {
                           Application Form{apply_chain}
                         </a>
                       </p>
+                      <p>Copy URL and Open in Browser {cmf_url_en}</p>
                       <hr />
                       <p>
                         牛顿NEP-40决议将600亿NEW的社群挖矿分成3个阶段，第一个阶段按照原共识机制挖矿，第二阶段新增挖矿类型并确定各自预算。其中NUSDT
@@ -85,6 +86,7 @@ const PostDetails = () => {
                           填写申请表{apply_chain}
                         </a>
                       </p>
+                      <p>复制网址并在浏览器中打开 {cmf_url_zh}</p>
                     </div>
                   </div>
                 </div>

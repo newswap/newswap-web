@@ -51,6 +51,10 @@ const PostDetails = () => {
                           Application Form
                         </a>
                       </p>
+                      <p>
+                        Copy URL and Open in Browser
+                        https://newtonproject.typeform.com/to/w2zGAnbe
+                      </p>
                       <hr />
                       <p>
                         NewSwap是基于牛顿公链NewChain的去中心化交易协议，实现NEW和基于NewChain发行的NRC6
@@ -65,6 +69,10 @@ const PostDetails = () => {
                         >
                           填写申请表
                         </a>
+                      </p>
+                      <p>
+                        复制网址并在浏览器中打开
+                        https://wj.qq.com/s2/7238184/79cd/
                       </p>
                     </div>
                   </div>
