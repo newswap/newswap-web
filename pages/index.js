@@ -19,8 +19,8 @@ const HomePage = () => {
       <Header />
       <MobileMenu />
       <HomeBanner />
-      <HomeLPPools />
       <HomeCommunityPools />
+      <HomeLPPools />
       <HomeSections />
       <AboutNewton />
       <Footer />
