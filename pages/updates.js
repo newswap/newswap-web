@@ -3,30 +3,16 @@ import { Container, Row, Col } from "react-bootstrap";
 import Layout from "../components/Layout";
 import Header from "../components/Header";
 import MobileMenu from "../components/MobileMenu";
-import Footer from "../components/Footer";
 import Sidebar from "../components/Sidebar";
-import unified from "unified";
-import parse from "remark-parse";
-import remark2react from "remark-react";
-
-import markdown_en from "../faq/faq.en.md";
-import markdown_zh from "../faq/faq.zh.md";
-
-import { useTranslation } from "react-i18next";
+import Footer from "../components/Footer";
+import { useTranslation, Trans, Translation } from "react-i18next";
+import Posts from "../components/PostsList";
+import { getAllPosts } from "../lib/api";
 import { useState, useEffect } from "react";
 
-const PostDetails = () => {
-  const { t, i18n } = useTranslation();
-
-  const content_en = unified()
-    .use(parse)
-    .use(remark2react)
-    .processSync(markdown_en).result;
-
-  const content_zh = unified()
-    .use(parse)
-    .use(remark2react)
-    .processSync(markdown_zh).result;
+export default function Index({ allPosts }) {
+  let { t, i18n } = useTranslation();
+  const listPosts = allPosts;
 
   const getLanguage = () => {
     let language = i18n.language;
@@ -38,15 +24,13 @@ const PostDetails = () => {
     }
     return languageCss;
   };
-
   const [language, setlanguage] = useState("content-en");
-
   useEffect(() => {
     setlanguage(getLanguage());
   }, [i18n.language]);
 
   return (
-    <Layout pageTitle={t("pages.faq") + " - " + t("global.site title")}>
+    <Layout pageTitle={t("pages.updates") + " - " + t("global.site title")}>
       <Header />
       <MobileMenu />
       <section className="pt-150 pb-30">
@@ -58,10 +42,9 @@ const PostDetails = () => {
                   <div className={"post-content " + language}>
                     <div className="post-details">
                       <div className="post-title">
-                        <h3>{t("global.faq")}</h3>
+                        <h3>{t("pages.updates")}</h3>
                       </div>
-                      <div id="content-en">{content_en}</div>
-                      <div id="content-zh">{content_zh}</div>
+                      {listPosts.length > 0 && <Posts posts={listPosts} />}
                     </div>
                   </div>
                 </div>
@@ -76,6 +59,18 @@ const PostDetails = () => {
       <Footer />
     </Layout>
   );
-};
+}
 
-export default PostDetails;
+export async function getStaticProps() {
+  const allPosts = getAllPosts([
+    "title",
+    "date",
+    "slug",
+    "description",
+    "language",
+  ]);
+
+  return {
+    props: { allPosts },
+  };
+}
