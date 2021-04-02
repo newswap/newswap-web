@@ -1,3 +1,4 @@
+import React from "react";
 import PostListItem from "./PostsListItem";
 
 export default function Posts({ posts }) {
