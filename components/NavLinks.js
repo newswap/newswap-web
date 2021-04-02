@@ -84,6 +84,11 @@ const NavLinks = () => {
         </Link>
         <ul className="dropdown-list">
           <li>
+            <Link href="/updates">
+              <a>{t("pages.updates")}</a>
+            </Link>
+          </li>
+          <li>
             <Link href="/faq">
               <a>{t("global.faq")}</a>
             </Link>
