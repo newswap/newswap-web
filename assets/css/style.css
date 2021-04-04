@@ -3757,10 +3757,12 @@ h1 span {
     31: FAQ
 ==============================================*/
 
-.content-en #content-zh {
+.content-en #content-zh,
+.content-en .lang-zh {
   display: none;
 }
 
-.content-zh #content-en {
+.content-zh #content-en,
+.content-zh .lang-en {
   display: none;
 }
