@@ -1,0 +1,125 @@
+{
+  "global": {
+    "content lang": "content-en",
+    "home site title": "NewSwap - Decentralized Exchange Protocol on NewChain",
+    "site title": "NewSwap",
+    "exchange": "Exchange",
+    "download": "Download",
+    "trade": "Start Trading",
+    "mining": "Mining",
+    "gomining": "Go Mining",
+    "tokens": "Tokens",
+    "governance": "Governance",
+    "analytics": "Analytics",
+    "about": "About",
+    "faq": "FAQ",
+    "more": "More",
+    "downloads": "Downloads",
+    "tools": "Tools",
+    "application": "Application",
+    "apply now": "Apply Now",
+    "apply listing": "Apply for Token Listing",
+    "apply community mining": "Apply for Community LP Mining",
+    "github": "GitHub",
+    "newton extension": "Newton Extension",
+    "NewPay": "NewPay App",
+    "learn": "Learn More",
+    "pools": "Pools",
+    "apy": "Estimated APY",
+    "comingsoon": "Coming Soon",
+    "comingsoon2": "Coming with NewSwap v1.1",
+    "open apply": "Open for Apply",
+    "quick links": "Quick Links",
+    "invest warning": "Contents on this website is not intended as investment advice. Please make your own prudent decisions and independently assume the corresponding risks before trading or investing."
+  },
+
+  "pages": {
+    "about": "",
+    "faq": "FAQ",
+    "tools": "Tools",
+    "apply listing": "Apply for Token Listing",
+    "updates": "NewSwap Updates",
+    "apply community mining": "Apply for Community LP Mining"
+  },
+
+  "menu": {
+    "nusdt": "NUSDT (Cross-chain USDT)",
+    "nst": "NST (NewSwap Token)",
+    "nsp": "NSP (NewSwap Power)",
+    "cross-chain-assets": "Cross-chain Assets"
+  },
+
+  "slogan": {
+    "home s1 1": "Decentralized Exchange Protocol on NewChain",
+    "home s1 2": "Running on the secure and reliable NewChain, NewSwap offers the high performance and low cost trades of multiple inter-blockchain assets and newton ecosystem tokens with automated market makers and a dual-token liquidity mining mechanism design. All transaction fees are provided to liquidity providers and governed by the community.",
+    "home s1 3": "Everyone is able to issue and trade digital assets"
+  },
+
+  "features": {
+    "feature1": "Secure & Reliable",
+    "text1": "Running on NewChain, users own their assets",
+    "feature2": "Fast & Lowcost",
+    "text2": "Fast Transaction Speed and Low Transaction Fee",
+    "feature3": "Easy to Use",
+    "text3": "User-Friendly Experience",
+    "feature4": "Fully Automated",
+    "text4": "System Determines Price with Automated Market Makers(AMM)",
+    "feature5": "Multiple Assets",
+    "text5": "Multiple Inter-Blockchain Assets and Newton Ecosystem Tokens Support",
+    "feature6": "Liquidity Mining",
+    "text6": "A Dual-Token Liquidity Mining Mechanism Design",
+    "feature7": "Governance",
+    "text7": "Governance by Community Vote"
+  },
+
+  "newton": {
+    "base": "Newton: Infrastructure for the Community Economy",
+    "slogan": "Everyone Should Benefit from Economic Growth",
+    "brought": "Powered by Newton Project",
+    "visitweb": "Visit Website"
+  },
+
+  "business": {
+    "title": "Economic Model",
+    "text1": "The token price in NewSwap is set by system and a transaction fee of 0.3% will be charged for all trades occurring in NewSwap. All fees are provided to liquidity providers of the pool.",
+    "text2": "When liquidity mining is launched, the transaction fee of 0.25% will be rewarded directly to liquidity providers. The transaction fee of 0.05% will go into Liquidity Reward Pool to support the value of NewSwap Token (NST).",
+    "text3": "Adding liquidity on specified pools to mine NST by staking LP tokens and NewSwap Power(NSP). Also, staking NSP into governance contracts could mine NST.",
+    "note": "Before mining launches, the transaction fee of 0.3% will be rewarded directly to liquidity providers."
+  },
+
+  "mining": {
+    "title": "Liquidity Mining",
+    "token-type": "Reward Token",
+    "token-name": "NST (NewSwap Token)",
+    "init": "Total Amount: ",
+    "init-text": "TBA",
+    "model": "Distribution Model: ",
+    "model-text": "Liquidity Mining",
+    "method": "How to mine: ",
+    "method-text1": "TBA",
+    "method-text2": " ",
+    "nusdt mining": "NUSDT Mining",
+    "community mining": "Community Mining",
+    "community pools": "Community Pools"
+  },
+
+  "governance": {
+    "title": "Community Goverance",
+    "token-type": "Governance Token",
+    "token-name": "NSP (NewSwap Power)",
+    "total": "Total Amount: ",
+    "total-text": "TBA",
+    "model": "Distribution Model: ",
+    "model-text-1": "Token Exchange",
+    "model-text-2": " ",
+    "method": "Governing: ",
+    "method-text": "TBA"
+  },
+
+  "tokens": {
+    "Cross-chain assets description": "Following Cross-Chain Assets are verified on NewChain Mainnet by Newton Project. When using assets on NewChain please check it is the correct one with the right contract address. To learn more about Cross-Chain Assets or transfer assets between different blockchains, please visit ",
+    "New Address": "Contract Address",
+    "Raw Address": "Contract Raw Address",
+    "Cross-chain Assets Title": "Cross-chain Assets on NewChain MainNet"
+  }
+}
