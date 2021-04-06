@@ -1,15 +1,15 @@
-name: TestNet CI
+name: Mainnet Test
 
 on:
   push:
     branches:
-      - testnet
+      - mainnet
   pull_request:
     branches:
-      - testnet
+      - mainnet
 
 jobs:
-  testnet-export:
+  mainnet-test:
     runs-on: ubuntu-latest
     strategy:
       matrix:
@@ -24,4 +24,4 @@ jobs:
       - name: Install Modules
         run: yarn
       - name: Build
-        run: yarn export:testnet
+        run: yarn export:production
