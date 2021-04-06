@@ -1,12 +1,12 @@
-name: Testnet Build
+name: Mainnet Deploy
 
 on:
   push:
     branches:
-      - testnet
+      - mainnet
 
 jobs:
-  testnet-build:
+  mainnet-deploey:
     runs-on: ubuntu-latest
     strategy:
       matrix:
@@ -15,8 +15,8 @@ jobs:
       - name: Wait on tests
         uses: lewagon/wait-on-check-action@v0.1
         with:
-          ref: testnet # can be commit SHA or tag too
-          check-name: "testnet-test (14.x)"
+          ref: mainnet # can be commit SHA or tag too
+          check-name: "mainnet-test (14.x)"
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           wait-interval: 60 # seconds
 
@@ -39,4 +39,5 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./html
-          publish_branch: www-testnet
+          publish_branch: www-mainnet
+          cname: newswap.org

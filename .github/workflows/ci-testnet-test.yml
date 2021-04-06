@@ -1,15 +1,15 @@
-name: Production CI
+name: Testnet Test
 
 on:
   push:
     branches:
-      - production
+      - testnet
   pull_request:
     branches:
-      - production
+      - testnet
 
 jobs:
-  production-export:
+  testnet-test:
     runs-on: ubuntu-latest
     strategy:
       matrix:
@@ -24,4 +24,4 @@ jobs:
       - name: Install Modules
         run: yarn
       - name: Build
-        run: yarn export:production
+        run: yarn export:testnet
