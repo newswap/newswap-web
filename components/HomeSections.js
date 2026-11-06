@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { useTranslation, Trans, Translation } from "react-i18next";
-import ScrollableAnchor from "react-scrollable-anchor";
+import ScrollableAnchor from "./ScrollableAnchor";
 
 const HomeSections = () => {
   let { t, i18n } = useTranslation();

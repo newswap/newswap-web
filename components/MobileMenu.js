@@ -13,15 +13,13 @@ const MobileMenu = () => {
       <div className="side-menu__block-inner ">
         <div className="side-menu__top">
           <Link href="/">
-            <a>
-              <img
-                src={headerLogo}
-                alt="newswap"
-                style={{
-                  height: 60,
-                }}
-              />
-            </a>
+            <img
+              src={headerLogo}
+              alt="newswap"
+              style={{
+                height: 60,
+              }}
+            />
           </Link>
           <a href="#" className="side-menu__toggler side-menu__close-btn">
             <i
@@ -38,20 +36,14 @@ const MobileMenu = () => {
         <div className="side-menu__sep"></div>
         <div className="side-menu__content">
           <div className="side-menu__social">
-            <Link href={process.env.NEXT_PUBLIC_TWITTER_URL}>
-              <a target="_blank">
-                <i className="fa fa-twitter"></i>
-              </a>
+            <Link href={process.env.NEXT_PUBLIC_TWITTER_URL} target="_blank">
+              <i className="fa fa-twitter"></i>
             </Link>
-            <Link href={process.env.NEXT_PUBLIC_GITHUB_URL}>
-              <a target="_blank">
-                <i className="fa fa-github"></i>
-              </a>
+            <Link href={process.env.NEXT_PUBLIC_GITHUB_URL} target="_blank">
+              <i className="fa fa-github"></i>
             </Link>
-            <Link href={process.env.NEXT_PUBLIC_TELEGRAM_URL}>
-              <a target="_blank">
-                <i className="fa fa-telegram"></i>
-              </a>
+            <Link href={process.env.NEXT_PUBLIC_TELEGRAM_URL} target="_blank">
+              <i className="fa fa-telegram"></i>
             </Link>
           </div>
         </div>

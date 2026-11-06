@@ -7,3 +7,6 @@ html
 cla.md
 faq
 updates
+# Preserve legacy and vendored CSS and the static error page verbatim.
+assets/css
+public/404.html

@@ -32,3 +32,14 @@ yarn-error.log*
 .env.test.local
 .env.production.local
 .idea
+
+# Local validation output and generated assistant guidance
+/docs/comprehensive-validation.json
+/docs/dependency-audit.json
+/docs/dependency-upgrade-validation.json
+/docs/external-link-validation.json
+/docs/full-regression-summary.json
+/docs/navigation-recheck.json
+/docs/small-screen-baseline.json
+/docs/special-interaction-validation.json
+/AGENTS.md
