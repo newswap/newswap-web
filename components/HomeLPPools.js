@@ -31,8 +31,11 @@ const HomeMiningPools = () => {
               </div>
               <h4>NEW-NUSDT</h4>
               <p className="apy">APY: -</p>
-              <Link href={process.env.NEXT_PUBLIC_NEWSWAP_MINING_URL}>
-                <a className="btn gomining">{t("global.gomining")}</a>
+              <Link
+                href={process.env.NEXT_PUBLIC_NEWSWAP_MINING_URL}
+                className="btn gomining"
+              >
+                {t("global.gomining")}
               </Link>
             </div>
           </Col>

@@ -25,10 +25,12 @@ const AboutNewton = () => {
               >
                 {t("newton.slogan")}
               </h4>
-              <Link href={process.env.NEXT_PUBLIC_NEWTON_WEBSITE_URL}>
-                <a target="_blank" className="btn">
-                  {t("newton.visitweb")}
-                </a>
+              <Link
+                href={process.env.NEXT_PUBLIC_NEWTON_WEBSITE_URL}
+                target="_blank"
+                className="btn"
+              >
+                {t("newton.visitweb")}
               </Link>
             </div>
           </Col>

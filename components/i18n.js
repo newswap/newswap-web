@@ -11,6 +11,9 @@ i18n
   .use(initReactI18next)
 
   .init({
+    // Match prerendered HTML; restore the browser language after hydration.
+    lng: "en",
+    detection: { caches: [] },
     resources: {
       en: {
         translation: enUsTrans,
@@ -28,3 +31,18 @@ i18n
   });
 
 export default i18n;
+
+export function restoreBrowserLanguage() {
+  const detected = i18n.services.languageDetector.detect();
+  const language = Array.isArray(detected) ? detected[0] : detected;
+  if (language) i18n.changeLanguage(language);
+  const persistLanguage = (nextLanguage) => {
+    try {
+      window.localStorage.setItem("i18nextLng", nextLanguage);
+    } catch {
+      // Language switching also works when browser storage is unavailable.
+    }
+  };
+  i18n.on("languageChanged", persistLanguage);
+  return () => i18n.off("languageChanged", persistLanguage);
+}
