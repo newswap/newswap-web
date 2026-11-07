@@ -4,9 +4,6 @@ import Header from "../components/Header";
 import MobileMenu from "../components/MobileMenu";
 
 import HomeBanner from "../components/HomeBanner";
-import HomeSections from "../components/HomeSections";
-import HomeLPPools from "../components/HomeLPPools";
-import HomeCommunityPools from "../components/HomeCommunityPools";
 import AboutNewton from "../components/AboutNewton";
 import Footer from "../components/Footer";
 import { useTranslation, Trans, Translation } from "react-i18next";
@@ -19,9 +16,6 @@ const HomePage = () => {
       <Header />
       <MobileMenu />
       <HomeBanner />
-      <HomeCommunityPools />
-      <HomeLPPools />
-      <HomeSections />
       <AboutNewton />
       <Footer />
     </Layout>

@@ -26,12 +26,6 @@ const HomeBanner = () => {
                   >
                     {t("global.trade")}
                   </Link>
-                  <Link
-                    href={process.env.NEXT_PUBLIC_NEWSWAP_MINING_URL}
-                    className="btn"
-                  >
-                    {t("global.gomining")}
-                  </Link>
                 </p>
                 <p>
                   <Link href="./tools" className="dl">
@@ -75,8 +69,8 @@ const HomeBanner = () => {
             </Col>
             <Col md={4} lg={4} xl={4} className="swap-f-box text-center">
               <div>
-                <h4>{t("features.feature6")}</h4>
-                {t("features.text6")}
+                <h4>{t("features.feature4")}</h4>
+                {t("features.text4")}
               </div>
             </Col>
             <Col md={4} lg={4} xl={4} className="swap-f-box text-center">
