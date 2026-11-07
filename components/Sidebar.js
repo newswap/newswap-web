@@ -15,16 +15,6 @@ const Sidebar = () => {
               <div className="latest-post-wrap ">
                 <div className="latest-post-body media-body">
                   <p>
-                    <a href="/updates">{t("pages.updates")}</a>
-                  </p>
-                </div>
-              </div>
-            </li>
-
-            <li>
-              <div className="latest-post-wrap ">
-                <div className="latest-post-body media-body">
-                  <p>
                     <a href="/faq">{t("pages.faq")}</a>
                   </p>
                 </div>

@@ -19,31 +19,6 @@ const NavLinks = () => {
         </Link>
       </li>
 
-      <li className="dropdown">
-        <>
-          <a href="#" onClick={handleDropdownStatus}>
-            {t("global.mining")}
-          </a>
-          <i className="fa fa-angle-down"></i>
-        </>
-        <ul className="dropdown-list">
-          <li>
-            <Link href={process.env.NEXT_PUBLIC_NEWSWAP_MINING_URL}>
-              {t("mining.nusdt mining")}
-            </Link>
-          </li>
-          <li>
-            <Link
-              href={
-                process.env.NEXT_PUBLIC_NEWSWAP_MINING_URL + "/communityMining"
-              }
-            >
-              {t("mining.community mining")}
-            </Link>
-          </li>
-        </ul>
-      </li>
-
       <li href="#" className="dropdown">
         <>
           <a href="#" onClick={handleDropdownStatus}>
@@ -60,9 +35,6 @@ const NavLinks = () => {
         </ul>
       </li>
       <li>
-        <a href="#">{t("global.governance")}</a>
-      </li>
-      <li>
         <Link href={process.env.NEXT_PUBLIC_NEWSWAP_INFO_URL}>
           {t("global.analytics")}
         </Link>
@@ -76,9 +48,6 @@ const NavLinks = () => {
         </>
         <ul className="dropdown-list">
           <li>
-            <Link href="/updates">{t("pages.updates")}</Link>
-          </li>
-          <li>
             <Link href="/faq">{t("global.faq")}</Link>
           </li>
           <li>
@@ -86,11 +55,6 @@ const NavLinks = () => {
           </li>
           <li>
             <Link href="/apply-listing">{t("global.apply listing")}</Link>
-          </li>
-          <li>
-            <Link href="/apply-community-mining">
-              {t("global.apply community mining")}
-            </Link>
           </li>
           <li>
             <Link href={process.env.NEXT_PUBLIC_TWITTER_URL} target="_blank">

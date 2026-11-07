@@ -16,8 +16,6 @@ npm ci
 
 **Dev:** `.env`
 
-**TestNet:** `.env.testnet`
-
 **Production:** `.env.production`
 
 ## Development
@@ -26,9 +24,7 @@ npm ci
 npm run dev
 ```
 
-_Default_ is **Dev**
-
-- `npm run dev:testnet`
+Both development and production use mainnet configuration.
 
 - `npm run dev:production`
 
@@ -38,11 +34,9 @@ _Default_ is **Dev**
 npm run build
 ```
 
-_Default_ build is **TestNet**
+_Default_ build is **MainNet**
 
 - `npm run build:dev`
-
-- `npm run build:testnet`
 
 - `npm run build:production`
 
@@ -62,11 +56,9 @@ Create a build and export it's static HTML files to **html** folder
 npm run export
 ```
 
-_Default_ export is **TestNet**
+_Default_ export is **MainNet**
 
 - `npm run export:dev`
-
-- `npm run export:testnet`
 
 - `npm run export:production`
 
@@ -110,16 +102,6 @@ Run `npm audit`, `npm run lint`, and `npm run build:dev` after dependency update
 
 The project preserves Bootstrap 4.5.2 CSS and uses React 18 for component compatibility. Webpack's built-in asset modules replace `next-images` and `raw-loader`.
 
-`npm run export:dev`, `npm run export:testnet`, and `npm run export:production` produce the static site directly in `html/` with Next.js `output: "export"`; the removed `next export` command is no longer needed. Use `npm run build:<environment>` and `npm start` for a Node server deployment.
+`npm run export:dev` and `npm run export:production` produce the static site directly in `html/` with Next.js `output: "export"`; the removed `next export` command is no longer needed. Use `npm run build:<environment>` and `npm start` for a Node server deployment.
 
-### Upgrade verification (2026-11-06)
-
-Next.js 16.4.5, React 18.3.1, and Swiper 14.4.0 were verified on Node.js 22.23.4. The dependency audit reported zero known vulnerabilities. Lint, formatting, the production build, and static exports for all three environments passed.
-
-Browser regression checks covered all 26 pages at desktop (1440px) and mobile (390px) widths. With animations disabled, all 52 screenshots matched the original; text, link destinations, and image loading were preserved. Language switching, FAQ language visibility, article navigation, mobile menu behavior, and 404 handling passed. External application transactions and form submissions were not performed.
-
-### Extended regression checks
-
-All 26 pages were checked in English and Chinese at desktop and mobile widths (104 page states, 2,043 assertions and 64 internal navigation clicks). Dropdowns, repeated mobile-menu toggling, sticky navigation, back-to-top controls, language persistence, FAQ visibility and article navigation passed. Anchor navigation and browser back/forward passed; 12 additional responsive checks covered 320px, 768px and 1920px widths.
-
-Existing issues remain: FAQ overflows at 320px in both the original and upgraded versions (document width 369px); Governance and Coming Soon are placeholders. Of 61 external URLs checked, 44 were reachable, 9 returned 404 and 8 failed to connect or timed out. These external availability issues are not resolved by dependency upgrades. No real transactions, wallet signatures or form submissions were performed.
+Only mainnet is supported. `.env` and `.env.production` contain mainnet settings.

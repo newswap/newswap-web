@@ -38,11 +38,6 @@ const FEATURES_DATA = [
     image: img1,
   },
   {
-    title: "双通证挖矿",
-    text: "基于双通证设计的流动性挖矿机制",
-    image: img2,
-  },
-  {
     title: "社群治理",
     text: "由社群共同参与投票治理",
     image: img3,
