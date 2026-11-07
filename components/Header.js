@@ -16,34 +16,30 @@ const HeaderHome = (props) => {
   };
 
   useEffect(() => {
-    window.addEventListener("scroll", handleScroll);
-    mobileMenu();
-    return () => {
-      mobileMenu();
-      window.removeEventListener("scroll", handleScroll);
-    };
-  });
-
-  const mobileMenu = () => {
-    document
-      .querySelector(".side-menu__toggler")
-      .addEventListener("click", function (e) {
-        document.querySelector(".side-menu__block").classList.toggle("active");
-        e.preventDefault();
-      });
-
-    //Close Mobile Menu
-    let sideMenuCloser = document.querySelectorAll(
+    const toggle = document.querySelector(".side-menu__toggler");
+    const menu = document.querySelector(".side-menu__block");
+    const closers = document.querySelectorAll(
       ".side-menu__close-btn, .side-menu__block-overlay",
     );
-
-    sideMenuCloser.forEach((sideMenuCloserBtn) => {
-      sideMenuCloserBtn.addEventListener("click", function (e) {
-        document.querySelector(".side-menu__block").classList.remove("active");
-        e.preventDefault();
-      });
-    });
-  };
+    const openMenu = (event) => {
+      event.preventDefault();
+      menu?.classList.toggle("active");
+    };
+    const closeMenu = (event) => {
+      event.preventDefault();
+      menu?.classList.remove("active");
+    };
+    window.addEventListener("scroll", handleScroll, { passive: true });
+    toggle?.addEventListener("click", openMenu);
+    closers.forEach((closer) => closer.addEventListener("click", closeMenu));
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+      toggle?.removeEventListener("click", openMenu);
+      closers.forEach((closer) =>
+        closer.removeEventListener("click", closeMenu),
+      );
+    };
+  }, []);
 
   return (
     <header className={`header ${props.extraClassName}`}>
@@ -56,15 +52,13 @@ const HeaderHome = (props) => {
               <div className="col-xl-4 col-lg-4 col-md-8 col-8">
                 <div className="logo">
                   <Link href="/">
-                    <a>
-                      <img
-                        src={headerLogo}
-                        alt="newswap"
-                        style={{
-                          height: 50,
-                        }}
-                      />
-                    </a>
+                    <img
+                      src={headerLogo}
+                      alt="newswap"
+                      style={{
+                        height: 50,
+                      }}
+                    />
                   </Link>
                 </div>
               </div>

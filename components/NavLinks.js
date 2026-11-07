@@ -15,23 +15,21 @@ const NavLinks = () => {
     <ul className="main-nav__navigation-box">
       <li>
         <Link href={process.env.NEXT_PUBLIC_NEWSWAP_APP_URL}>
-          <a>{t("global.exchange")}</a>
+          {t("global.exchange")}
         </Link>
       </li>
 
       <li className="dropdown">
-        <Link href="#">
-          <>
-            <a href="#" onClick={handleDropdownStatus}>
-              {t("global.mining")}
-            </a>
-            <i className="fa fa-angle-down"></i>
-          </>
-        </Link>
+        <>
+          <a href="#" onClick={handleDropdownStatus}>
+            {t("global.mining")}
+          </a>
+          <i className="fa fa-angle-down"></i>
+        </>
         <ul className="dropdown-list">
           <li>
             <Link href={process.env.NEXT_PUBLIC_NEWSWAP_MINING_URL}>
-              <a>{t("mining.nusdt mining")}</a>
+              {t("mining.nusdt mining")}
             </Link>
           </li>
           <li>
@@ -40,87 +38,73 @@ const NavLinks = () => {
                 process.env.NEXT_PUBLIC_NEWSWAP_MINING_URL + "/communityMining"
               }
             >
-              <a>{t("mining.community mining")}</a>
+              {t("mining.community mining")}
             </Link>
           </li>
         </ul>
       </li>
 
       <li href="#" className="dropdown">
-        <Link href="#">
-          <>
-            <a href="#" onClick={handleDropdownStatus}>
-              {t("global.tokens")}
-            </a>
-            <i className="fa fa-angle-down"></i>
-          </>
-        </Link>
+        <>
+          <a href="#" onClick={handleDropdownStatus}>
+            {t("global.tokens")}
+          </a>
+          <i className="fa fa-angle-down"></i>
+        </>
         <ul className="dropdown-list">
           <li>
             <Link href="/tokens/cross-chain-assets">
-              <a>{t("menu.cross-chain-assets")}</a>
+              {t("menu.cross-chain-assets")}
             </Link>
           </li>
         </ul>
       </li>
       <li>
-        <Link href="#">
-          <a>{t("global.governance")}</a>
-        </Link>
+        <a href="#">{t("global.governance")}</a>
       </li>
       <li>
         <Link href={process.env.NEXT_PUBLIC_NEWSWAP_INFO_URL}>
-          <a>{t("global.analytics")}</a>
+          {t("global.analytics")}
         </Link>
       </li>
       <li className="dropdown">
-        <Link href="#">
-          <>
-            <a href="#" onClick={handleDropdownStatus}>
-              {t("global.more")}
-            </a>
-            <i className="fa fa-angle-down"></i>
-          </>
-        </Link>
+        <>
+          <a href="#" onClick={handleDropdownStatus}>
+            {t("global.more")}
+          </a>
+          <i className="fa fa-angle-down"></i>
+        </>
         <ul className="dropdown-list">
           <li>
-            <Link href="/updates">
-              <a>{t("pages.updates")}</a>
-            </Link>
+            <Link href="/updates">{t("pages.updates")}</Link>
           </li>
           <li>
-            <Link href="/faq">
-              <a>{t("global.faq")}</a>
-            </Link>
+            <Link href="/faq">{t("global.faq")}</Link>
           </li>
           <li>
-            <Link href="/tools">
-              <a>{t("global.tools")}</a>
-            </Link>
+            <Link href="/tools">{t("global.tools")}</Link>
           </li>
           <li>
-            <Link href="/apply-listing">
-              <a>{t("global.apply listing")}</a>
-            </Link>
+            <Link href="/apply-listing">{t("global.apply listing")}</Link>
           </li>
           <li>
             <Link href="/apply-community-mining">
-              <a>{t("global.apply community mining")}</a>
+              {t("global.apply community mining")}
             </Link>
           </li>
           <li>
-            <Link href={process.env.NEXT_PUBLIC_TWITTER_URL}>
-              <a target="_blank">Twitter</a>
+            <Link href={process.env.NEXT_PUBLIC_TWITTER_URL} target="_blank">
+              Twitter
             </Link>
           </li>
           <li>
-            <Link href={process.env.NEXT_PUBLIC_TELEGRAM_URL}>
-              <a target="_blank">Telegram</a>
+            <Link href={process.env.NEXT_PUBLIC_TELEGRAM_URL} target="_blank">
+              Telegram
             </Link>
           </li>
           <li>
-            <Link href={process.env.NEXT_PUBLIC_GITHUB_URL}>
-              <a target="_blank">{t("global.github")}</a>
+            <Link href={process.env.NEXT_PUBLIC_GITHUB_URL} target="_blank">
+              {t("global.github")}
             </Link>
           </li>
         </ul>

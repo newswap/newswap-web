@@ -28,10 +28,12 @@ const PostDetails = () => {
                       <h4>NewPay Mobile App</h4>
                       <p>Supports iOS/Android</p>
                       <p>
-                        <Link href={process.env.NEXT_PUBLIC_NEWPAY_URL}>
-                          <a target="_blank" className="btn small">
-                            Download Page
-                          </a>
+                        <Link
+                          href={process.env.NEXT_PUBLIC_NEWPAY_URL}
+                          target="_blank"
+                          className="btn small"
+                        >
+                          Download Page
                         </Link>
                       </p>
                       <h4>NewMask Newton Browser Extension</h4>
@@ -41,19 +43,19 @@ const PostDetails = () => {
                           href={
                             process.env.NEXT_PUBLIC_NEWTONEXTENSION_FIREFOX_URL
                           }
+                          target="_blank"
+                          className="btn small"
                         >
-                          <a target="_blank" className="btn small">
-                            Firefox Browser
-                          </a>
+                          Firefox Browser
                         </Link>
                         <Link
                           href={
                             process.env.NEXT_PUBLIC_NEWTONEXTENSION_CHROME_URL
                           }
+                          target="_blank"
+                          className="btn small"
                         >
-                          <a target="_blank" className="btn small">
-                            Google Chrome
-                          </a>
+                          Google Chrome
                         </Link>
                       </p>
                       <h4>NewAsset Generator</h4>
@@ -61,20 +63,22 @@ const PostDetails = () => {
                       <p>
                         <Link
                           href={process.env.NEXT_PUBLIC_NEWASSET_GENERATOR_URL}
+                          target="_blank"
+                          className="btn small"
                         >
-                          <a target="_blank" className="btn small">
-                            Visit
-                          </a>
+                          Visit
                         </Link>
                       </p>
 
                       <h4>NewPay 手机 App</h4>
                       <p>支持 苹果 iOS 与 安卓 Android</p>
                       <p>
-                        <Link href={process.env.NEXT_PUBLIC_NEWPAY_URL}>
-                          <a target="_blank" className="btn small">
-                            访问下载页面
-                          </a>
+                        <Link
+                          href={process.env.NEXT_PUBLIC_NEWPAY_URL}
+                          target="_blank"
+                          className="btn small"
+                        >
+                          访问下载页面
                         </Link>
                       </p>
                       <h4>NewMask 电脑浏览器插件</h4>
@@ -84,19 +88,19 @@ const PostDetails = () => {
                           href={
                             process.env.NEXT_PUBLIC_NEWTONEXTENSION_FIREFOX_URL
                           }
+                          target="_blank"
+                          className="btn small"
                         >
-                          <a target="_blank" className="btn small">
-                            Firefox 火狐浏览器插件
-                          </a>
+                          Firefox 火狐浏览器插件
                         </Link>
                         <Link
                           href={
                             process.env.NEXT_PUBLIC_NEWTONEXTENSION_CHROME_URL
                           }
+                          target="_blank"
+                          className="btn small"
                         >
-                          <a target="_blank" className="btn small">
-                            谷歌 Chrome 浏览器插件
-                          </a>
+                          谷歌 Chrome 浏览器插件
                         </Link>
                       </p>
                       <h4>NewAsset Generator</h4>
@@ -104,10 +108,10 @@ const PostDetails = () => {
                       <p>
                         <Link
                           href={process.env.NEXT_PUBLIC_NEWASSET_GENERATOR_URL}
+                          target="_blank"
+                          className="btn small"
                         >
-                          <a target="_blank" className="btn small">
-                            访问网站
-                          </a>
+                          访问网站
                         </Link>
                       </p>
                     </div>

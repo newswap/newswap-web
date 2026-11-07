@@ -50,8 +50,8 @@ const CommunityPoolCard = (props) => {
           <h4>
             {props.asset_1_symbol}-{props.asset_2_symbol} LP
           </h4>
-          <Link href={mining_url}>
-            <a className="btn gomining">{t("global.gomining")}</a>
+          <Link href={mining_url} className="btn gomining">
+            {t("global.gomining")}
           </Link>
         </div>
       </Col>

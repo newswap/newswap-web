@@ -1,10 +1,8 @@
 // currently not in use
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import SwiperCore, { Pagination, Autoplay } from "swiper";
+import { Pagination, Autoplay } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
-
-SwiperCore.use([Pagination, Autoplay]);
 
 import FeatureCard from "./FeatureCard";
 
@@ -96,7 +94,11 @@ const Features = () => {
       <Container>
         <Row className="justify-content-center">
           <Col xl={12} lg={12}>
-            <Swiper className="feature-carousel" {...swiperParams}>
+            <Swiper
+              modules={[Pagination, Autoplay]}
+              className="swiper-container feature-carousel"
+              {...swiperParams}
+            >
               {FEATURES_DATA.map((feature, index) => (
                 <SwiperSlide key={`feature-post-${index}`}>
                   <FeatureCard

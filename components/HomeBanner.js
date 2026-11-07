@@ -20,21 +20,29 @@ const HomeBanner = () => {
                   </Col>
                 </Row>
                 <p>
-                  <Link href={process.env.NEXT_PUBLIC_NEWSWAP_APP_URL}>
-                    <a className="btn">{t("global.trade")}</a>
+                  <Link
+                    href={process.env.NEXT_PUBLIC_NEWSWAP_APP_URL}
+                    className="btn"
+                  >
+                    {t("global.trade")}
                   </Link>
-                  <Link href={process.env.NEXT_PUBLIC_NEWSWAP_MINING_URL}>
-                    <a className="btn">{t("global.gomining")}</a>
+                  <Link
+                    href={process.env.NEXT_PUBLIC_NEWSWAP_MINING_URL}
+                    className="btn"
+                  >
+                    {t("global.gomining")}
                   </Link>
                 </p>
                 <p>
-                  <Link href="./tools">
-                    <a className="dl">{t("global.newton extension")}</a>
+                  <Link href="./tools" className="dl">
+                    {t("global.newton extension")}
                   </Link>
-                  <Link href={process.env.NEXT_PUBLIC_NEWPAY_URL}>
-                    <a className="dl" target="_blank">
-                      NewPay App
-                    </a>
+                  <Link
+                    href={process.env.NEXT_PUBLIC_NEWPAY_URL}
+                    className="dl"
+                    target="_blank"
+                  >
+                    NewPay App
                   </Link>
                 </p>
               </div>
